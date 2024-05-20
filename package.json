@@ -24,7 +24,7 @@
     "marked": "^4.2.12",
     "mdsvex": "^0.10.6",
     "mixing": "^1.3.0",
-    "postcss": "^8.4.14",
+    "postcss": "^8.4.31",
     "postcss-load-config": "^4.0.1",
     "remark-abbr": "^1.4.1",
     "remark-github": "^11.2.4",
