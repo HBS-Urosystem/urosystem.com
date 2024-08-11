@@ -4,4 +4,5 @@ top_ud:
       - lang: en
         title: UroSoft
     link: localhost:5173
+  - link: /details
 ---
