@@ -17,14 +17,16 @@ background:
 components:
   - type: cta
     title: ""
-    text: "### To place orders for delivery within the United States, kindly visit the Tyro Medical webshop, our trusted partner in the USA. For international orders (excluding the USA), please scroll down to complete your seamless checkout."
+    #text: "### To place orders for delivery within the United States, kindly visit the Tyro Medical webshop, our trusted partner in the USA. For international orders (excluding the USA), please scroll down to complete your seamless checkout."
   - type: grid
     slide: false
     components:
       - type: cta
         button: US webshop
         link: https://www.tyro-medical.com/shop/?store-page=Urology-c156988914
+        text: "To place an order for delivery within the United States, kindly visit the Tyro Medical webshop, our trusted partner in the USA."
       - type: cta
         button: Our webshop
         link: "#content"
+        text: "For International orders (excluding the USA), please scroll down to complete your seamless checkout."
 ---

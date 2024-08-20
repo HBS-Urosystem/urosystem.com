@@ -12,20 +12,15 @@ background:
     name: dark-blue-75
 components:
   - type: article
-    title: Exciting Offer for non-US First-Time Users, Patients, and Doctors!
+    title: Our Offer for First-Time (non-US) Patients, and Doctors
     anchor: contact
     text: >-
-      Welcome to our webshop, where innovation meets care through our
-      state-of-the-art UroDapter®. Understanding the importance of firsthand
-      experience with new medical technologies, we are delighted to offer an
-      exclusive opportunity for our first-time users, patients, and healthcare
-      professionals. Contact us today to obtain samples of our groundbreaking
-      UroDapter® at a 50% discount. This exclusive offer is designed to ensure
-      that you can experience the advanced benefits of the UroDapter® at a cost
+      Contact us to obtain samples of UroDapter® at a 50% discount. This exclusive offer is designed to ensure
+      that you can experience the benefits of the UroDapter® at a cost
       that remains as accessible as today’s market rates.
 
 
-      US customers can buy UroDapter® from our US partner [Tyro Medical](https://www.tyro-medical.com/shop/?store-page=Urology-c156988914).
+      US customers may find UroDapter® at our US partner [Tyro Medical](https://www.tyro-medical.com/shop/?store-page=Urology-c156988914).
   - type: cta
     link: /contact
     button: Contact us

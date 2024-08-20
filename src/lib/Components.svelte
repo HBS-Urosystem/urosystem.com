@@ -2,7 +2,7 @@
   import { variables } from '$lib/stores'
   import Article from '$lib/my/Article.svelte'
   import Images from '$lib/my/Images.svelte'
-  import Grid from '$lib/my/Grid.svelte'
+  import Grid from '$lib/Grid.svelte'
   import Cta from '$lib/my/Cta.svelte'
   import BuyButton from '$lib/my/BuyButton.svelte'
   import Video from '$lib/my/Video.svelte'

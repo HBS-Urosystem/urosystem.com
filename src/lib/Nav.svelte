@@ -63,7 +63,7 @@
   }
 
   $: {
-    console.log({$snapto})
+    //console.log({$snapto})
     if ($snapto) {
       scrollnav.scrollTo({element: $snapto, duration: 500, offset: -610, easing: cubicIn, onDone: _snap})
       function _snap() {
@@ -99,24 +99,28 @@
       <div></div>
     {/if}
     <ul>
-      <li><a href="https://www.facebook.com/UroDapter-101721465255769" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-facebook.svg" alt="facebook"/></a></li>
-      <li><a href="https://www.instagram.com/urodapter/" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-instagram.svg" alt="instagram"/></a></li>
+      <!--<li><a href="https://www.facebook.com/UroDapter-101721465255769" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-facebook.svg" alt="facebook"/></a></li>-->
+      <!--<li><a href="https://www.instagram.com/urodapter/" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-instagram.svg" alt="instagram"/></a></li>-->
       <li><a href="https://www.youtube.com/channel/UCuS_Y21yqaUrj5u8h8NYiZg" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-youtube.svg" alt="youtube"/></a></li>
       <li><a href="https://www.linkedin.com/company/urosystem-inc" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-linkedin.svg" alt="linkedin"/></a></li>
       <!--<li><a href="https://twitter.com/UroSystem_Inc" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-twitter.svg" alt="twitter"/></a></li>
       <li><a href="https://vk.com/urodapter" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-vk.svg" alt="vk"></a></li>
       <li><a href="https://ok.ru/urodapter" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-ok-ru.svg" alt="ok"></a></li>-->
+      {#if _site == '_ud'}
       <li><a href="https://linktr.ee/urodapter" rel="noopener noreferrer" target="_blank"><img src="/uploads/linktree.svg" alt="linktree"></a></li>
+      {:else}
+      <li><a href="https://linktr.ee/urosystem" rel="noopener noreferrer" target="_blank"><img src="/uploads/linktree.svg" alt="linktree"></a></li>
+      {/if}
     </ul>
   </div>
   <ul 
     bind:clientWidth={wul}
     data-mobile={!!hamburger}>
-    <li>
+    <!--<li>
       <a href="/{$sitelang}" aria-label="home">
         <img class="sitelogo {logoclass}" src="/uploads/{sitelogo}" alt="UroSystem – Revolutionizing bladder pain treatment">
       </a>
-    </li>
+    </li>-->
     <!--{@debug topnav}-->
     {#each $state.topnav as nav}
       {#if nav.title}
