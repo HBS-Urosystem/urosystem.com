@@ -256,14 +256,14 @@ footer_us:
       - lang: zh
         title: 跟着我们
     subpages:
-      - link: https://www.facebook.com/UroDapter-101721465255769
-        ext: true
-        logo: /uploads/bxl-facebook.svg
-        alt: facebook
-      - link: https://www.instagram.com/urodapter/
-        ext: true
-        logo: /uploads/bxl-instagram.svg
-        alt: instagram
+      #- link: https://www.facebook.com/UroDapter-101721465255769
+      #  ext: true
+      #  logo: /uploads/bxl-facebook.svg
+      #  alt: facebook
+      #- link: https://www.instagram.com/urodapter/
+      #  ext: true
+      #  logo: /uploads/bxl-instagram.svg
+      #  alt: instagram
       - link: https://www.youtube.com/channel/UCuS_Y21yqaUrj5u8h8NYiZg
         ext: true
         logo: /uploads/bxl-youtube.svg
@@ -285,7 +285,7 @@ footer_us:
       #  logo: /uploads/bxl-ok-ru.svg
       #  alt: ok
       - ext: true
-        link: https://linktr.ee/urodapter
+        link: https://linktr.ee/urosystem
         logo: /uploads/linktree.svg
         alt: linktree
   - subpages:

@@ -116,11 +116,11 @@
   <ul 
     bind:clientWidth={wul}
     data-mobile={!!hamburger}>
-    <!--<li>
+    <li>
       <a href="/{$sitelang}" aria-label="home">
         <img class="sitelogo {logoclass}" src="/uploads/{sitelogo}" alt="UroSystem – Revolutionizing bladder pain treatment">
       </a>
-    </li>-->
+    </li>
     <!--{@debug topnav}-->
     {#each $state.topnav as nav}
       {#if nav.title}
