@@ -52,6 +52,16 @@
   -->
   <link rel="canonical" href="{variables.siteurl[$state.post.canonical] || _siteurl}/en{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? ('/' + $state.post.subpage.path) : ('/' + $state.post.path || '')}"/>
 
+  <!-- https://sveltekit.io/blog/structured-data -->
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "url": "https://www.urosystem.com",
+      "logo": "https://www.urosystem.com/android-chrome-512x512.png"
+    }
+  </script>
+
   {#if !dev}
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -59,7 +69,6 @@
       j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
       })(window,document,'script','dataLayer','GTM-T4KTKF5');
-
       function gtag(){dataLayer.push(arguments);}
       gtag('consent', 'default', {
         'ad_storage': 'denied',
@@ -71,8 +80,8 @@
     
     {#if _site == '_us'}
       <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+        /*window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}*/
         gtag('js', new Date());
         //gtag('config', 'AW-433475160');
         gtag('config', 'G-KREFNHDNH0');
@@ -80,8 +89,8 @@
     {/if}
     {#if _site == '_ud'}
       <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+        /*window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}*/
         gtag('js', new Date());
         //gtag('config', 'AW-433475160');
         gtag('config', 'G-1SZ43L7KWV');
@@ -90,8 +99,8 @@
       
     {#if !!$cookies}
       <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+        /*window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}*/
         gtag('consent', 'update', {
           'ad_storage': 'granted',
           'analytics_storage': 'granted',
@@ -106,8 +115,8 @@
       {/if}
     {:else}
       <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+        /*window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}*/
         gtag('consent', 'update', {
           'ad_storage': 'denied',
           'analytics_storage': 'denied',
@@ -117,7 +126,7 @@
       </script>
     {/if}
 
-    {#if !!$cookies}
+    <!--{#if !!$cookies}-->
       <!--{#if $moved}-->
       <!-- Hotjar Tracking Code for https://www.urosystem.com/ -->
       <!--<script>
@@ -156,7 +165,7 @@
       </script>-->
       <!--{/if}--> <!-- $moved -->
       
-    {/if}
+    <!--{/if}-->
   {/if}
   
   {#if _site == '_ud' || _site == '_na'}
