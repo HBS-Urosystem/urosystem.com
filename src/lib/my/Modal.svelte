@@ -34,7 +34,7 @@
   onMount(() => {
     window.addEventListener('hashchange', function() {
       showModal = document.location.hash == '#'+comp.anchor
-      console.log('hashchange',document.location.hash)
+      //console.log('hashchange',document.location.hash)
     })
     showModal = document.location.hash == '#'+comp.anchor
     //console.log('onMount','#'+comp.anchor)//comp.anchor,document.location.hash)

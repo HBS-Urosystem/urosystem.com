@@ -30,6 +30,7 @@ export const load = async ({ params, url/*, route, fetch, page*/ }) => {
   post = await _getPost({lang, path, sub})
   //console.log('post',{lang, path, sub},post.blocks[0].components)
 	if (post.title && !!post.published) {
+    // console.log('post, ...conf', post, {...conf})
 		return {
 			post, ...conf
 		}
