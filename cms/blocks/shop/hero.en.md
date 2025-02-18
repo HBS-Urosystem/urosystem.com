@@ -17,16 +17,16 @@ background:
 components:
   - type: cta
     title: ""
-    #text: "### To place orders for delivery within the United States, kindly visit the Tyro Medical webshop, our trusted partner in the USA. For international orders (excluding the USA), please scroll down to complete your seamless checkout."
+    text: "### A urological syringe adapter which completely replaces the catheter: it enables painless and complication-free bladder instillation"
   - type: grid
     slide: false
     components:
-      - type: cta
+      - t-ype: cta
         button: US webshop
         link: https://www.tyro-medical.com/shop/?store-page=Urology-c156988914
         text: "To place an order for delivery within the United States, kindly visit the Tyro Medical webshop, our trusted partner in the USA."
       - type: cta
-        button: Our webshop
+        button: Webshop
         link: "#content"
-        text: "For International orders (excluding the USA), please scroll down to complete your seamless checkout."
+        t-ext: "For International orders (excluding the USA), please scroll down to complete your seamless checkout."
 ---
