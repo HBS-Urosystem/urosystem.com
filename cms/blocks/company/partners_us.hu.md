@@ -20,7 +20,7 @@ components:
 
           <center>A svájci IBSA cég az UroDaptert® iAluadapter® néven, a húgyhólyag feltöltésére szolgáló gyógyszerükkel, az iAluRil®-lal együtt csomagolva hozza forgalomba. Az iAluadapter® 85 országban elérhető.</center>
         anchor: ibsa
-      - t-ype: article
+      - type: article
         subhead: ""
         anchor: tyro
         text: >-
