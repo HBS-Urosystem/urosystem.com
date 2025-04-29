@@ -21,7 +21,7 @@ components:
 
           <center>Packed together with iAluRil®, the intravesical drug solution from IBSA (Switzerland), the UroDapter® is also available under the name iAluadapter®, in 85 countries.</center>
         anchor: ibsa
-      - type: article
+      - t-ype: article
         subhead: ""
         anchor: tyro
         text: >-
