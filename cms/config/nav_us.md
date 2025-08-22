@@ -104,7 +104,7 @@ top_us:
           - lang: tr
             title: Hakkımızda
       - link: /events
-        titles:
+        hidden-titles:
           - lang: en
             title: Events
           - lang: hu
@@ -235,7 +235,7 @@ top_us:
           - lang: hu
             title: Pályázatok
   - link: /hu/hirlevel
-    titles:
+    hidden-titles:
       - lang: hu
         title: Hírlevél
   - link: /blog
