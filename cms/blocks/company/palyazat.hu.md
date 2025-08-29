@@ -25,8 +25,6 @@ components:
 
           **Pályázati kiírás:** 2018-1.1.2-KFI-2018-00195; KFI tevékenységének támogatása\
 
-          **A projekt tervezett befejezési dátuma:** 2020. szeptember 30.
-
 
           ![NKFI pályázat](/uploads/nkfi.png)
 
