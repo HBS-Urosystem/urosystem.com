@@ -224,12 +224,12 @@ top_us:
             title: B2B
           - lang: tr
             title: B2B
-      - link: company#necrolog
-        titles:
-          - lang: en
-            title: Necrolog
-          - lang: hu
-            title: Nekrológ
+      # - link: company#necrolog
+      #   titles:
+      #     - lang: en
+      #       title: Necrolog
+      #     - lang: hu
+      #       title: Nekrológ
       - link: company#palyazatok
         titles:
           - lang: hu
