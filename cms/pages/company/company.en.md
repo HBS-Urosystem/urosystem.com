@@ -14,6 +14,6 @@ blocks:
   - id: company/about_us
   - id: company/partners_us
   #- id: index/contact
-  - id: company/gabor
+  #- id: company/gabor
 subhero: company/logo
 ---
