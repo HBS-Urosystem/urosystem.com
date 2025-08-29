@@ -13,9 +13,6 @@ components:
 
 
       2020-ban klinikai pilot vizsgálat elvégzésével igazoltuk az UretaCit hatásosságát és biztonságosságát. Partnerünkkel, a HGA Biomed-del együtt működve megkezdődtek a tömeggyártáshoz szükséges előkészületek. A magyar HGA Biomed az Egyesült Államok-beli Vanessa Research Group tagja, a cég Jó Gyártási Gyakorlat (GMP) tanúsítvánnyal is rendelkezik. 
-
-
-      Az UretaCit várhatóan 2024 végén kerülhet piacra táplálékkiegészítőként.
     title: UretaCit
     anchor: uretacit
   - type: article
@@ -29,9 +26,6 @@ components:
 
 
       Az UroVeSol magisztrális készítményként már elérhető Magyarországon. 
-
-
-      A készítmény klinikai vizsgálatai 2022-ben fognak megkezdődni; gyógyszerként előre láthatólag 2024-ben jelenik majd meg a piacon.
     title: UroVeSol
     anchor: urovesol
   - type: article
@@ -50,7 +44,7 @@ components:
       Az eszköz prototípusa Magyarországon már elérhető: jelenleg 70-nél is több IC/BPS páciens végez önkezelést a segítségével. A COVID világjárvány okozta helyzet kihangsúlyozta az otthon is elvégezhető terápia előnyeit. 
 
 
-      Az UroStill® következő változata jelenleg fejlesztés alatt áll; az eszközt 2023-ban vezetjük be a nemzetközi piacra is.
+      Az UroStill® következő változata jelenleg fejlesztés alatt áll.
     title: UroStill®
     anchor: urostill
   - type: article
@@ -67,7 +61,7 @@ components:
       A GAG-réteg integritás teszt nemcsak fájdalommentes és nem invazív, hanem kvantitatív információt is nyújt, emellett azt a páciensek egyedül, otthon is el tudják végezni. 
 
 
-      E GAG-réteg integritás teszt itt érhető el: [Diagnostic help](/hu/diagnostic-help). 2022-ben klinikai vizsgálatot indítunk, hogy objektív módon is igazoljuk a teszt hatásosságát.
+      E GAG-réteg integritás teszt itt érhető el: [Diagnosztika](/hu/diagnostic-help).
     title: "GAG-réteg integritás teszt "
     anchor: gag-test
   - type: article

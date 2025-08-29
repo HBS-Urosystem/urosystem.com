@@ -13,9 +13,6 @@ components:
 
 
       A clinical pilot trial was conducted in 2020 to prove the safety and effectiveness of the UretaCit. The necessary preparations of mass production have been started at our partner, HGA Biomed. This Hungarian company, which is a part of the Vanessa Research Group (the US), has GMP certificate, too. 
-
-
-      The UretaCit will be available on the market as food supplement in 2024.
     title: UretaCit
     anchor: uretacit
   - type: article
@@ -29,9 +26,6 @@ components:
 
 
       The UroVeSol is already available in Hungary, as a magistral product.
-
-
-      The clinical trials of the UroVeSol will be started in 2022, the drug will be introduced to the market in 2024.
     title: UroVeSol
     anchor: urovesol
   - type: article
@@ -47,7 +41,7 @@ components:
       The prototype of the device has been used in Hungary by more than 70 patients. The situation caused by the COVID pandemic proved how advantageous the home-treatment is. 
 
 
-      The next version of the UroStill is under development, the device will be introduced to the international market in 2023.
+      The next version of the UroStill is under development.
     title: UroStill
     anchor: urostill
   - type: article
@@ -63,7 +57,7 @@ components:
       Not only is the GAG-Layer Integrity Test non-invasive and painless, but also it provides quantitative information, and it can be easily performed by any patient at their homes.
 
 
-      The GAG-Layer Integrity Test is available for free on this webpage here: [Diagnostic help](/diagnostic-help). Also, in 2022 there will be a clinical trial launched to confirm its effectiveness.
+      The GAG-Layer Integrity Test is available for free on this webpage here: [Diagnostic help](/diagnostic-help).
     title: The GAG-Layer Integrity Test
     anchor: gag-test
   - type: article

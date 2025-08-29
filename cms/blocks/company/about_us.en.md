@@ -20,7 +20,10 @@ components:
       Urosystem has been developing a portfolio which includes medical devices, medications and diagnosis methods focusing on IC/BPS. Our vision and mission are to restore the quality of life for millions of people around the world by bringing our solutions to patients and doctors to be able to timely diagnose, effectively treat, and follow up patients through their lifetime. Most elements of the portfolio can be used in the treatment of other lower urinary tract conditions, such as recurring urinary tract infections (rUTIs) or chemotherapy cystitis.
 
 
-      Urosystem Co. Ltd. is located in Hungary. Its goal is to develop and commercialize the inventions of Sándor Lovász MD. PhD. urologist, Péter Birinyi MD. pharmacist, and their co-workers. S. Lovász is a globally renowned expert of IC/BPS, who is treating more than 300 patients. P. Birinyi is the leading pharmacist of Mikszáth Pharmacy, which was elected as the Pharmacy of the Year in Hungary, in 2015.
+      Urosystem Zrt., headquartered in Hungary, is primarily dedicated to advancing and commercializing the inventions of one of our founders, Dr. Sándor Lovász, MD, PhD, urologist, together with his colleagues. Dr. Lovász is a globally recognized expert in IC/BPS, with extensive clinical experience, having treated hundreds of patients successfully. (<a href="https://www.lovaszsandor.hu/biography" rel="_noopener" target="_blank">https://www.lovaszsandor.hu/biography</a>)
+
+
+      In parallel, a key priority of the company is to preserve and further develop the vision and business concepts of our late co-founder, Gábor Rényi. We conduct our activities in line with his entrepreneurial spirit, committed to creating long-term value for both our partners and our patients.
 
 
       Urosystem Co. Ltd. has obtained a D&B Failure Score AAA certification. This indicates that the financial risk of establishing a business relationship with the company is low. Only 0.63% of Hungarian companies have this certificate.

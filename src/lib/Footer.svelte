@@ -18,9 +18,9 @@
 
 <footer>
   <div>
-    {#if $sitelang == 'hu' && _site == '_us'}
+    <!-- {#if $sitelang == 'hu' && _site == '_us'}
       <a href="/hu/company#ginop" aria-label="ginop"><img loading="lazy" src="/uploads/ginop.png" alt="GINOP pályázat" style="width:20ch;display:block;"/></a>
-    {/if}
+    {/if} -->
     <a href="https://www.urosystem.com" aria-label="urosystem home"><img loading="lazy" src="/uploads/urosystem_logo_02_web.svg" alt="" style="filter:invert();width:20ch;display:block; aspect-ratio: 100 / 90.861"/></a>
     {#if $sitelang == 'hu' && _site == '_us'}
       <a href="/hu/company#nkfi" aria-label="nkfi"><img loading="lazy" src="/uploads/nkfi.png" alt="NKFI pályázat" style="width:20ch;display:block;"/></a>
