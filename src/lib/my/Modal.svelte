@@ -3,11 +3,12 @@
   import { onMount, onDestroy } from 'svelte';
   import { fade } from 'svelte/transition'
   import { state, sitelang } from '$lib/stores'
-  import Portal from "svelte-portal/src/Portal.svelte"
+  import Portal from "svelte-portal"
 </script>
 <script>
 	//import { cookies, moved } from '@/stores'
   export let comp
+  // console.log({comp})
   let rel = '', target = '', link, showModal;
   //$: console.log(comp)
   $: {
@@ -32,12 +33,11 @@
     history.replaceState(null, null, `/${$sitelang}/${$state.post.path || ''}`)
   }
   onMount(() => {
-    window.addEventListener('hashchange', function() {
+    /* window.addEventListener('hashchange', function() {
       showModal = document.location.hash == '#'+comp.anchor
-      //console.log('hashchange',document.location.hash)
     })
-    showModal = document.location.hash == '#'+comp.anchor
-    //console.log('onMount','#'+comp.anchor)//comp.anchor,document.location.hash)
+    showModal = document.location.hash == '#'+comp.anchor */
+    showModal = true
   })
   //$: console.log(document.location.hash, '#'+comp.anchor)
   
@@ -121,6 +121,7 @@
     border-radius: min(calc(4 * var(--sides)), 3.5rem);
 		font-weight: bolder;
 		max-width: 100%;
+    padding-inline: var(--rem);
 	}
   /*hr {
     border-color: var(--mid);
@@ -147,7 +148,7 @@
     padding: 0.75rem;
     outline: none;
   }
-  /*button img {
-    margin: 0;
-  }*/
+  button {
+    margin-bottom: var(--rem);
+  }
 </style>

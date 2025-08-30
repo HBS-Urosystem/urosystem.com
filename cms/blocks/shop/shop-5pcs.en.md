@@ -11,20 +11,34 @@ background:
   - type: gradient
     name: dark-blue-75
 components:
-  - type: article
+  - t-ype: article
     title: Our Offer for First-Time Patients, and Doctors
     anchor: contact
     text: >-
       Contact us to obtain samples of UroDapter® at a 50% discount. This exclusive offer is designed to ensure
       that you can experience the benefits of the UroDapter® at a cost
       that remains as accessible as today’s market rates.
-  - type: cta
+  - t-ype: cta
     link: /contact
     button: Contact us
-  - type: buy
+  - t-ype: buy
     title: Buy from our webshop
     subhead: 5 pcs for €75 / 10 pcs for €150
     text: Choose the desired quantity and buy!
+    button: Shop now
+    product: "5983114002592"
+  - type: article
+    title: September is IC Awareness Month
+    anchor: september
+    text: >-
+      <center>
+        <img loading="lazy" src="/uploads/september.webp" alt="" aria-hidden="true" width="256"/>
+      </center>
+  - type: buy
+    lang: en
+    t-itle: September is IC Awareness Month
+    subhead: Get a 50% discount on the UroDapter®
+    text: "Purchase our revolutionary UroDapter® device with a 50% discount available until September 30, 2025! Get the 10-pack for a price of €75 instead of €150 using the \"SEPTEMBER\" coupon code at checkout."
     button: Shop now
     product: "5983114002592"
   - type: grid
@@ -35,6 +49,7 @@ components:
           #### SHIPPING COST
 
           * European countries, Russia, Ukraine: €9.50
+          * USA: €5.00
           * Other countries: €10.00
 
           Sent out by registered priority mail
@@ -53,6 +68,8 @@ components:
 
 
       * European countries: 12 days
+
+      * USA: 10 days
 
       * Armenia, Azerbaijan, Georgia, Kazakhstan, Kyrgyzstan, Moldova, Russia, Tajikistan, Turkmenistan, Ukraine, Uzbekistan: 19 days
 
