@@ -33,6 +33,8 @@ components:
 
           <center>A Tyro Medical kiválóság iránti elkötelezettsége és az egészségügyi környezet mélyreható ismerete tökéletes partnerré teszi őket számunkra. Elosztási csatornáik, szoros kapcsolataik az egészségügyi szolgáltatókkal és átfogó piaci stratégiáik lehetővé teszik számunkra, hogy hatékonyan kommunikáljuk az UroDapter® egyedülálló előnyeit és képességeit az egészségügyi szakemberek és a betegek számára szerte az Egyesült Államokban.</center>
   - type: article
+    title: Partnerségi felhívás
+
     text: "Jelenleg az első, a piacon már elérhető orvosi eszközünk forgalmazásához
       keresünk partnereket. Az UroDapter® nevű fecskendő adapter helyettesíti a
       katétert a húgyhólyag instillációja során, amivel lehetővé teszi a

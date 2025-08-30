@@ -68,4 +68,14 @@ components:
 
 
       Tájékoztató adatok, esetenként eltérhet.
+  - type: article
+    title: Partnerségi felhívás
+    text: "Jelenleg az első, a piacon már elérhető orvosi eszközünk forgalmazásához
+      keresünk partnereket. Az UroDapter® nevű fecskendő adapter helyettesíti a
+      katétert a húgyhólyag instillációja során, amivel lehetővé teszi a
+      fájdalommentes és komplikációmentes kezelést. "
+  - type: cta
+    button: Lépjen velünk kapcsolatba!
+    anchor: contact
+    link: /contact
 ---
