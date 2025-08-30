@@ -174,11 +174,11 @@
         --pale: var(--pale-green);
         --light: var(--light-green);
         --mid: var(--mid-green);
-        --dark: var(--dark-green);
+        /* --dark: var(--mid-green); */
         --pale-75: var(--pale-green-75);
         --light-75: var(--light-green-75);
         --mid-75: var(--mid-green-75);
-        --dark-75: var(--dark-green-75);
+        /* --dark-75: var(--mid-green-75); */
 
         --grad-pale: var(--grad-pale-green);
         --grad-light: var(--grad-light-green);

@@ -9,27 +9,27 @@ langs_us:
     title: العربية
     dir: rtl
     font: default
-    active: true
+    active: false
   - dir: ltr
     font: default
     id: de
     title: Deutsch
-    active: true
+    active: false
   - id: es
     title: Español
     dir: ltr
     font: default
-    active: true
+    active: false
   - id: fr
     title: Français
     dir: ltr
     font: default
-    active: true
+    active: false
   - id: he
     title: עִברִית
     dir: rtl
     font: default
-    active: true
+    active: false
   - dir: ltr
     font: default
     id: hu
@@ -39,35 +39,35 @@ langs_us:
     title: Italiano
     dir: ltr
     font: default
-    active: true
+    active: false
   - id: ja
     title: 日本語
     dir: ltr
     font: default
-    active: true
+    active: false
   - dir: ltr
     font: default
     id: ko
     title: 한국어
-    active: true
+    active: false
   - id: pt
     title: Português
     dir: ltr
     font: default
-    active: true
+    active: false
   - id: ru
     title: Русский
     dir: ltr
     font: default
-    active: true
-  #- dir: ltr
-    #font: default
-    #id: tr
-    #title: Türkçe
-    #active: false
+    active: false
+  - dir: ltr
+    font: default
+    id: tr
+    title: Türkçe
+    active: false
   - id: zh
     title: 中文
     dir: ltr
     font: default
-    active: true
+    active: false
 ---
