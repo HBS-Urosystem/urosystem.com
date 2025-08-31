@@ -9,6 +9,7 @@ components:
         name: light-blue
     title: Szeptember az IC tudatosság hónapja
     button: Vásárlás
+    sub_button: "<small>Az ajánlat érvényes 2025. szeptember 1. és szeptember 30. között</small>"
     link: /shop#september
     anchor: 
     text: >-
@@ -16,18 +17,11 @@ components:
       <img loading="lazy" src="/uploads/september.webp" alt="" aria-hidden="true" width="256"/>
 
 
-      ##### KÜLÖNLEGES AJÁNLAT
+      ###### KÜLÖNLEGES AJÁNLAT
 
       
       Vásárolja meg forradalmi UroDapter® termékünket
 
 
       ### 50% kedvezménnyel
-      
-      
-      <p>2025. szeptember 30-ig.</p>
-
-
-      <small>Az ajánlat érvényes 2025. szeptember 1. és szeptember 30. között</small>
-
 ---

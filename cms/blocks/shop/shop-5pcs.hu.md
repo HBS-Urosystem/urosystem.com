@@ -27,7 +27,11 @@ components:
     lang: hu
     t-itle: Szeptember az IC tudatosság hónapja
     subhead: 50%-os kedvezmény!
-    text: "Vásárolja meg forradalmi UroDapter® termékünket 50% kedvezménnyel 2025. szeptember 30-ig! Az 10 db-os csomag ára: <s>€150</s> helyett €75."
+    text: >-
+      Vásárolja meg forradalmi UroDapter® termékünket 50% kedvezménnyel 2025. szeptember 30-ig!
+    
+    
+      Az 10 db-os csomag ára: <s>€150</s> helyett €75.
     button: Vásárlás
     product: "5983114002592"
   - type: grid

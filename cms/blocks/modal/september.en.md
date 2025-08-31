@@ -9,6 +9,7 @@ components:
         name: light-blue
     title: September is IC Awareness Month
     button: Shop
+    sub_button: "<small>Offer valid Sep 1, 2025 - Sep 30, 2025</small>"
     link: /shop#september
     anchor: 
     text: >-
@@ -16,18 +17,11 @@ components:
       <img loading="lazy" src="/uploads/september.webp" alt="" aria-hidden="true" width="256"/>
 
 
-      ##### SPECIAL OFFER
+      ###### SPECIAL OFFER
 
       
       Purchase our revolutionary UroDapter® device with a
 
 
-      ### 50% discount
-
-
-      <p>available until September 30, 2025.</p>
-
-
-      <small>Offer valid Sep 1, 2025 - Sep 30, 2025</small>
-
+      #### 50% discount
 ---

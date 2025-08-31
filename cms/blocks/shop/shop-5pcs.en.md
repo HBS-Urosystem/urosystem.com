@@ -38,7 +38,10 @@ components:
     lang: en
     t-itle: September is IC Awareness Month
     subhead: Get a 50% discount on the UroDapter®
-    text: "Purchase our revolutionary UroDapter® device with a 50% discount available until September 30, 2025. Get the 10-pack for a price of €75 instead of €150!"
+    text: Purchase our revolutionary UroDapter® device with a 50% discount available until September 30, 2025.
+    
+    
+      Get the 10-pack for a price of €75 instead of €150!
     button: Shop now
     product: "5983114002592"
   - type: grid

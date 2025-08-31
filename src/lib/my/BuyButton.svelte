@@ -233,7 +233,23 @@
           hidden={comp.lang !== lang.id}
           aria-hidden={comp.lang !== lang.id}
           align="center"
-          >Оплата банковской картой защищена Stripe
+        >
+          <small>Оплата банковской картой защищена Stripe</small>
+        </p>
+      {:else if lang.id == 'hu'}
+        <div
+          id="product-component-1616169000007-{lang.id}"
+          lang={lang.id}
+          hidden={comp.lang !== lang.id}
+          aria-hidden={comp.lang !== lang.id}
+        />
+        <p 
+          lang={lang.id}
+          hidden={comp.lang !== lang.id}
+          aria-hidden={comp.lang !== lang.id}
+          align="center"
+        >
+          <small>Biztonságos fizetés Stripe segítségével</small>
         </p>
       {:else}
         <div
@@ -247,7 +263,8 @@
           hidden={comp.lang !== lang.id}
           aria-hidden={comp.lang !== lang.id}
           align="center"
-          >Bank Card payment is secured by Stripe
+        >
+          <small>Bank Card payment is secured by Stripe</small>
         </p>
       {/if}
     {/each}
