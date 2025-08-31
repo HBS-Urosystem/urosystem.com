@@ -28,9 +28,6 @@ components:
       <p>available until September 30, 2025.</p>
 
 
-      Use code: **SEPTEMBER** at checkout, or click the button below to automatically apply the discount to your order.
-
-
       <small>Offer valid Sep 1, 2025 - Sep 30, 2025</small>
 
 ---
