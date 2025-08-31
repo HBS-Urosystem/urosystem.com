@@ -28,9 +28,6 @@ components:
       <p>2025. szeptember 30-ig.</p>
 
 
-      Használja a **SEPTEMBER** kódját a kassza során, vagy kattintson a gombra az automatikus kedvezmény alkalmazásához.
-
-
       <small>Az ajánlat érvényes 2025. szeptember 1. és szeptember 30. között</small>
 
 ---
