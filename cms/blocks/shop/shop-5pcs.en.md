@@ -52,7 +52,6 @@ components:
           #### SHIPPING COST
 
           * European countries, Russia, Ukraine: €9.50
-          * USA: €5.00
           * Other countries: €10.00
 
           Sent out by registered priority mail
