@@ -41,7 +41,7 @@ components:
         text: |-
           #### SZÁLLÍTÁSI DÍJAK
 
-          * Európai országok, Oroszország, Ukrajna: €9.50
+          * Európai országok, USA, Oroszország, Ukrajna: €9.50
           * Többi ország: €10.00
 
           A küldemény ajánlott elsőbbségi levélként kerül feladásra 
