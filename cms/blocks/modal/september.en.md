@@ -10,7 +10,7 @@ components:
     title: September is IC Awareness Month
     button: Shop
     sub_button: "<small>Offer valid Sep 1, 2025 - Sep 30, 2025</small>"
-    link: /shop#september
+    link: /shop#content
     anchor: 
     text: >-
 

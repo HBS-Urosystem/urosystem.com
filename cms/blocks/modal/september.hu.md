@@ -10,7 +10,7 @@ components:
     title: Szeptember az IC tudatosság hónapja
     button: Vásárlás
     sub_button: "<small>Az ajánlat érvényes 2025. szeptember 1. és szeptember 30. között</small>"
-    link: /shop#september
+    link: /shop#content
     anchor: 
     text: >-
 
