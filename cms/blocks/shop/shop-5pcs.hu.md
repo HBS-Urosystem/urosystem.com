@@ -41,7 +41,7 @@ components:
         text: |-
           #### SZÁLLÍTÁSI DÍJAK
 
-          * Európai országok, USA, Oroszország, Ukrajna: €9.50
+          * Európai országok, USA, Ukrajna: €9.50
           * Többi ország: €10.00
 
           A küldemény ajánlott elsőbbségi levélként kerül feladásra 
@@ -64,7 +64,7 @@ components:
 
       * USA: 10 nap
 
-      * Oroszország, Örményország, Azerbajdzsán, Grúzia, Kazahsztán, Kirgizisztán, Moldova, Tádzsikisztán, Türkmenisztán, Ukrajna, Üzbegisztán: 19 nap
+      * Örményország, Azerbajdzsán, Grúzia, Kazahsztán, Kirgizisztán, Moldova, Tádzsikisztán, Türkmenisztán, Ukrajna, Üzbegisztán: 19 nap
 
       * Többi ország: 15 nap
 

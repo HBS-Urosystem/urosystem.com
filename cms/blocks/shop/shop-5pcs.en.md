@@ -51,7 +51,7 @@ components:
         text: |-
           #### SHIPPING COST
 
-          * European countries, USA, Russia, Ukraine: €9.50
+          * European countries, USA, Ukraine: €9.50
           * Other countries: €10.00
 
           Sent out by registered priority mail
@@ -73,7 +73,7 @@ components:
 
       * USA: 10 days
 
-      * Armenia, Azerbaijan, Georgia, Kazakhstan, Kyrgyzstan, Moldova, Russia, Tajikistan, Turkmenistan, Ukraine, Uzbekistan: 19 days
+      * Armenia, Azerbaijan, Georgia, Kazakhstan, Kyrgyzstan, Moldova, Tajikistan, Turkmenistan, Ukraine, Uzbekistan: 19 days
 
       * Other countries: 15 days
 
