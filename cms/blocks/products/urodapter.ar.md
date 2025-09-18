@@ -125,7 +125,7 @@ components:
     shape: default
     images:
       - alt: محول حقنة المسالك البولية وأجزائها – UroDapter®
-        src: /uploads/urodapter_illustration.png
+        src: /uploads/image4-web_optim_satin.webp
         text: UroDapter® – محول حقنة المسالك البولية وأجزائها
       - alt: محول الحقن البولي  UroDapter® – في عبوته المعقمة
         text: محول الحقن البولي  UroDapter® – في عبوته المعقمة

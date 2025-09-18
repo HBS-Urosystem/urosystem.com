@@ -130,7 +130,7 @@ components:
     shape: default
     images:
       - alt: UroDapter® – Урологический шприцевой адаптер и его части
-        src: /uploads/urodapter_illustration.png
+        src: /uploads/image4-web_optim_satin.webp
         text: UroDapter® – Урологический шприцевой адаптер и его части
       - alt: UroDapter® Урологический шприцевой адаптер – В стерильной упаковке
         text: Урологический шприцевой адаптер – В стерильной упаковке

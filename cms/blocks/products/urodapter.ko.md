@@ -107,7 +107,7 @@ components:
     shape: default
     images:
       - alt: UroDapter® – Urological Syringe Adapter and its parts
-        src: /uploads/urodapter_illustration.png
+        src: /uploads/image4-web_optim_satin.webp
         text: UroDapter® – 비뇨기과 용 주사기 어댑터 및 부품
       - alt: UroDapter® Urological Syringe Adapter – In its Sterile Packaging
         text: UroDapter® 비뇨기과 용 주사기 어댑터 – 멸균 포장
