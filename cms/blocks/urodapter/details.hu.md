@@ -23,7 +23,7 @@ components:
         shape: default
         images:
           - alt: Az UroDapter® fecskendő adapter és annak részei
-            src: /uploads/urodapter_illustration.png
+            src: /uploads/image4-web_optim_satin.webp
             text: Az UroDapter® fecskendő adapter és annak részei
       - type: article
         subhead: Erős jogi háttér

@@ -123,7 +123,7 @@ components:
     shape: default
     images:
       - alt: Az UroDapter® urológiai fecskendő adapter részei
-        src: /uploads/urodapter_illustration.png
+        src: /uploads/image4-web_optim_satin.webp
         text: Az UroDapter® urológiai fecskendő adapter részei
       - alt: Az UroDapter® urológiai fecskendő adapter steril csomagolásban
         text: Az UroDapter® urológiai fecskendő adapter steril csomagolásban

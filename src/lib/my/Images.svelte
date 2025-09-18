@@ -1,6 +1,6 @@
 <script>
   export let comp/*, lang*/
-  function _sm(src) { /* ez teszi hozzá a fájlnév elejéhez, hogy sm_ */
+  function _sm(src) { /* ez teszi hozzá a fájlnév végéhez, hogy .sm */
     let s = src.split('.')
     let ext = s.pop()
     s.push('sm', ext)
