@@ -79,6 +79,8 @@
     //goto(`/${langchng}/${$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}`, { noscroll: true, keepFocus: true })
     //console.log(`${langchng}/${$state.post.path}`)
   }
+
+  // $: console.log($state.post.path)
 </script>
 
 <svelte:window bind:scrollY={y} />
