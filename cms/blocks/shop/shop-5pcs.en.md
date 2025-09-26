@@ -18,9 +18,6 @@ components:
       Contact us to obtain samples of UroDapter® at a 50% discount. This exclusive offer is designed to ensure
       that you can experience the benefits of the UroDapter® at a cost
       that remains as accessible as today’s market rates.
-  - t-ype: cta
-    link: /contact
-    button: Contact us
   - t-ype: buy
     title: Buy from our webshop
     subhead: 5 pcs for €75 / 10 pcs for €150
@@ -82,16 +79,8 @@ components:
     subhead: ""
   - type: article
     text: >
-      We understand the power of partnership in bringing transformative
-      healthcare solutions to a wider audience. We invite our B2B partners to
-      reach out and explore collaborative opportunities. Whether you're looking
-      to introduce the UroDapter® into your product line or seeking a
-      partnership for distribution, we are open to discussions. Together, we can
-      make a significant impact on urological care and patient wellbeing.
-
-
-      Don't miss out on these opportunities to be at the forefront of urological healthcare innovation. Contact us today to learn more about our offers and how we can work together towards a healthier tomorrow.
-    title: A Special Invitation to Our B2B Partners
+      Whether you aim to introduce the patented UroDapter® in your portfolio, or you seek a partnership for distribution, <a href="/contact">contact us</a> today to learn more about our offers. Let us work together for a healthier tomorrow!
+    title: Interested in becoming our B2B Partner?
   - type: cta
     button: Contact us
     anchor: contact
