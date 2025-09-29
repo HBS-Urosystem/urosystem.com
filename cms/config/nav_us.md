@@ -76,7 +76,7 @@ top_us:
       - link: company#about
         titles:
           - lang: en
-            title: About
+            title: About us
           - lang: hu
             title: Rólunk
           - lang: ru
