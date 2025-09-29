@@ -30,7 +30,7 @@
 
 <aside id="{comp.anchor}" style="{comp.background ? comp.background : ``}">
   {#if comp.title}<h2>{comp.title}</h2>{/if}
-  {#if comp.text}{@html comp.text}{/if}
+  {#if comp.text}<div>{@html comp.text}</div>{/if}
   {#if comp.button}
   <div>
     <a on:click|stopPropagation={() => $snapto = `${scrollto}`} on:keypress={() => $snapto = `${scrollto}`} href={link} rel={rel} target={target}><button tabindex="-1">{#if comp.icon}<img src="{comp.icon}" aria-hidden="true" alt=""/>{/if}{comp.button}</button></a>
