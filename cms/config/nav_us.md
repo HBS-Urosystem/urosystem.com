@@ -133,7 +133,6 @@ top_us:
       #       title: Events
       #     - lang: fr
       #       title: Events
-      - link: development
       - link: company#partners
         titles:
           - lang: en
@@ -164,6 +163,7 @@ top_us:
             title: 협력사
           - lang: tr
             title: Ortaklarımız
+      - link: development
       # - link: https://b2b.urosystem.com/
       #   hidden-titles:
       #     - lang: en
