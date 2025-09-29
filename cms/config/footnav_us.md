@@ -94,7 +94,7 @@ footer_us:
       - link: contact
         titles:
           - lang: en
-            title: Contact us
+            title: Contact
           - lang: hu
             title: Kapcsolat
           - lang: ru
@@ -288,38 +288,38 @@ footer_us:
         link: https://linktr.ee/urosystem
         logo: /uploads/linktree.svg
         alt: linktree
-  - subpages:
-      - logo: /uploads/visa-master.png
-        alt: visa mastercard amex apple
-        link: shop
-    titles:
-      - lang: en
-        title: Accepted payments
-      - lang: ru
-        title: Методы оплаты
-      - lang: hu
-        title: Fizetési módok
-      - lang: de
-        title: Methoden für Bezahlen
-      - lang: ko
-        title: 결제방법
-      - lang: ar
-        title: طرق الدفع
-      - lang: es
-        title: Métodos de pago
-      - lang: fr
-        title: Méthodes de payement
-      - lang: he
-        title: שיטות תשלום
-      - lang: it
-        title: Modalità di pagamento
-      - lang: ja
-        title: お支払い方法
-      - lang: pt
-        title: Métodos de Pagamento
-      - lang: zh
-        title: 支付方式
-      - lang: tr
-        title: Ödeme metodları
-    link: ""
+  # - subpages:
+  #     - logo: /uploads/visa-master.png
+  #       alt: visa mastercard amex apple
+  #       link: shop
+  #   titles:
+  #     - lang: en
+  #       title: Accepted payments
+  #     - lang: ru
+  #       title: Методы оплаты
+  #     - lang: hu
+  #       title: Fizetési módok
+  #     - lang: de
+  #       title: Methoden für Bezahlen
+  #     - lang: ko
+  #       title: 결제방법
+  #     - lang: ar
+  #       title: طرق الدفع
+  #     - lang: es
+  #       title: Métodos de pago
+  #     - lang: fr
+  #       title: Méthodes de payement
+  #     - lang: he
+  #       title: שיטות תשלום
+  #     - lang: it
+  #       title: Modalità di pagamento
+  #     - lang: ja
+  #       title: お支払い方法
+  #     - lang: pt
+  #       title: Métodos de Pagamento
+  #     - lang: zh
+  #       title: 支付方式
+  #     - lang: tr
+  #       title: Ödeme metodları
+  #   link: ""
 ---

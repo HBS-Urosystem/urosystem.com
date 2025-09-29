@@ -163,7 +163,7 @@ top_ud:
       - link: company#about
         titles:
           - lang: en
-            title: About
+            title: About us
           - lang: hu
             title: Rólunk
           - lang: ru
@@ -193,9 +193,9 @@ top_ud:
       - link: company#partners
         titles:
           - lang: en
-            title: Partners
+            title: Our Partners
           - lang: hu
-            title: Partnerek
+            title: Partnereink
           - lang: ru
             title: Партнеры
           - lang: de

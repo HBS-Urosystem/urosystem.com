@@ -62,9 +62,13 @@ components:
     background: []
   - type: article
     text: >-
-      #### THE ESTIMATED DELIVERY TIME, ACCORDING TO THE CUSTOMER'S COUNTRY AS
-      FOLLOWS:
+      <h4>ACCEPTED PAYMENTS</h4>
+      <a href="/en/shop"><img src="/uploads/visa-master.png" alt="visa mastercard amex apple" style="filter: invert(); height: 2rem;"></a>
+  - type: article
+    text: >-
+      #### DELIVERY TIME
 
+      ##### Estimated according to the customer's country as follows:
 
       * European countries: 12 days
 

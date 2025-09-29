@@ -137,9 +137,9 @@ top_us:
       - link: company#partners
         titles:
           - lang: en
-            title: Partners
+            title: Our Partners
           - lang: hu
-            title: Partnerek
+            title: Partnereink
           - lang: ru
             title: Партнеры
           - lang: de

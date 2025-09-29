@@ -57,6 +57,10 @@ components:
     background: []
   - type: article
     text: >-
+      <h4>FIZETÉSI MÓDOK</h4>
+      <a href="/en/shop"><img src="/uploads/visa-master.png" alt="visa mastercard amex apple" style="filter: invert(); height: 2rem;"></a>
+  - type: article
+    text: >-
       #### VÁRHATÓ SZÁLLÍTÁSI IDŐ A VÁSÁRLÁS ORSZÁGÁNAK MEGFELELŐEN:
 
 

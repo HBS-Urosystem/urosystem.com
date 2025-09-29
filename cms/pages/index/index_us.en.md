@@ -11,9 +11,9 @@ description: Urosystem is dedicated to lower urinary tract conditions,
 menutitle: UroSystem
 hero: urosystem/hero
 blocks:
-  - id: modal/september
   - id: urosystem/intro
-  - id: urodapter/details
-  - id: cta/shop_ud
-  - id: index/testimonials
+  # - id: urodapter/details
+  # - id: cta/shop_ud
+  # - id: index/testimonials
+  - id: modal/september
 ---
