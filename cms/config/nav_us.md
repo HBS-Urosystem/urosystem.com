@@ -38,10 +38,10 @@ top_us:
           - lang: hu
             title: UroDapter®
       - link: urostill
-  - subpages:
-      - link: diagnostic-help/gag-layer
-      - link: diagnostic-help/gag-layer-pro
-    link: diagnostic-help
+  # - subpages:
+  #     - link: diagnostic-help/gag-layer
+  #     - link: diagnostic-help/gag-layer-pro
+  #   link: diagnostic-help
   - link: company
     titles:
       - lang: en
@@ -103,36 +103,36 @@ top_us:
             title: 회사소개
           - lang: tr
             title: Hakkımızda
-      - link: /events
-        hidden-titles:
-          - lang: en
-            title: Events
-          - lang: hu
-            title: Events
-          - lang: ru
-            title: Events
-          - lang: de
-            title: Events
-          - lang: it
-            title: Events
-          - lang: es
-            title: Events
-          - lang: pt
-            title: Events
-          - lang: ja
-            title: Events
-          - lang: zh
-            title: Events
-          - lang: ar
-            title: Events
-          - lang: he
-            title: Events
-          - lang: ko
-            title: Events
-          - lang: tr
-            title: Events
-          - lang: fr
-            title: Events
+      # - link: /events
+      #   hidden-titles:
+      #     - lang: en
+      #       title: Events
+      #     - lang: hu
+      #       title: Events
+      #     - lang: ru
+      #       title: Events
+      #     - lang: de
+      #       title: Events
+      #     - lang: it
+      #       title: Events
+      #     - lang: es
+      #       title: Events
+      #     - lang: pt
+      #       title: Events
+      #     - lang: ja
+      #       title: Events
+      #     - lang: zh
+      #       title: Events
+      #     - lang: ar
+      #       title: Events
+      #     - lang: he
+      #       title: Events
+      #     - lang: ko
+      #       title: Events
+      #     - lang: tr
+      #       title: Events
+      #     - lang: fr
+      #       title: Events
       - link: development
       - link: company#partners
         titles:
@@ -164,66 +164,36 @@ top_us:
             title: 협력사
           - lang: tr
             title: Ortaklarımız
-      - link: contact
-        titles:
-          - lang: en
-            title: Contact us
-          - lang: hu
-            title: Kapcsolat
-          - lang: ru
-            title: Контакт
-          - lang: de
-            title: Kontakt
-          - lang: fr
-            title: Contacter
-          - lang: it
-            title: Contatto
-          - lang: es
-            title: Contacto
-          - lang: pt
-            title: Contato
-          - lang: ja
-            title: 連絡先
-          - lang: zh
-            title: 关于我们
-          - lang: ar
-            title: معلومات عنا
-          - lang: he
-            title: איש קשר
-          - lang: ko
-            title: 연락처
-          - lang: tr
-            title: İletişim
-      - link: https://b2b.urosystem.com/
-        hidden-titles:
-          - lang: en
-            title: B2B
-          - lang: hu
-            title: B2B
-          - lang: ru
-            title: B2B
-          - lang: de
-            title: B2B
-          - lang: fr
-            title: B2B
-          - lang: it
-            title: B2B
-          - lang: es
-            title: B2B
-          - lang: pt
-            title: B2B
-          - lang: zh
-            title: B2B
-          - lang: ja
-            title: B2B
-          - lang: ar
-            title: B2B
-          - lang: he
-            title: B2B
-          - lang: ko
-            title: B2B
-          - lang: tr
-            title: B2B
+      # - link: https://b2b.urosystem.com/
+      #   hidden-titles:
+      #     - lang: en
+      #       title: B2B
+      #     - lang: hu
+      #       title: B2B
+      #     - lang: ru
+      #       title: B2B
+      #     - lang: de
+      #       title: B2B
+      #     - lang: fr
+      #       title: B2B
+      #     - lang: it
+      #       title: B2B
+      #     - lang: es
+      #       title: B2B
+      #     - lang: pt
+      #       title: B2B
+      #     - lang: zh
+      #       title: B2B
+      #     - lang: ja
+      #       title: B2B
+      #     - lang: ar
+      #       title: B2B
+      #     - lang: he
+      #       title: B2B
+      #     - lang: ko
+      #       title: B2B
+      #     - lang: tr
+      #       title: B2B
       # - link: company#necrolog
       #   titles:
       #     - lang: en
@@ -234,40 +204,70 @@ top_us:
         titles:
           - lang: hu
             title: Pályázatok
-  - link: /hu/hirlevel
-    hidden-titles:
-      - lang: hu
-        title: Hírlevél
-  - link: /blog
-    ext: true
+  # - link: /hu/hirlevel
+  #   hidden-titles:
+  #     - lang: hu
+  #       title: Hírlevél
+  # - link: /blog
+  #   ext: true
+  #   titles:
+  #     - lang: en
+  #       title: Blog
+  #     - lang: hu
+  #       title: Blog
+  #     - lang: ru
+  #       title: Blog
+  #     - lang: de
+  #       title: Blog
+  #     - lang: it
+  #       title: Blog
+  #     - lang: es
+  #       title: Blog
+  #     - lang: pt
+  #       title: Blog
+  #     - lang: ja
+  #       title: Blog
+  #     - lang: zh
+  #       title: Blog
+  #     - lang: ar
+  #       title: Blog
+  #     - lang: he
+  #       title: Blog
+  #     - lang: ko
+  #       title: Blog
+  #     - lang: tr
+  #       title: Blog
+  #     - lang: fr
+  #       title: Blog
+  - link: contact
     titles:
       - lang: en
-        title: Blog
+        title: Contact
       - lang: hu
-        title: Blog
+        title: Kapcsolat
       - lang: ru
-        title: Blog
+        title: Контакт
       - lang: de
-        title: Blog
-      - lang: it
-        title: Blog
-      - lang: es
-        title: Blog
-      - lang: pt
-        title: Blog
-      - lang: ja
-        title: Blog
-      - lang: zh
-        title: Blog
-      - lang: ar
-        title: Blog
-      - lang: he
-        title: Blog
-      - lang: ko
-        title: Blog
-      - lang: tr
-        title: Blog
+        title: Kontakt
       - lang: fr
-        title: Blog
+        title: Contacter
+      - lang: it
+        title: Contatto
+      - lang: es
+        title: Contacto
+      - lang: pt
+        title: Contato
+      - lang: ja
+        title: 連絡先
+      - lang: zh
+        title: 关于我们
+      - lang: ar
+        title: معلومات عنا
+      - lang: he
+        title: איש קשר
+      - lang: ko
+        title: 연락처
+      - lang: tr
+        title: İletişim
   - link: shop
 ---
