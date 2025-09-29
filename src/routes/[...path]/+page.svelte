@@ -120,7 +120,7 @@
     </div>
   {/if}-->
 
-  {#if $state.post.subpages && !$state.post.hidesubs}
+  {#if post.blocks && $state.post.subpages && !$state.post.hidesubs}
     <nav>
       <h2>{$state.post.title}</h2>
       <ul>

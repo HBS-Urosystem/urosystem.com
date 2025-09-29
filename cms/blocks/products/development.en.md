@@ -44,10 +44,15 @@ components:
       makes the therapy cheaper and less time consuming.
 
 
-      Patients can fill out the well-known IC/BPS questionnaires (O’Leary-Sant, Dorfman) online, they can upload the results of their GAG-Layer Integrity Tests and the system translates the data into graphs. Therefore, the therapist can easily decide whether the patient responds to the treatment, whether any changes or personal visits are necessary.
+      Patients fill out the well-known IC/BPS questionnaires (O’Leary-Sant, Dorfman, Lovász) online, upload the results of their GAG-Layer Integrity Tests and the system translates the data into graphs on a timeline. Therefore, the therapist can easily decide whether the patient responds to the treatment, whether any changes or personal visits are necessary.
 
 
-      The predecessor of this system has been used by Sándor Lovász for years.
+      The predecessor of this system has been used by <a href="https://www.lovaszsandor.hu/en" rel="external" target="_blank">Sándor Lovász MD. PhD.</a> for years.
     title: Online Patient Follow-up System
     anchor: follow-up
+  - type: cta
+    button: See it in the future
+    # ext: true
+    link: https://www.holyagfajdalom.hu/
+
 ---
