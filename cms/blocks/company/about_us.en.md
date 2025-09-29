@@ -8,22 +8,13 @@ components:
     title: About us
     subhead: ""
     text: >-
-      According to the Food and Drug Administration (FDA, the USA) Interstitial
-      cystitis/bladder pain syndrome is “a complex, poorly understood syndrome
-      of unknown etiology”. Its most common symptoms are chronic bladder pain
-      accompanied by urinary frequency and urgency. There are at least 5 million
-      people suffer from it alone in the USA. Due to the exceptionally poor
-      diagnostic rate of the disease, the number of latent patients can reach
-      100 million people globally.
+      Founded in 2016, Hungary, Urosystem has been developing a portfolio which includes medical devices, medications and diagnosis methods focusing on lower urinary tract symptoms (LUTS), such as interstitial cystitis/bladder pain syndrome (IC/BPS) or recurrent urinary tract infections (rUTIs).
 
 
-      Urosystem has been developing a portfolio which includes medical devices, medications and diagnosis methods focusing on IC/BPS. Our vision and mission are to restore the quality of life for millions of people around the world by bringing our solutions to patients and doctors to be able to timely diagnose, effectively treat, and follow up patients through their lifetime. Most elements of the portfolio can be used in the treatment of other lower urinary tract conditions, such as recurring urinary tract infections (rUTIs) or chemotherapy cystitis.
+      Urosystem is primarily dedicated to advancing and commercializing the inventions of Dr. Sándor Lovász, MD, PhD, urologist – one of our founders – and his colleagues. Dr. Lovász is a globally recognized expert in IC/BPS, with extensive clinical experience, having treated hundreds of patients successfully. (<a href="https://www.lovaszsandor.hu/biography" rel="_noopener" target="_blank">https://www.lovaszsandor.hu/biography</a>)
 
 
-      Urosystem Zrt., headquartered in Hungary, is primarily dedicated to advancing and commercializing the inventions of one of our founders, Dr. Sándor Lovász, MD, PhD, urologist, together with his colleagues. Dr. Lovász is a globally recognized expert in IC/BPS, with extensive clinical experience, having treated hundreds of patients successfully. (<a href="https://www.lovaszsandor.hu/biography" rel="_noopener" target="_blank">https://www.lovaszsandor.hu/biography</a>)
-
-
-      In parallel, a key priority of the company is to preserve and further develop the vision and business concepts of our late co-founder, Gábor Rényi. We conduct our activities in line with his entrepreneurial spirit, committed to creating long-term value for both our partners and our patients.
+      In parallel, a key priority of the company is to preserve and further develop the vision and business concepts of our co-founder, Gábor Rényi. We conduct our activities in line with his entrepreneurial spirit, committed to creating long-term value for both our partners and our patients.
 
 
       Urosystem Co. Ltd. has obtained a D&B Failure Score AAA certification. This indicates that the financial risk of establishing a business relationship with the company is low. Only 0.63% of Hungarian companies have this certificate.
