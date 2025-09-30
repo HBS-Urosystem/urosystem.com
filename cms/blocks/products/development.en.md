@@ -21,10 +21,7 @@ components:
     anchor: urovesol
   - type: article
     text: >-
-      IC/BPS patients of severe symptoms need regular bladder instillations. However, the availability of therapists is limited, which often results in under- or overtreatment. The UroStill was developed especially for female IC/BPS patients: this medical device provides them help so that they can perform the bladder instillation on their own, at their homes. The UroStill includes the UroDapter® syringe adapter, too. 
-
-
-      The prototype of the device has been used in Hungary; the next version of the UroStill is under development.
+      IC/BPS patients of severe symptoms need regular bladder instillations. However, the availability of therapists is limited, which often results in under- or overtreatment. The UroStill was developed especially for female IC/BPS patients: this medical device provides them help so that they can perform the bladder instillation on their own, at their homes. The UroStill includes the UroDapter® syringe adapter, too.
     title: UroStill
     anchor: urostill
   - type: article
