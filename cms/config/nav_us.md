@@ -57,9 +57,9 @@ top_us:
     titles:
       - lang: en
         title: UroDapter®
-      - lang: hu
-        title: UroDapter®
-  - t-itles:
+      # - lang: hu
+      #   title: UroDapter®
+  - titles:
       - lang: hu
         title: Termékek
     subpages:

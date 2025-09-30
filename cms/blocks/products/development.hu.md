@@ -41,10 +41,7 @@ components:
       UroStill® tartalmazza az UroDapter® fecskendő adaptert is. 
 
 
-      Az eszköz prototípusa Magyarországon már elérhető: jelenleg 70-nél is több IC/BPS páciens végez önkezelést a segítségével. A COVID világjárvány okozta helyzet kihangsúlyozta az otthon is elvégezhető terápia előnyeit. 
-
-
-      Az UroStill® következő változata jelenleg fejlesztés alatt áll.
+      Az eszköz prototípusa Magyarországon már elérhető: jelenleg 70-nél is több IC/BPS páciens végez önkezelést a segítségével. A COVID világjárvány okozta helyzet kihangsúlyozta az otthon is elvégezhető terápia előnyeit.
     title: UroStill®
     anchor: urostill
   - type: article
@@ -58,10 +55,7 @@ components:
       fájdalmas is volt. 
 
 
-      A GAG-réteg integritás teszt nemcsak fájdalommentes és nem invazív, hanem kvantitatív információt is nyújt, emellett azt a páciensek egyedül, otthon is el tudják végezni. 
-
-
-      E GAG-réteg integritás teszt itt érhető el: [Diagnosztika](/hu/diagnostic-help).
+      A GAG-réteg integritás teszt nemcsak fájdalommentes és nem invazív, hanem kvantitatív információt is nyújt, emellett azt a páciensek egyedül, otthon is el tudják végezni.
     title: "GAG-réteg integritás teszt "
     anchor: gag-test
   - type: article
