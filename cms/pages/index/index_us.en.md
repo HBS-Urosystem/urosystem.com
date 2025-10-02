@@ -15,5 +15,5 @@ blocks:
   # - id: urodapter/details
   # - id: cta/shop_ud
   # - id: index/testimonials
-  - id: modal/september
+  # - id: modal/september
 ---

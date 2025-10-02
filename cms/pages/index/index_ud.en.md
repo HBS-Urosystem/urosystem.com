@@ -12,7 +12,7 @@ description: The UroDapter® urological adapter replaces catheter. It enables
 menutitle: UroDapter®
 hero: products/hero_urodapter
 blocks:
-  - id: modal/september
+  # - id: modal/september
   - id: urodapter/intro
   - id: index/testimonials
 herotitle: ""
