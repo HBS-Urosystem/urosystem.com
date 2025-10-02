@@ -3,27 +3,27 @@ id: shop-5pcs
 folder: shop
 fallback: en
 components:
-  - t-ype: article
+  - type: article
     title: Különleges ajánlatunk azon betegeknek és orvosoknak, akik még nem használták!
     anchor: contact
-    text: Ismerve az új orvostechnológiákról szerzett közvetlen tapasztalat fontosságát, exkluzív lehetőséget kínálunk a UroDapter®-t első alkalommal kipróbáló páciensek és egészségügyi szakemberek számára. Vegye fel velünk a kapcsolatot, hogy 50%-os kedvezménnyel vásárolhasson forradalmi UroDapter® készülékünkből. Ez az egyedi ajánlat biztosítja, hogy megismerhesse az UroDapter® előnyeit olyan áron, amely a mai piaci árakhoz képest is megfizethető.
+    text: Ismerve az új orvostechnológiákról szerzett közvetlen tapasztalat fontosságát, exkluzív lehetőséget kínálunk a UroDapter®-t első alkalommal kipróbáló páciensek és egészségügyi szakemberek számára. Vegye fel velünk a <a href="/contact">kapcsolatot</a>, hogy 50%-os kedvezménnyel vásárolhasson forradalmi UroDapter® készülékünkből. Ez az egyedi ajánlat biztosítja, hogy megismerhesse az UroDapter® előnyeit olyan áron, amely a mai piaci árakhoz képest is megfizethető.
   - t-ype: cta
     button: Lépjen velünk kapcsolatba!
     link: /contact
-  - t-ype: buy
+  - type: buy
     title: Vásároljon webshopunkból!
     button: Vásárlás
     product: "5983114002592"
     text: Válassza ki a kívánt mennyiséget!
     subhead: "Az 5 db-os csomag ára: €75 / 10 db ára: €150"
-  - type: article
+  - t-ype: article
     title: Szeptember az IC tudatosság hónapja
     anchor: september
     text: >-
       <center>
         <img loading="lazy" src="/uploads/september.webp" alt="" aria-hidden="true" width="256"/>
       </center>
-  - type: buy
+  - t-ype: buy
     lang: hu
     t-itle: Szeptember az IC tudatosság hónapja
     subhead: 50%-os kedvezmény!

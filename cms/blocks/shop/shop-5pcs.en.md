@@ -11,27 +11,27 @@ background:
   - type: gradient
     name: dark-blue-75
 components:
-  - t-ype: article
+  - type: article
     title: Our Offer for First-Time Patients, and Doctors
     anchor: contact
     text: >-
-      Contact us to obtain samples of UroDapter® at a 50% discount. This exclusive offer is designed to ensure
+      <a href="/contact">Contact us</a> to obtain samples of UroDapter® at a 50% discount. This exclusive offer is designed to ensure
       that you can experience the benefits of the UroDapter® at a cost
       that remains as accessible as today’s market rates.
-  - t-ype: buy
+  - type: buy
     title: Buy from our webshop
     subhead: 5 pcs for €75 / 10 pcs for €150
     text: Choose the desired quantity and buy!
     button: Shop now
     product: "5983114002592"
-  - type: article
+  - t-ype: article
     title: September is IC Awareness Month
     anchor: september
     text: >-
       <center>
         <img loading="lazy" src="/uploads/september.webp" alt="" aria-hidden="true" width="256"/>
       </center>
-  - type: buy
+  - t-ype: buy
     lang: en
     t-itle: September is IC Awareness Month
     subhead: Get a 50% discount on the UroDapter®
