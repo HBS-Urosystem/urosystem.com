@@ -4,7 +4,7 @@ folder: products
 fallback: ""
 components:
   - type: article
-    subhead: And Certain other Lower Urinary Tract Conditions
+    subhead: And Certain other Lower Urinary Tract Symptoms
     text: >-
       The GAG-Layer Integrity Test was developed for learning the status of the
       inner mucus layer of the bladder. Deficiencies of this layer can be
