@@ -28,7 +28,7 @@ const config = {
     prerender: {
       //force: true,
       crawl: true,
-      entries: ["/*"]
+      entries: ["/*", "/en/diagnostic-help", "/hu/diagnostic-help"]
     }
     /*csp:{
       mode:"auto",
