@@ -9,7 +9,6 @@
 
   const _site = variables.site
   const _siteurl = variables.siteurl[_site] || 'https://www.urosystem.com'
-  //console.log('variables.site',_site)
 </script>
 
 <script>
@@ -102,43 +101,32 @@
         /*window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}*/
         gtag('consent', 'update', {
-          'ad_storage': 'granted',
+          // 'ad_storage': 'granted',
           'analytics_storage': 'granted',
-          'ad_user_data': 'granted',
-          'ad_personalization': 'granted'
+          // 'ad_user_data': 'granted',
+          // 'ad_personalization': 'granted'
         });
       </script>
 
-      {#if $state.post.id.indexOf('index') == 0}
+      <!-- {#if $state.post.id.indexOf('index') == 0} -->
         <!-- Event snippet for Oldalmegtekintés conversion page --> 
-        <script> gtag('event', 'conversion', {'send_to': 'AW-433475160/DN5ECOK9rvwCENic2c4B'}); </script>
-      {/if}
+        <!-- <script> gtag('event', 'conversion', {'send_to': 'AW-433475160/DN5ECOK9rvwCENic2c4B'}); </script> -->
+      <!-- {/if} -->
     {:else}
       <script>
         /*window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}*/
         gtag('consent', 'update', {
-          'ad_storage': 'denied',
+          // 'ad_storage': 'denied',
           'analytics_storage': 'denied',
-          'ad_user_data': 'denied',
-          'ad_personalization': 'denied'
+          // 'ad_user_data': 'denied',
+          // 'ad_personalization': 'denied'
         });
       </script>
     {/if}
 
     <!--{#if !!$cookies}-->
       <!--{#if $moved}-->
-      <!-- Hotjar Tracking Code for https://www.urosystem.com/ -->
-      <!--<script>
-        (function(h,o,t,j,a,r){
-            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-            h._hjSettings={hjid:2464168,hjsv:6};
-            a=o.getElementsByTagName('head')[0];
-            r=o.createElement('script');r.async=1;
-            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-            a.appendChild(r);
-        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-      </script>-->
     
       <!-- Facebook Pixel Code -->
       <!--<script>
@@ -156,13 +144,6 @@
       <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=551710929579793&ev=PageView&noscript=1" alt="fb-pixel"/></noscript>-->
       <!-- End Facebook Pixel Code -->
       
-      <!-- Active Campaign -->
-      <!--<script>
-        (function(e,t,o,n,p,r,i){e.visitorGlobalObjectAlias=n;e[e.visitorGlobalObjectAlias]=e[e.visitorGlobalObjectAlias]||function(){(e[e.visitorGlobalObjectAlias].q=e[e.visitorGlobalObjectAlias].q||[]).push(arguments)};e[e.visitorGlobalObjectAlias].l=(new Date).getTime();r=t.createElement("script");r.src=o;r.async=true;i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)})(window,document,"https://diffuser-cdn.app-us1.com/diffuser/diffuser.js","vgo");
-        vgo('setAccount', '477728237');
-        vgo('setTrackByDefault', true);
-        vgo('process');
-      </script>-->
       <!--{/if}--> <!-- $moved -->
       
     <!--{/if}-->
