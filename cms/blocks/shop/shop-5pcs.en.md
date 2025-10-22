@@ -20,8 +20,8 @@ components:
       that remains as accessible as today’s market rates.
   - type: buy
     title: Buy from our webshop
-    subhead: 5 pcs for €75 / 10 pcs for €150
-    text: Choose the desired quantity and buy!
+    subhead: 10 pcs for €150
+    t-ext: Choose the desired quantity and buy!
     button: Shop now
     product: "5983114002592"
   - t-ype: article
