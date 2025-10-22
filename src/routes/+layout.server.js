@@ -1,6 +1,6 @@
 //export const csr = false
-export const prerender = true
-export const trailingSlash = 'never' // default
+// export const prerender = true
+// export const trailingSlash = 'never' // default
 
 import { redirect } from '@sveltejs/kit'
 import { _getPost, _getConf } from '$lib/utils'
