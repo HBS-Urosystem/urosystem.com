@@ -47,9 +47,9 @@ components:
       The predecessor of this system has been used by <a href="https://www.lovaszsandor.hu/en" rel="external" target="_blank">Sándor Lovász MD. PhD.</a> for years.
     title: Online Patient Follow-up System
     anchor: follow-up
-  - type: cta
+  - t-ype: cta
     button: See it in the future
-    # ext: true
+    ext: true
     link: https://www.holyagfajdalom.hu/
 
 ---
