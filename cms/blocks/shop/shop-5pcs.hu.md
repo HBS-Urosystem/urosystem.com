@@ -14,8 +14,8 @@ components:
     title: Vásároljon webshopunkból!
     button: Vásárlás
     product: "5983114002592"
-    text: Válassza ki a kívánt mennyiséget!
-    subhead: "Az 5 db-os csomag ára: €75 / 10 db ára: €150"
+    t-ext: Válassza ki a kívánt mennyiséget!
+    subhead: "A 10 db-os csomag ára: €150"
   - t-ype: article
     title: Szeptember az IC tudatosság hónapja
     anchor: september
