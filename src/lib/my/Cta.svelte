@@ -8,7 +8,7 @@
     //console.log('1',/*scrollto,*/ comp.link)
     //if (comp.link && comp.link.startsWith('/')) comp.link = comp.link.substring(1)
     if (comp.link && comp.link.startsWith('/')) {
-      link = '/' + $sitelang + (comp.link == '/index' ? '' : comp.link)
+      link = ($sitelang.length ? '/' + $sitelang : '') + (comp.link == '/index' ? '' : comp.link)
       //scrollto = false
     } else if (comp.link && comp.link.startsWith('http')) {
       rel = 'noopener'
@@ -22,7 +22,7 @@
       } else {
         comp.link = '/' + comp.link
       }
-      link = '/' + $sitelang + comp.link //+ (scrollto || '')
+      link = ($sitelang.length ? '/' + $sitelang : '') + comp.link //+ (scrollto || '')
     }
     //console.log('2',/*scrollto,*/ link) 
   }

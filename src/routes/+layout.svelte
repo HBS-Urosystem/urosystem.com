@@ -1,7 +1,7 @@
 <script context="module">
   import "/src/app.postcss"
   import { onMount } from 'svelte'
-  import { state, /* sitelang,  */cookies, variables } from '$lib/stores'
+  import { state, sitelang, cookies, variables } from '$lib/stores'
   import { dev/*, browser, amp, prerendering*/ } from '$app/environment'
   import Nav from '$lib/Nav.svelte'
   import Footer from '$lib/Footer.svelte'
@@ -14,7 +14,8 @@
 <script>
   export let data
   $: $state = data
-  // $: $sitelang = data.thislang.id
+  $: console.log($state.langs)
+  $: $sitelang = $state.langs.length > 1 ? data.thislang.id : ''
 	onMount(() => {
     document.querySelector('html').lang = $state.thislang.id
     document.querySelector('html').dir = $state.thislang.dir
