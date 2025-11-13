@@ -1,5 +1,5 @@
 ---
-id: downloads
+id: details
 folder: urodapter
 fallback: en
 ---

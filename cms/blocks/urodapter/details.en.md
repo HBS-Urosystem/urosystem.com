@@ -3,25 +3,19 @@ id: details
 folder: urodapter
 fallback: ""
 components:
+  - type: article
+    title: What is the UroDapter®?
+    anchor: urodapter
+    text: >-
+      The UroDapter® is a small device that replaces catheter in the field of bladder instillation. Only the tip of the adapter has to be inserted into the urethral orifice to deliver the desired solution into the bladder, through the urethra. In this way, the UroDapter® makes the treatment painless and significantly reduces the chances of infections or complications.
   - type: images
-    subhead: UroDapter® can be attached directly to the syringe so that any solution
-      can be instilled into the bladder.
+    subhead: Get to know the parts of the UroDapter®
     shape: default
     images:
       - alt: UroDapter® – Urological Syringe Adapter and its parts
         src: /uploads/image4-web_optim_satin.webp
-        text: UroDapter® – Urological Syringe Adapter and its parts
-  - type: article
-    subhead: "Strong legal background"
-    text: >-
-      * It has got the necessary European CE certificate, it is
-      registered by the USA Food and Drug Administration (FDA), and has
-      strong IP protection in many countries.
-
-      * ​UroDapter®'s patent is pending. 
-
-      * PCT international patent application number: PCT/HU2016/000063
-  - type: grid
+        t-ext: UroDapter® – Urological Syringe Adapter and its parts
+  - t-ype: grid
     slide: false
     title: UroDapter® presentation videos
     components:

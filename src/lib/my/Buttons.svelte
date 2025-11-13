@@ -1,5 +1,5 @@
 <script>
-  import { snapto/*, sitelang*/ } from '$lib/stores'
+  import { snapto } from '$lib/stores'
 
   export let comp/*, lang/*, l*/
   let link /*lang, getLink*/

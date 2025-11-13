@@ -46,6 +46,7 @@
         ShopifyBuy.UI.onReady(client).then(function (ui) {
           ui.createComponent("product", {
             id: comp.product || "5983114002592",
+              variantId: '39737392300192',
             node: document.getElementById(
               `product-component-1616169000007-${comp.lang}`
             ),
@@ -216,8 +217,8 @@
 </script>
 
 <aside id={comp.anchor} style={comp.background ? comp.background : ``}>
-  {#if comp.title}<h2 id={comp.anchor}>{comp.title}</h2>{/if}
-  {#if comp.subhead}<h3 id="{comp.anchor}">{comp.subhead}</h3>{/if}
+  {#if comp.title}<h2>{comp.title}</h2>{/if}
+  {#if comp.subhead}<h3>{comp.subhead}</h3>{/if}
   {#if comp.text}<div>{@html comp.text}</div>{/if}
   {#if comp.button && langs}
     {#each langs as lang}

@@ -20,7 +20,7 @@ export const load = async ({ params, url/*, route, fetch, page*/ }) => {
 	conf = await _getConf(lang)
   //console.log('conf.thislang',conf.thislang.id,'->',lang)
   if (!conf.thislang) {
-		conf = await _getConf(/*url.searchParams.get('lang') ||*/ store(sitelang) || 'en')
+		conf = await _getConf(store(sitelang) || 'en')
     if (!conf.thislang) return false
     sub = path
     path = lang

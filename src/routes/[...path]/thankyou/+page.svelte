@@ -1,5 +1,5 @@
 <script context="module">
-  import { state, sitelang, snapto, gateway, variables } from '$lib/stores'
+  import { state, /* sitelang,  */snapto, gateway, variables } from '$lib/stores'
   import Components from '$lib/Components.svelte'
   import SubPage from '$lib/SubPage.svelte'
   //import { onMount } from 'svelte';

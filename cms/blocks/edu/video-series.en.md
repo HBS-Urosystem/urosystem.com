@@ -10,8 +10,7 @@ components:
         id: uploads/DrLovasz-ep1.mp4
         cat: "Episode 1"
         anchor: "episode-1"
-        title: "Personalized Treatment Plans and Intravesical
-          Instillations"
+        title: "Personalized Treatment Plans and Intravesical Instillations"
       - type: video
         source: local
         id: uploads/DrLovasz-ep2.mp4

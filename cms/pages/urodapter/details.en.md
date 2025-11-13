@@ -11,5 +11,8 @@ menutitle: UroDapter®
 #hero: urodapter/details_hero
 blocks:
   - id: urodapter/details
+  - id: urodapter/benefits
+  - id: urodapter/indications
   - id: cta/shop_ud
+  - id: urodapter/legal
 ---

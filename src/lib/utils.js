@@ -76,7 +76,7 @@ export async function _getConf(lang = 'en') {
 
   async function _subnav(obj) {
     let p
-    //console.log('obj.link',obj.link)
+    // console.log('obj.logo',obj.logo)
     delete obj.title
     if (obj.titles && obj.titles.length) {
       //console.log('obj.titles',obj.titles)
@@ -87,9 +87,11 @@ export async function _getConf(lang = 'en') {
         }
       }
       //delete obj.titles /// ?
+    } else if (!!obj.logo) {
+      obj.title = obj.alt
+      //console.log('obj.title2',obj.title)
     } else if (!!obj.link && (p = await _findPost({path: obj.link, lang}))) {
       obj.title = p.menutitle || p.title
-      //console.log('obj.title2',obj.title)
     } else {
       obj.title = null
     }

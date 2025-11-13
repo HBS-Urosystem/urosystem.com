@@ -2,7 +2,7 @@
 id: resources-pro
 folder: urodapter
 fallback: ""
-published: ProfessionalsGateway
+# published: ProfessionalsGateway
 components:
   - type: links
     title: Explicit medical content
