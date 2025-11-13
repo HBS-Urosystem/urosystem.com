@@ -34,7 +34,7 @@ langs_ud:
     font: default
     id: hu
     title: Magyar
-    active: false
+    active: true
   - id: it
     title: Italiano
     dir: ltr

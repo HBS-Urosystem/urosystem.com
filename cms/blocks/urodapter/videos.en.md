@@ -28,6 +28,6 @@ components:
       - type: video
         cat: DR. LOVASZ
         subhead: "UroDapter®: Appropriate for Use in all Genders"
-        source: local
-        id: uploads/Urodapter_Dr.Lovasz_Final_JAV.mp4
+        source: web
+        id: https://new.holyagfajdalom.hu/urosystem_large_files/Urodapter_Dr.Lovasz_Final_JAV.mp4
 ---
