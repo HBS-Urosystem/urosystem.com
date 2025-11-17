@@ -33,12 +33,6 @@
 
 <style>
   section {
-    /*display: flex;*/
-    /*align-items: center;
-    align-content: center;*/
-    /*align-items: baseline;
-    justify-content: center;*/
-    /*flex-direction: column;*/
     display: block;
   }
   section.slides {
@@ -57,7 +51,7 @@
     flex: 1 1 var(--img-width, 56ch);
     /*max-width: var(--img-width, 56ch);*/
     /*margin: 0 auto var(--gap);*/
-    margin: 5rem 2.5vw 0;
+    margin: 0 2.5vw 0;
   }
   @media (min-width: 112ch) {
     section.slides {

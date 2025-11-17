@@ -13,7 +13,7 @@ export const snapto = writable(false)
 export const sitelang = !browser || !typeof localStorage.sitelang ? writable('') : writable(browser && localStorage.sitelang || '')
 sitelang.subscribe((value) => {
   browser && (localStorage.setItem(`sitelang`, value))
-  console.log({value})
+  // console.log({value})
 })
 
 export const cookies = !browser || !typeof localStorage.cookies ? writable(false) : writable(JSON.parse(browser && (localStorage.cookies) || false))

@@ -14,7 +14,7 @@
 <script>
   export let data
   $: $state = data
-  $: console.log($state.langs)
+  // $: console.log($state.langs)
   $: $sitelang = $state.langs.length > 1 ? data.thislang.id : ''
 	onMount(() => {
     document.querySelector('html').lang = $state.thislang.id

@@ -32,7 +32,7 @@ top_ud:
   - link: contact
     titles:
       - lang: en
-        title: Contact us
+        title: Contact
       - lang: hu
         title: Kapcsolat
       # - link: https://b2b.urosystem.com/

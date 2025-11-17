@@ -22,7 +22,7 @@ footer_us:
       - link: contact
         titles:
           - lang: en
-            title: Contact
+            title: Contact us
           - lang: hu
             title: Kapcsolat
       - titles:
