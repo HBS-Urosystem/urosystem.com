@@ -20,12 +20,6 @@ components:
         cat: VIDEO PRESENTATION
         subhead: Dr. Sándor Lovász on the use of UroDapter®
       - type: video
-        source: youtube
-        id: OgwxcHuhQuQ
-        anchor: using
-        cat: IBSA VIDEO TUTORIAL
-        subhead: Using the iAluAdapter® (UroDapter®)
-      - type: video
         cat: DR. LOVASZ
         subhead: "UroDapter®: Appropriate for Use in all Genders"
         source: web

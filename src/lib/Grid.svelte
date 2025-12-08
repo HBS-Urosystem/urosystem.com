@@ -30,6 +30,9 @@
 </article>
 
 <style>
+  section {
+    align-items: start;
+  }
   section.slides {
     flex-wrap: nowrap;
     overflow-x: auto;
