@@ -13,6 +13,6 @@ blocks:
   - id: urodapter/details
   - id: urodapter/benefits
   - id: urodapter/indications
-  - id: cta/shop_ud
   - id: urodapter/legal
+  - id: cta/shop_ud
 ---
