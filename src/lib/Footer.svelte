@@ -9,11 +9,12 @@
 <script>
   //$: langs = $state.langs
   $: footnav = $state.footnav
-  const dir = $state.thislang.dir
+  // const dir = $state.thislang.dir
 	//import { stores } from '@sapper/app';
 	//const { page } = stores()
 	//import { lang } from '$lib/stores'
-  let post, sublinks
+  let sublinks
+  // $: console.log(footnav)
 </script>
 
 <footer>
@@ -30,23 +31,15 @@
     <ul>
       {#each footnav as nav}
       <li>
-        <h5><span>{nav.title}</span></h5>
+        {#if nav.logo}
+          <a href="{nav.link}" rel="noopener noreferrer" target="_blank"><img loading="lazy" src="{nav.logo}" alt="{nav.alt}"/></a>
+        {:else}
+          <h5><span>{nav.title}</span></h5>
+        {/if}
         {#if sublinks = nav.sublinks}
           {#each sublinks as sub}
             <SubNav {sub} dir='block'/>
           {/each}
-          <!--{:else if post = findPost($sitelang, nav.link)}
-          <h4>{nav[$sitelang] || nav['en']}</h4>
-          {#if post.subpages}
-          {#each post.subpages as sub}
-          <SubNav {sub}/>
-          {/each}
-        {/if}
-        {:else if sublinks = findPosts($sitelang, nav.link)}
-          <h4><span>{nav[$sitelang] || nav['en']}</span></h4>
-          {#each sublinks as sub}
-          <SubNav {sub}/>
-          {/each}-->
         {/if}
       </li>
       {/each}
@@ -73,6 +66,7 @@
   nav {
     background-color: var(--dark);
     padding: var(--gap2) var(--sides) 0;
+    margin-inline: auto;
   }
   ul {
     display: flex;
@@ -80,12 +74,22 @@
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  /*ul + ul {
-    justify-content: center;
-  }*/
+  /* ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(136px, 1fr));
+    gap: 1rem;
+    grid-auto-rows: auto;
+    grid-auto-flow: dense;
+    grid-template-rows: masonry;
+  } */
   li {
     padding: 2rem 0;
     white-space: nowrap;
+    grid-row-end: span 2;
+  }
+  li:has(img) {
+    grid-row-end: span 1;
+    max-width: 136px;
   }
   li * {
     white-space: nowrap;

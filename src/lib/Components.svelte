@@ -57,7 +57,7 @@
 
 <svelte:component this={options[comp.type]} {comp}/>
 
-{#key comp.link}
+<!-- {#key comp.link}
 {#if comp.link}
   <style>
     /*:has(:target) > header {
@@ -68,4 +68,4 @@
     }*/
   </style>
 {/if}
-{/key}
+{/key} -->

@@ -22,7 +22,7 @@ components:
       - alt: Az UroDapter® fecskendő adapter és annak részei
         src: /uploads/image4-web_optim_satin.webp
         text: Az UroDapter® fecskendő adapter és annak részei
-  - type: article
+  - t-ype: article
     subhead: Erős jogi háttér
     text: >-
       * Az eszköz rendelkezik az EU-beli forgalmazáshoz szükséges CE
@@ -33,7 +33,7 @@ components:
       * Az UroDapter® szabadalmi státusza: folyamatban. 
 
       * Nemzetközi bejelentési szám: PCT/HU2016/000063
-  - type: grid
+  - t-ype: grid
     slide: false
     title: UroDapter® bemutató videók
     components:

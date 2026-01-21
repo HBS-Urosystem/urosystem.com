@@ -2,17 +2,42 @@
 id: testimonials
 folder: index
 components:
-  - type: grid
-    slide: false
-    title: ""
-    components:
-      - type: article
-        text: <blockquote> <p>"I've been given bladder instillations through this device
-          for about 12 months now and it has completely changed how I feel about
-          instillations.</p> <p>Instead of using a catheter they place an
-          adapter onto your urethral opening. The amazing part is that the
-          injection is now essentially painless – and absolutely no pain after
-          treatment.</p> <p>Talk to your health provider. This is a massive
-          improvement for anyone doing bladder instillations."</p> <cite>A
-          male patient about the UroDapter®</cite> </blockquote>
+  - type: article
+    title: UroDapter Success Stories
+    subhead: Patient Testimonials
+    text: <blockquote> <p>"I've been given bladder instillations through this device
+      for about 12 months now and it has completely changed how I feel about
+      instillations.</p><p>Instead of using a catheter they place an
+      adapter onto your urethral opening. The amazing part is that the
+      injection is now essentially painless – and absolutely no pain after
+      treatment.</p><p>Talk to your health provider. This is a massive
+      improvement for anyone doing bladder instillations."</p> <cite>A
+      male patient about the UroDapter®</cite> </blockquote>
+  - type: article
+    text: <blockquote> <p>Using a catheter for intravesical treatment required mental preparation for the unpleasant and painful procedure, which could potentially lead to infection. In contrast, using the UroDapter® does not cause me mental distress, it does not cause pain, does not hurt my urethra, and it has never caused any infection or complications in 1.5 years. It can be inserted into the urethral opening with ease and without causing any damage. </p> <cite>Reka S. D.<br>Female IC/BPS patient<br>Hungary, 2023</cite> </blockquote>
+  - type: article
+    text: <blockquote> <p>The UroDapter® helps patients receive intravesical instillations at home without the need for painful catheterization. I use the UroDapter® for self-treatment at home with intravesical medication. With UroDapter®, I experience no pain during treatments, unlike when I used catheters.</p><p>This is a fantastic product for patients who need to take medications into their urinary bladder. </p> <cite>Piotr K.<br>37y male IC/BPS patient<br>Poland, 2023</cite> </blockquote>
+  - type: article
+    text: <blockquote> <p>I am a retired hospital employee and an IC/BPS patient. I came across the UroDapter® on YouTube. I love the idea! I have so much anxiety when I get bladder instillations via catheter due to a bad experience & the burning afterwards. </p> <cite>Tanya J.<br>Female IC/BPS patient<br>USA, 2024</cite> </blockquote>
+  - type: article
+    text: <blockquote> <p>The UroDapter® is the best invention possible. Dr. Lovász has saved his patients from severe pain with this device. Intravesical instillations have become a very gentle procedure thanks to the UroDapter®. You can only feel very mild pressure during its application, whereas a catheter painfully injures the urethra. Furthermore, with this method the urethra is treated as well, especially since my main issue is urethral burning. I don't believe my urethral pain would have gone away with a catheter. I recommend using this device for anyone undergoing intravesical cocktail treatments. I would no longer consider undergoing intravesical treatments with a catheter on a monthly basis.</p> <cite>Edit K.<br>46y female IC/BPS patient<br>Hungary, 2023</cite> </blockquote>
+  - type: article
+    text: <blockquote> <p>Ease of use, no discomfort and so much quicker instillation than via catheter. I wish you would make it easier for physicians’ offices to order from you directly.</p> <cite>Unknown Customer<br>USA, 2024</cite> </blockquote>
+  - type: article
+    text: <blockquote> <p>It works great at delivering the medicine into my bladder. My specific goal with this device is to deliver DMSO into the prostate. I hope this will do the trick, as I have been suffering from chronic prostatitis for many years now.</p> <cite>Zach T.<br>Male chronic prostatitis patient<br>USA, 2024</cite> </blockquote>
+  - type: article
+    text: <blockquote> <p>Last year I was diagnosed with Interstitial Cystitis. It is an extremely debilitating disorder that nearly destroyed my life. In my experience, catheters not only caused numerous infections but pain and irritation making each bladder instillation an anxiety filled experience.</p> <p>I cancelled all my bladder instillations as every single time that we used a catheter I would end up with an infection. In the hours of endless research, I came across the UroDapter®. Without hesitation I purchased a set and asked my doctor to use it instead of the standard catheter. My doctor loves using the UroDapter® and went to great lengths to order them for the clinic. She like myself saw the immense benefit of using it in lieu of a catheter. That tiny attachment has been a game changer in my treatment! More people need to be made aware of it. I am your biggest advocate, I tell everyone who will listen about this miraculous invention. Since the incorporation of the UroDapter® into my weekly bladder instillations, I am actually getting better and my quality of life improved in ways I’ve never thought possible!</p> <cite>Kathy P.<br>Female IC/BPS patient<br>USA, 2025</cite> </blockquote>
+  - type: article
+    text: <blockquote> <p>The UroDapter® has resulted in a significant shift in how I manage my interstitial cystitis. Before discovering this device, managing my condition and treatments was often marked by discomfort, risk, and frustration.</p><p>Prior to the UroDapter®, I tried a variety of different treatment options. I had to be catheterized for both assessment and for treatment. Not only was this painful, but the risk of infections was always a consideration. The UroDapter® has really transformed my experience. The discomfort associated with catheterization is no longer an issue. This revolutionary device’s design ensures a gentler approach, completely eliminating any discomfort during instillations. There is also a significant reduction in the risk of infections or damage to my urethra due to the device only going a small distance into the urethra. Previously I had gotten a complicated UTI, one that could not be treated with regular antibiotics, most likely from catheterization.</p><p>I now have confidence, less apprehension, more predictability, and an overall a better quality of life.</p> <cite>Hannah J.<br>27y female IC/BPS patient<br>USA, the Netherlands, 2023</cite> </blockquote>
+  - type: article
+    subhead: Professional Testimonials
+    text: <blockquote> <p>I recently had the pleasure of using UroDapter®s and they have exceeded all of my expectations. From the moment I first interacted with the products, it was clear that the UroDapter® is at the forefront of innovation in their field. The design and functionality of the UroDapter® are nothing short of impressive and are incredibly well-engineered. I particularly appreciate the design, which makes instillation of medications straightforward and more comfortable for my patients.</p> <cite>Dr. Sijo J. Parekattil<br>Urologist, Medical Director<br>Avant Concierge Urology<br>Winter Garden, Florida, USA</cite> </blockquote>
+  - type: article
+    text: <blockquote> <p>I have been using the UroDapter® for almost 5 years and have had a very good experience. For patients whose primary complaint is in the urethral area, the adapter makes it almost painless to deliver the medicine into the bladder, which was unthinkable with the single-use catheters used previously. For men, its use is easy to learn. In women, due to anatomical variations, the learning curve is a bit longer, but with the patient's cooperation and appropriate instructions, the experience can be gained to easily deliver the drug into the bladder without loss. This is a real help for the IC/BPS patient group.</p> <cite>Dr. Marianna Nagy<br>Urologist<br>Dept of Urology, Homeland Defense Hospital<br>Budapest, Hungary</cite> </blockquote>
+  - type: article
+    text: <blockquote> <p>The UroDapter® device is very useful in everyday gynecological practice. Many patients present with symptoms of pelvic pain. With the UroDapter®, complaints can be treated very simply and immediately without catheterization, both diagnostically and therapeutically for urological origins. The use of the UroDapter®, like other medical devices, can be learned in a short time. The catheterization process can be uncomfortable and painful for patients, but this can be avoided with the help of the UroDapter®.</p> <cite>Dr. Zoltán Kovács<br>Gynecologist, Neural Therapy Expert<br>Private Practitioner<br>Budapest, Hungary</cite> </blockquote>
+  - type: article
+    text: <blockquote> <p>The UroDapter® has had a tremendous impact in my practice on treating patients suffering from Bladder Pain Syndrome. It is a huge upgrade in patient comfort compared to using catheters for intravesical instillations. I have been using it for three years, and the feedback from patients has been amazing. I have always appreciated innovations that led to better patient care. I believe the UroDapter® has a short learning curve, and it now has great teaching videos that make its usage even easier. I would never hesitate, and I would choose the UroDapter® over a conventional catheter any time for intravesical instillations.</p> <cite>Dr. Kinga Karabinos<br>Urologist<br>Dept. of Urology, South-Pest Teaching Hospital<br>Budapest, Hungary</cite> </blockquote>
+  - type: article
+    text: <blockquote> <p>After some practice, the UroDapter® simplifies intravesical treatment for both patients and staff. Once you experience its benefits, you won’t want to use anything else. I highly recommend it to all my colleagues and patients.</p> <cite>Dr. Zoltan Balogh<br>Urologist<br>Dept. of Urology, South-Pest Teaching Hospital<br>Budapest, Hungary</cite> </blockquote>
 ---

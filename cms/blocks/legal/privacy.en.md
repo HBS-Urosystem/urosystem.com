@@ -98,13 +98,24 @@ components:
       Data describing information essential for the delivery of the products are transferred to the delivery company:
 
 
-      Name: Portó Kft.
+      Worldwide except the USA:
 
 
-      Address: 40. alagsor, Pozsonyi út, 1137 Budapest, Pozsonyi út 40. alagsor, Hungary
+      * Name: Portó Kft.
+
+      * Address: 40. alagsor, Pozsonyi út, 1137 Budapest, Hungary
+
+      * <span>E-mail: porto@porto.hu</span>
 
 
-      E-mail:  porto@porto.hu
+      USA:
+
+
+      * Name: Dawa Medical LLC
+
+      * Address: 7320 NW 12th St #103, Miami, FL 33126, US
+
+      * E-mail: <span>marketing@dawamedical.com</span>
 
 
       Any data have to be transferred to third parties if they are required for investigating and/or examining criminal cases or cases of natural security. If this happens, the third party who requires the data must define what data they need and name the exact purpose of data controlling, too.

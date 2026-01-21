@@ -34,6 +34,6 @@ components:
 
 
       #### More than 1,000,000 pieces used
-    button: How to buy?
+    -button: How to buy?
     link: /shop
 ---

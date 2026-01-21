@@ -41,14 +41,6 @@ footer_ud:
       - lang: hu
         title: Közösségi média
     subpages:
-      #- link: https://www.facebook.com/UroDapter-101721465255769
-      #  ext: true
-      #  logo: /uploads/bxl-facebook.svg
-      #  alt: facebook
-      #- link: https://www.instagram.com/urodapter/
-      #  ext: true
-      #  logo: /uploads/bxl-instagram.svg
-      #  alt: instagram
       - link: https://www.youtube.com/channel/UCuS_Y21yqaUrj5u8h8NYiZg
         ext: true
         logo: /uploads/bxl-youtube.svg
@@ -57,30 +49,19 @@ footer_ud:
         ext: true
         logo: /uploads/bxl-linkedin.svg
         alt: linked in
-      #- link: https://twitter.com/UroSystem_Inc
-      #  ext: true
-      #  logo: /uploads/bxl-twitter.svg
-      #  alt: twitter
-      #- link: https://vk.com/urodapter
-      #  ext: true
-      #  logo: /uploads/bxl-vk.svg
-      #  alt: vk
-      #- ext: true
-      #  link: https://ok.ru/urodapter
-      #  logo: /uploads/bxl-ok-ru.svg
-      #  alt: ok
       - ext: true
         link: https://linktr.ee/urodapter
         logo: /uploads/linktree.svg
         alt: linktree
-  # - subpages:
-  #     - logo: /uploads/visa-master.png
-  #       alt: visa mastercard amex apple
-  #       link: shop
-  #   titles:
-  #     - lang: en
-  #       title: Accepted payments
-  #     - lang: hu
-  #       title: Fizetési módok
-  #   link: ""
+  - logo: /uploads/sitelogo_ud.svg
+    alt: IFU
+    ext: true
+    title:
+    subpages:
+      - link: /uploads/Urodapter-instructions.pdf
+        titles:
+        - lang: en
+          title: Instructions for Use
+        - lang: hu
+          title: Használati útmutató
 ---

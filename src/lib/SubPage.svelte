@@ -14,7 +14,7 @@
   
 </script>
 
-<a href="/{$sitelang}/{sub.folder}/{sub.slug}" on:click={() => $snapto = scrollto}>{sub.menutitle || sub.title}</a><!-- -->
+<a href="/{$sitelang.length ? $sitelang + '/' : ''}{sub.folder}/{sub.slug}" on:click={() => $snapto = scrollto}>{sub.menutitle || sub.title}</a><!-- -->
 
 <style>
   /*li {

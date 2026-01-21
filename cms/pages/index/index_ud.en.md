@@ -15,5 +15,6 @@ blocks:
   # - id: modal/september
   - id: urodapter/intro
   - id: index/testimonials
+  - id: cta/shop_ud
 herotitle: ""
 ---

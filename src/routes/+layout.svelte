@@ -14,7 +14,8 @@
 <script>
   export let data
   $: $state = data
-  $: $sitelang = data.thislang.id
+  // $: console.log($state.langs)
+  $: $sitelang = $state.langs.length > 1 ? data.thislang.id : ''
 	onMount(() => {
     document.querySelector('html').lang = $state.thislang.id
     document.querySelector('html').dir = $state.thislang.dir
@@ -42,13 +43,6 @@
       {/each}
     {/if}
   {/if}
-  <!--
-  {#if $state.post.canonical && $state.post.canonical != _site}
-    <link class="{_site} {$state.post.canonical} {$state.post.canonlang}" rel="canonical" href="{variables.siteurl[$state.post.canonical]}/{($state.post.canonlang || $sitelang)}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}"/>
-  {:else if !!$state.post.canonlang && $state.post.canonlang != $sitelang}
-    <link class="{$sitelang} {$state.post.canonical} {$state.post.canonlang}" rel="canonical" href="{_siteurl}/{$state.post.canonlang}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}"/>
-  {/if}
-  -->
   <link rel="canonical" href="{variables.siteurl[$state.post.canonical] || _siteurl}/en{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? ('/' + $state.post.subpage.path) : ('/' + $state.post.path || '')}"/>
 
   <!-- https://sveltekit.io/blog/structured-data -->

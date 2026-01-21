@@ -8,10 +8,10 @@ import { get as store} from 'svelte/store'
 import { sitelang } from '$lib/stores'
 
 /** @type {import('./$types').LayoutServerLoad} */
-export const load = async ({ params, url/*, route, fetch, page*/ }) => {
+export const load = async ({ params, url }) => {
   let [l, p, s] = params.path?.split('/') || []
   let [x, lang, path, sub] = url.pathname.split('/') || []
-  lang = lang || /*url.searchParams.get('lang') || */'en'
+  lang = lang || 'en'
   path = path || ''
   sub = sub || ''
 
@@ -20,17 +20,18 @@ export const load = async ({ params, url/*, route, fetch, page*/ }) => {
 	conf = await _getConf(lang)
   //console.log('conf.thislang',conf.thislang.id,'->',lang)
   if (!conf.thislang) {
-		conf = await _getConf(/*url.searchParams.get('lang') ||*/ store(sitelang) || 'en')
+		conf = await _getConf(store(sitelang) || 'en')
     if (!conf.thislang) return false
     sub = path
     path = lang
     lang = conf.thislang.id || 'en'
 	}
+  // console.log(conf.;angs)
 
   post = await _getPost({lang, path, sub})
   //console.log('post',{lang, path, sub},post.blocks[0].components)
 	if (post.title && !!post.published) {
-    // console.log('post, ...conf', post, {...conf})
+    // console.log('...conf', ...conf)
 		return {
 			post, ...conf
 		}

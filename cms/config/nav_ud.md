@@ -6,32 +6,23 @@ top_ud:
         title: Details
       - lang: hu
         title: Részletek
-  - subpages:
+  - s-ubpages:
       - link: ic-bps
       - link: rutis
       - link: post-cancer-treatment
       - link: bladder-cancer
       - link: other-uses-and-indications
-    titles:
+    t-itles:
       - lang: en
         title: Indications
       - lang: hu
         title: Felhasználási területek
-  - titles:
+  - link: resources
+    titles:
       - lang: en
         title: Resources
       - lang: hu
         title: Oktatóanyagok
-    subpages:
-      - link: resources
-      - link: resources-pro
-      - link: https://app.urodapter.com
-        ext: true
-        titles:
-          - lang: en
-            title: UroDapter Web Manual App
-          - lang: hu
-            title: UroDapter Web Manual App
   - link: company
     titles:
       - lang: en
@@ -41,7 +32,7 @@ top_ud:
   - link: contact
     titles:
       - lang: en
-        title: Contact us
+        title: Contact
       - lang: hu
         title: Kapcsolat
       # - link: https://b2b.urosystem.com/

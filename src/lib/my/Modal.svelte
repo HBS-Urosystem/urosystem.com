@@ -21,7 +21,7 @@
     } else {
       //console.log(comp.link)
       //if (comp.link == 'index') comp.link = ''
-      link = '/' + $sitelang + (comp.link == 'index' ? '' : '/' + comp.link)
+      link = ($sitelang.length ? '/' + $sitelang : '') + (comp.link == 'index' ? '' : '/' + comp.link)
     }
   }
 

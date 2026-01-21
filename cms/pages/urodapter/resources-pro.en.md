@@ -10,7 +10,7 @@ canonical: _ud
 menutitle: for Therapists
 blocks:
   - id: urodapter/downloads
-  - id: edu/gateway
+  - id: e-du/gateway
   - id: urodapter/downloads-pro
   - id: edu/urodapter-lovasz
 ---
