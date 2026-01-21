@@ -98,7 +98,7 @@ components:
       Data describing information essential for the delivery of the products are transferred to the delivery company:
 
 
-      ### Worldwide except the USA
+      Worldwide except the USA:
 
 
       * Name: Portó Kft.
@@ -108,7 +108,7 @@ components:
       * <span>E-mail: porto@porto.hu</span>
 
 
-      ### USA
+      USA:
 
 
       * Name: Dawa Medical LLC

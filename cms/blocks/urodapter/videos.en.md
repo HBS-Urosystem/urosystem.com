@@ -5,7 +5,7 @@ fallback: ""
 components:
   - type: grid
     slide: false
-    title: UroDapter® presentation videos
+    title: Videos
     components:
       - type: video
         source: youtube
@@ -19,11 +19,12 @@ components:
         id: MONZqHMJv7Q
         anchor: lovasz1
         cat: PRESENTATION
-        subhead: Dr. Sándor Lovász on the use of UroDapter®
-        text: "We are introducing the UroDapter® urological syringe adapter, which completely replaces the catheter in the field of bladder instillation. It enables the painless and complication-free local treatment of the bladder in conditions such as interstitial cystitis/bladder pain syndrome (IC/BPS), recurring urinary tract infections (rUTIs) and certain post-cancer bladder conditions."        
+        subhead: A Short introduction of the UroDapter®
+        text: "Introducing the UroDapter® urological syringe adapter, which completely replaces the catheter in the field of bladder instillation."        
       - type: video
         cat: PRESENTATION
-        subhead: "UroDapter®: Appropriate for Use in all Genders"
+        subhead: "Sándor Lovász MD, PhD on the Use of UroDapter®"
+        text: "A detailed instructional video on the use of the UroDapter® by Sándor Lovász MD, PhD, Interstitial Cystitis/Bladder Pain Syndrome (IC/BPS) specialist, the inventor of the UroDapter®"
         source: web
         id: https://new.holyagfajdalom.hu/urosystem_large_files/Urodapter_Dr.Lovasz_Final_JAV.mp4
         anchor: lovasz2
