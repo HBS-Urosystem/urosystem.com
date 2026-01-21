@@ -17,6 +17,12 @@ components:
       In parallel, a key priority of the company is to preserve and further develop the vision and business concepts of our co-founder, Gábor Rényi. We conduct our activities in line with his entrepreneurial spirit, committed to creating long-term value for both our partners and our patients.
 
 
+      The quality management system of Urosystem Zrt. has been certified by EMKI-cert Kft. in accordance with the ISO 13485 standard. Scope of certification: "Design and developrnent of non-active medical devices for urology and gynecology" and "Distribution of medical devices, and urology or gynecology products".
+
+
+      <center><img loading="lazy" src="/uploads/EmkiCert_Tanusitasi_logo.png" alt="EmkiCert Tanúsítási logo" style="border:1px solid #CCCCCC;max-width:162px" /></center>
+
+
       Urosystem Co. Ltd. has obtained a D&B Failure Score AAA certification. This indicates that the financial risk of establishing a business relationship with the company is low. Only 0.63% of Hungarian companies have this certificate.
 
 

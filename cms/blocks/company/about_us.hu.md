@@ -19,6 +19,12 @@ components:
       Ezzel párhuzamosan kiemelt feladatunk, hogy másik alapítónk, néhai Rényi Gábor vízióját és üzleti elképzeléseit továbbvigyük és megvalósítsuk. Tevékenységünket az ő szellemiségének megfelelően alakítjuk, hosszú távon építve értéket partnereink és pácienseink számára.
 
 
+      Az Urosystem Zrt. minőségirányítási rendszerét az az ISO 13485 szabvány szerint az EMKI-cert Kft. tanúsította. Tanúsítási terület: „Urológiai és nőgyógyászati nem aktív orvostechnikai eszközök tervezése és fejlesztése” és „Orvostechnikai eszközök, urológiai és nőgyógyászati termékek forgalmazása”.
+
+
+      <center><img loading="lazy" src="/uploads/EmkiCert_Tanusitasi_logo.png" alt="EmkiCert Tanúsítási logo" style="border:1px solid #CCCCCC;max-width:162px" /></center>
+
+
       Az Urosystem Zrt. D&B minősítése AAA, ami azt jelenti, hogy a céggel történő üzleti kapcsolat kialakítása rendkívül alacsony kockázatú. A magyar cégeknek mindössze 0,63%-a rendelkezik e minősítéssel.
 
 
