@@ -51,7 +51,12 @@
       "@context": "http://schema.org",
       "@type": "Organization",
       "url": "https://www.urosystem.com",
-      "logo": "https://www.urosystem.com/android-chrome-512x512.png"
+      "logo": "https://www.urosystem.com/android-chrome-512x512.png",
+      "headline": "Urosystem • Innovative Treatment of Lower Urinary Tract Symptoms",
+      "sameAs": [
+        "https://www.youtube.com/@urosystemltd3699/about",
+        "https://www.linkedin.com/company/urosystem-inc"
+      ]
     }
   </script>
 

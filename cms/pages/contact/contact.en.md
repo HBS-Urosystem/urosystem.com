@@ -2,9 +2,9 @@
 id: contact
 fallback: ""
 published: true
-title: Innovative Treatment of Lower Urinary Tract Symptoms
-keywords: Urosystem, urological devices, iAluadapter, Sándor Lovász, UroDapter,
-  urinary tract infection, B2B
+title: UroSystem • Contact us
+description: Contact us if you're interested in the innovative treatment of lower urinary tract symptoms (LUTS)
+keywords: Urosystem, urological devices, UroDapter, urinary tract symptoms, B2B
 canonical: _us
 menutitle: Contact
 hero: ""
