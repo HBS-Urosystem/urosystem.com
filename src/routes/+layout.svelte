@@ -46,19 +46,43 @@
   <link rel="canonical" href="{variables.siteurl[$state.post.canonical] || _siteurl}{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? ('/' + $state.post.subpage.path) : ('/' + $state.post.path || '')}"/>
 
   <!-- https://sveltekit.io/blog/structured-data -->
+  {#if _site == '_us'}
   <script type="application/ld+json">
     {
       "@context": "http://schema.org",
       "@type": "Organization",
       "url": "https://www.urosystem.com",
       "logo": "https://www.urosystem.com/android-chrome-512x512.png",
-      "headline": "Urosystem • Innovative Treatment of Lower Urinary Tract Symptoms",
+      "name": "UroSystem",
+      "slogan": "UroSystem • Innovative Treatment of Lower Urinary Tract Symptoms",
       "sameAs": [
         "https://www.youtube.com/@urosystemltd3699/about",
         "https://www.linkedin.com/company/urosystem-inc"
       ]
     }
   </script>
+  {/if}
+  {#if _site == '_ud'}
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Product",
+      "url": "https://www.urodapter.com",
+      "logo": "https://www.urodapter.com/android-chrome-512x512.png",
+      "name": "UroDapter®",
+      "slogan": "UroDapter® • Replacing Catheter in the Field of Bladder Instillation",
+      "manufacturer": {
+        "@type": "Organization",
+        "url": "https://www.urosystem.com",
+        "name": "UroSystem"
+      },
+      "sameAs": [
+        "https://www.youtube.com/@urosystemltd3699/about",
+        "https://www.linkedin.com/company/urosystem-inc"
+      ]
+    }
+  </script>
+  {/if}
 
   {#if !dev}
     <!-- Google Tag Manager -->
