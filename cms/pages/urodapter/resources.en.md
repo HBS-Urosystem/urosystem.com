@@ -3,9 +3,8 @@ id: resources
 folder: urodapter
 fallback: ""
 published: true
-title: UroDapter® Resources
-keywords: diagnosing IC/BPS, IC/BPS treatment, bladder pain, instillation, IC/BPS video, Sándor Lovász
-description: Sándor Lovász MD PhD, urologist, IC/BPS expert, the inventor of the UroDapter® talks about IC/BPS for patients and non-professionals
+title: UroDapter® Guides, Manuals, Videos
+description: Everything you need to know about the use of the UroDapter® - guides, videos, manuals, references.
 canonical: _ud
 menutitle: Resources
 blocks:

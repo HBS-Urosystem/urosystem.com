@@ -3,8 +3,6 @@ id: shop
 fallback: ""
 published: true
 title: UroDapter® • Buy from UroSystem
-keywords: Urosystem, UroDapter, catheter replacement, painless instillation,
-  urological adapter, syringe adapter
 herotitle: UroDapter®
 hero: shop/hero
 canonical: _us

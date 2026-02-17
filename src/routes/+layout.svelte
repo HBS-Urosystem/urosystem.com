@@ -43,7 +43,7 @@
       {/each}
     {/if}
   {/if}
-  <link rel="canonical" href="{variables.siteurl[$state.post.canonical] || _siteurl}/en{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? ('/' + $state.post.subpage.path) : ('/' + $state.post.path || '')}"/>
+  <link rel="canonical" href="{variables.siteurl[$state.post.canonical] || _siteurl}{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? ('/' + $state.post.subpage.path) : ('/' + $state.post.path || '')}"/>
 
   <!-- https://sveltekit.io/blog/structured-data -->
   <script type="application/ld+json">
@@ -183,11 +183,10 @@
 <Cookies/>
 
 {#each $state.langs || [] as lang}
-  {#if !!lang.active}
-    <link rel="alternate" href="{_siteurl}/{lang.id}/{!!$state.post.subpage && $state.post.slug !== '.' ? $state.post.path : ($state.post.path || '')}" hreflang="{lang.id}" />
-    
-    <a rel="alternate" href="/{lang.id}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}" hidden aria-hidden="true">
-    </a>
+  {#if !!lang.active && lang.id != 'en' && $state.post.path != 'urostill'}
+    <link rel="alternate" href="{_siteurl}/{!!$state.post.subpage && $state.post.slug !== '.' ? $state.post.path : ($state.post.path || '')}" hreflang="en" />
+    <!-- <a rel="alternate" href="/{lang.id}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}" hidden aria-hidden="true">
+    </a> -->
   {/if}
 {/each}
 

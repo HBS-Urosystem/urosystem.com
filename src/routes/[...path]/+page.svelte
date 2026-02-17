@@ -57,8 +57,10 @@
   {:else}
     <header id="header" on:click={() => $snapto = '#content'} on:keypress={() => $snapto = '#content'} tabindex="0" role="link">
       
-      {#if $state.post.title != ''}
-        <h1>{$state.post.title}</h1>
+      {#if post.herotitle}
+        <h1>{post.herotitle}</h1>
+      {:else}
+        <h1>{post.title}</h1>
       {/if}
 
       {#if post.subhero}
@@ -133,7 +135,7 @@
 <!--{/if}-->
 </main>
 <!--{#if $sitelang == 'en' && $state.thislang.id == 'en'}-->
-<a hidden aria-hidden="true" rel="redirect" href="/{!!$state.post.subpage && $state.post.slug !== '.' ? $state.post.path : ($state.post.path || '')}">&nbsp;</a>
+<!-- <a hidden aria-hidden="true" rel="redirect" href="/{!!$state.post.subpage && $state.post.slug !== '.' ? $state.post.path : ($state.post.path || '')}">&nbsp;</a> -->
 <!--{/if}-->
 
 <style>

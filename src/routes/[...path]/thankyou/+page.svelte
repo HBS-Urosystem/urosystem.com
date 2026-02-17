@@ -137,7 +137,7 @@
 <!--{/if}-->
 </main>
 <!--{#if $sitelang == 'en' && $state.thislang.id == 'en'}-->
-<a hidden aria-hidden="true" rel="redirect" href="/{!!$state.post.subpage && $state.post.slug !== '.' ? $state.post.path : ($state.post.path || '')}">&nbsp;</a>
+<!-- <a hidden aria-hidden="true" rel="redirect" href="/{!!$state.post.subpage && $state.post.slug !== '.' ? $state.post.path : ($state.post.path || '')}">&nbsp;</a> -->
 <!--{/if}-->
 
 <style>

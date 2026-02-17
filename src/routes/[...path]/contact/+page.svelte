@@ -24,7 +24,7 @@
 <main>
   <!--{#if $state && !!$state.id}-->
   {#if !!post.hero}
-    <header class="full" style="{post.hero.background ? post.hero.background : ``}" on:click={() => $snapto = '#content'} on:keypress={() => $snapto = '#content'}>
+    <header class="full" style="{post.hero.background ? post.hero.background : ``}" on:click={() => $snapto = '#content'} on:keypress={() => $snapto = '#content'} tabindex="0" role="link">
 
       {#if post.herotitle && post.herotitle != ''}
         <h1>{post.herotitle}</h1>
@@ -56,10 +56,14 @@
 
     </header>
   {:else}
-    <header on:click={() => $snapto = '#content'} on:keypress={() => $snapto = '#content'}>
+    <header id="header" on:click={() => $snapto = '#content'} on:keypress={() => $snapto = '#content'} tabindex="0" role="link">
       
-      {#if $state.post.title != ''}
-        <h1>{$state.post.title}</h1>
+      {#if post.herotitle}
+        {#if post.herotitle.trim() != ''}
+        <h1>{post.herotitle}</h1>
+        {/if}
+      {:else if post.title && post.title != ''}
+        <h1>{post.title}</h1>
       {/if}
 
       {#if post.subhero}
@@ -68,7 +72,7 @@
         {/each}
       {/if}
 
-      {#if $state.post.subpages && !$state.post.hidesubs}
+      <!-- {#if $state.post.subpages && !$state.post.hidesubs}
         <nav>
           <ul>
             {#each $state.post.subpages as sub}
@@ -76,7 +80,7 @@
             {/each}
           </ul>
         </nav>
-      {/if}
+      {/if} -->
     </header>
   {/if}
 
@@ -86,7 +90,7 @@
     <h2>{post.title}</h2>
   {/if}-->
 
-  {#if $state.post.subpage && $state.post.subpage.subpages && !$state.post.subpage.hidesubs}
+  <!-- {#if $state.post.subpage && $state.post.subpage.subpages && !$state.post.subpage.hidesubs}
     <nav>
       <ul>
         {#each $state.post.subpage.subpages as sub}
@@ -94,7 +98,7 @@
         {/each}
       </ul>
     </nav>
-  {/if}
+  {/if} -->
 
   {#each post.blocks || [] as block}
     {#if block.published == undefined || (block.published === true || !!$gateway[block.published])}
@@ -121,7 +125,7 @@
     </div>
   {/if}-->
 
-  {#if $state.post.subpages && !$state.post.hidesubs}
+  <!-- {#if $state.post.subpages && !$state.post.hidesubs}
     <nav>
       <h2>{$state.post.title}</h2>
       <ul>
@@ -130,11 +134,11 @@
         {/each}
       </ul>
     </nav>
-  {/if}
+  {/if} -->
 <!--{/if}-->
 </main>
 <!--{#if $sitelang == 'en' && $state.thislang.id == 'en'}-->
-<a hidden aria-hidden="true" rel="redirect" href="/{!!$state.post.subpage && $state.post.slug !== '.' ? $state.post.path : ($state.post.path || '')}">&nbsp;</a>
+<!-- <a hidden aria-hidden="true" rel="redirect" href="/{!!$state.post.subpage && $state.post.slug !== '.' ? $state.post.path : ($state.post.path || '')}">&nbsp;</a> -->
 <!--{/if}-->
 
 <style>

@@ -3,8 +3,6 @@ id: company
 fallback: en
 published: true
 title: Az alsó húgyúti megbetegedések hatékony kezeléséért
-keywords: Urosystem, urológiai eszköz, Lovász Sándor,  iAluadapter,
-  hólyagfájdalom, húgyúti fertőzés
 description: Az Urosystem célja az alsó húgyúti megbetegedések különösképp az
   interstitiális cystitis/hólyagfájdalom szindróma (IC/BPS) kezelésének
   forradalmasítása.
