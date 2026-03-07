@@ -49,7 +49,7 @@ components:
         <button type="submit">Küldés</button>
       </section>
     name: Contact
-    action: /thankyou
+    action: /hu/thankyou
     netlify: true
     always: true
 ---

@@ -4,6 +4,9 @@ folder: products
 fallback: ""
 components:
   - type: article
+    subhead: Get to know the projects and products Urosystem has been working on to restore the quality of life of lower urinary tract symptoms (LUTS) patients.
+
+  - type: article
     text: >-
       A potassium-free urine alkalizing pill which releases its active ingredients slowly and in a controlled form, thus, raising the urine pH and mitigates the pH fluctuation at the same time. The UretaCit was developed for IC/BPS patients, but it could be useful in the treatment of other conditions, too.
 
