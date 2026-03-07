@@ -23,7 +23,7 @@ function _submit(e) {
   {#if !!comp.title}<h2>{comp.title}</h2>{/if}
   {#if !!comp.subhead}<h3>{comp.subhead}</h3>{/if}
   <div>
-    <form id={comp.anchor} name="{comp.name}" method={!!comp.netlify ? "POST" : ''} action={(!!comp.action ? '/' + comp.lang + comp.action : '')} on:submit="{_submit}" data-netlify={comp.netlify} netlify-honeypot={!!comp.netlify ? "country" : ''}>
+    <form id={comp.anchor} name="{comp.name}" method={!!comp.netlify ? "POST" : ''} action={(!!comp.action ? comp.action : '')} on:submit="{_submit}" data-netlify={comp.netlify} netlify-honeypot={!!comp.netlify ? "country" : ''}>
       <input type="hidden" name="form-name" value={comp.name}>
       {#if !!comp.text}{@html comp.text}{/if}
       {#if !!comp.netlify}

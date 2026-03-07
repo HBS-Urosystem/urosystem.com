@@ -206,13 +206,13 @@
 <Footer/>
 <Cookies/>
 
-{#each $state.langs || [] as lang}
-  {#if !!lang.active && lang.id != 'en' && $state.post.path != 'urostill'}
+<!-- {#each $state.langs || [] as lang} -->
+  {#if $sitelang == 'hu' && $state.post.path != 'urostill'}
     <link rel="alternate" href="{_siteurl}/{!!$state.post.subpage && $state.post.slug !== '.' ? $state.post.path : ($state.post.path || '')}" hreflang="en" />
-    <!-- <a rel="alternate" href="/{lang.id}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}" hidden aria-hidden="true">
-    </a> -->
+  {:else if $sitelang == 'en'}
+    <link rel="alternate" href="{_siteurl}/hu/{!!$state.post.subpage && $state.post.slug !== '.' ? $state.post.path : ($state.post.path || '')}" hreflang="hu" />
   {/if}
-{/each}
+<!-- {/each} -->
 
 <!--{#if !dev && !!$cookies}
 <script>
