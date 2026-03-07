@@ -34,7 +34,7 @@
   {:else}
     <header id="header" on:click={() => $snapto = '#content'} on:keypress={() => $snapto = '#content'} tabindex="0" role="link">{#if post.herotitle && post.herotitle.trim() != ''}
         <h1>{post.herotitle}</h1>
-      {:else if post.title && !post.herotitle?.trim() == ''}
+      {:else if post.title}
         <h1>{post.title}</h1>
       {/if}{#if post.subhero}
         {#each post.subhero.components || [] as comp}

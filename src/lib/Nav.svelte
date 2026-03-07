@@ -435,14 +435,14 @@
     display: flex;
     /*padding: 0.65em 1.75em 0 2em;*/
     padding: 0.4em 1.75em 0 2em;
-    background: url("/uploads/bx-world.svg") no-repeat left, url("/uploads/open-down.svg") no-repeat right;
+    background: url("/uploads/bx-world.svg") no-repeat left, var(--marker-down) no-repeat right;
     background-size: 1.5em, 1.25em;
-    filter: invert();
+    /* filter: invert(); */
     text-transform: uppercase;
-    color: black;
+    /* color: black; */
   }  
   :global([dir='rtl']) select {
-    background: url("/uploads/bx-world.svg") no-repeat right, url("/uploads/open-down.svg") no-repeat left;
+    background: url("/uploads/bx-world.svg") no-repeat right, var(--marker-down) no-repeat left;
     background-size: 1.5em;
   }
 
