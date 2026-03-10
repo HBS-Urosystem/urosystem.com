@@ -14,7 +14,7 @@
   {#if !!post.hero}
     <header id="header" class="full" style="{post.hero.background ? post.hero.background : ``}" on:click={() => $snapto = '#content'} on:keypress={() => $snapto = '#content'} tabindex="0" role="link">{#if post.herotitle && post.herotitle.trim() != ''}
         <h1>{post.herotitle}</h1>
-      {:else if $state.post.hero.title && $state.post.title != ''}
+      {:else if post.hero.title && post.herotitle != ' '}
         <h1>{$state.post.hero.title}</h1>
       {/if}{#each post.hero.components || [] as comp}
         <Components {comp}/>
@@ -34,7 +34,7 @@
   {:else}
     <header id="header" on:click={() => $snapto = '#content'} on:keypress={() => $snapto = '#content'} tabindex="0" role="link">{#if post.herotitle && post.herotitle.trim() != ''}
         <h1>{post.herotitle}</h1>
-      {:else if post.title}
+      {:else if post.title && post.herotitle != ' '}
         <h1>{post.title}</h1>
       {/if}{#if post.subhero}
         {#each post.subhero.components || [] as comp}
