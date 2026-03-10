@@ -6,8 +6,8 @@ background:
   #   posx: 50
   #   posy: 50
   #   src: /uploads/medical-physician-doctor-man_web.jpg
-  # - type: gradient
-  #   name: radial-light
+  - type: gradient
+    name: radial-light
 components:
   - type: form
     # title: Clinician Sample Request
@@ -19,7 +19,7 @@ components:
 
       <fieldset class="option-group">
         <legend>Which intravesical therapies do you currently administer?</legend>
-        <label><input type="checkbox" name="current_therapies" value="Hyaluronic Acid / GAG therapy" /> Hyaluronic Acid / GAG therapy</label>
+        <label><input type="checkbox" name="current_therapies" value="Hyaluronic Acid / GAG therapy" required /> Hyaluronic Acid / GAG therapy</label>
         <label><input type="checkbox" name="current_therapies" value="DMSO" /> DMSO</label>
         <label><input type="checkbox" name="current_therapies" value="Gentamicin" /> Gentamicin</label>
         <label><input type="checkbox" name="current_therapies" value="Lidocaine" /> Lidocaine</label>
@@ -42,7 +42,7 @@ components:
 
       <fieldset class="option-group">
         <legend>Which patient types do you treat most frequently?</legend>
-        <label><input type="checkbox" name="patient_types" value="Interstitial Cystitis / BPS" /> Interstitial Cystitis / BPS</label>
+        <label><input type="checkbox" name="patient_types" value="Interstitial Cystitis / BPS" required /> Interstitial Cystitis / BPS</label>
         <label><input type="checkbox" name="patient_types" value="Recurrent UTI" /> Recurrent UTI</label>
         <label><input type="checkbox" name="patient_types" value="Post-TURBT chemotherapy" /> Post-TURBT chemotherapy</label>
         <label><input type="checkbox" name="patient_types" value="Neurogenic bladder" /> Neurogenic bladder</label>
@@ -160,7 +160,7 @@ components:
       </fieldset>
 
       <fieldset>
-        <label>Country <input type="text" name="country" value="USA" required /></label>
+        <label>Country <input type="text" name="country" value="USA" required disabled /></label>
         <label>State <input type="text" name="state" required /></label>
       </fieldset>
 
@@ -176,7 +176,7 @@ components:
 
       <fieldset>
         <label>How did you hear about UroDapter?
-          <select name="referral_source">
+          <select name="referral_source" required>
             <option value="">Select</option>
             <option value="Conference">Conference</option>
             <option value="Colleague">Colleague</option>
@@ -187,6 +187,10 @@ components:
             <option value="Other">Other</option>
           </select>
         </label>
+        <label></label>
+      </fieldset>
+
+      <fieldset>
         <label>Additional Notes <textarea name="message" rows="4"></textarea></label>
       </fieldset>
 

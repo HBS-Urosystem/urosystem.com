@@ -43,16 +43,47 @@ function _submit(e) {
   }
   a[hidden] { display:none; }
 
+  form :global([type='text']), 
+  form :global([type='email']), 
+  form :global([type='url']), 
+  form :global([type='password']), 
+  form :global([type='number']), 
+  form :global([type='date']), 
+  form :global([type='datetime-local']), 
+  form :global([type='month']), 
+  form :global([type='search']), 
+  form :global([type='tel']), 
+  form :global([type='time']), 
+  form :global([type='week']), 
+  form :global([multiple]), 
+  form :global(select), 
+  form :global(textarea) {
+    background-color: hsla(0, 0%, 100%, 0.25) !important;
+  }
+  form :global(fieldset.option-group label), form :global(label small), form :global(input), form :global(select), form :global(textarea) {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    box-shadow: none;
+    &:focus {
+      box-shadow: none;
+    }
+  }
+
+  form :global(fieldset:not(.option-group)) {
+    align-items: flex-end!important;
+  }
+
   form :global(fieldset > label) {
     flex: 1 0 20ch;
     padding-top: 1em;
     /*margin: 0 var(--rem) 1em 0;*/
     margin: 0 0 1em;
-    border-bottom: 2px solid var(--white);
     display: flex;
     flex-direction: column;
     gap: 0.25rem;
     height: min-content;
+  }
+  form :global(fieldset > label:not(:empty)) {
+    border-bottom: 2px solid var(--white);
   }
   form :global(fieldset > legend) {
     width: 100%;

@@ -33,17 +33,4 @@
   :global(.active) a {
     border-color: var(--pale);
   }
-  /*.active a::before {
-    content: '';
-    position: absolute;
-    right: 0;
-    bottom: .25rem;
-    width: 1rem;
-    height: 1rem;
-    filter:invert();
-    background-image: var(--marker);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }*/
-
 </style>

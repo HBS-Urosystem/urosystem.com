@@ -259,7 +259,7 @@
     padding-inline: 0.25rem;
   }
   nav > div li img {
-    filter: invert();
+    /* filter: invert(); */
     width: 1.5rem;
     height: 1.5rem;
   }
@@ -325,7 +325,7 @@
 
   nav > ul > li:not(:first-of-type) img {
     height: 1.25rem;
-    filter: invert();
+    /* filter: invert(); */
     position: absolute;
     margin: -0.25rem 0.25rem;
     /*display: contents;*/
