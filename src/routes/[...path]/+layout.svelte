@@ -78,13 +78,14 @@
 </main>
 
 <style>
+  header {
+    padding-top: 8.5rem;
+  }
   header:not(:empty) {
     padding-top: 12rem;
     padding-bottom: 1rem;
   }
-
   header.full:not(:empty) {
-    padding-top: 9rem;
     padding-bottom: 6rem;
     height: auto;
     min-height: 100vh;

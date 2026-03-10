@@ -198,7 +198,7 @@
     padding: 0;
     display: block;
     position: fixed;
-    top: 4.75rem;
+    top: 5rem;
     opacity: 1;
     /*z-index: 999;*/
   }
@@ -331,9 +331,9 @@
     /*display: contents;*/
   }
 
-  /*a:has(img) {
-    display: inline-block;
-  }*/
+  a:has(.sitelogo) {
+    display: block;
+  }
 
   a:has(.sitelogo_ud), a:has(.sitelogo_na) {
     padding-bottom: .5rem;
