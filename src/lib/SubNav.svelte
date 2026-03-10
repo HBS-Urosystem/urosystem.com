@@ -36,7 +36,7 @@
     <a href="{sublink}" rel="external noopener noreferrer" target="_blank"><img src="{sub.logo}" alt="{sub.alt}"/></a>
   {:else if sub.title}
     <a class="{dir}" href="{sublink}" rel="external noopener noreferrer" target="_blank">{sub.title}
-      {#if sub.sublinks}<img src="/uploads/open-down.svg" alt="" aria-hidden="true">{/if}
+      {#if sub.sublinks}<img src="/uploads/open-down.svg?v=white" alt="" aria-hidden="true">{/if}
     </a>
   <!--{:else if subpage}
     <a class="{dir}" href="{sublink}" rel="noopener noreferrer" target="_blank">{subpage.menutitle || subpage.title}</a>-->
@@ -47,16 +47,16 @@
   {:else if sub.title}
     {#if sub.link && (!mobile || !sub.sublinks)}
       <a rel={sub.rel || ''} class="{dir}" href="{sublink}">{sub.title}
-        {#if sub.sublinks}<img src="/uploads/open-down.svg" alt="" aria-hidden="true">{/if}
+        {#if sub.sublinks}<img src="/uploads/open-down.svg?v=white" alt="" aria-hidden="true">{/if}
       </a>
     {:else}
       <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
       <span class="{dir}" tabindex="0" role="list">{sub.title}
-        {#if sub.sublinks}<img src="/uploads/open-down.svg" alt="" aria-hidden="true">{/if}
+        {#if sub.sublinks}<img src="/uploads/open-down.svg?v=white" alt="" aria-hidden="true">{/if}
       </span>
     {/if}
         <!--<a class="{dir}" href="{sublink}">{sub.title}
-      {#if sub.sublinks} <img src="/uploads/open-down.svg" alt="" aria-hidden="true">{/if}
+      {#if sub.sublinks} <img src="/uploads/open-down.svg?v=white" alt="" aria-hidden="true">{/if}
     </a>-->
     <!--{:else if subpage && (subpage.menutitle || subpage.title)}
     <a class="{dir}" href="{sublink}">{subpage.menutitle || subpage.title}</a>-->

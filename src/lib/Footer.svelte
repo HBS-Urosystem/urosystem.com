@@ -45,11 +45,11 @@
       {/each}
       <!--<li>
         <h4>FOLLOW US</h4>
-        <a href="https://www.facebook.com/UroDapter-101721465255769" rel="noopener noreferrer" target="_blank"><img loading="lazy" src="/uploads/bxl-facebook.svg" alt="facebook"/></a>
-        <a href="https://www.instagram.com/urodapter/" rel="noopener noreferrer" target="_blank"><img loading="lazy" src="/uploads/bxl-instagram.svg" alt="instagram"/></a>
-        <a href="https://www.youtube.com/channel/UCuS_Y21yqaUrj5u8h8NYiZg" rel="noopener noreferrer" target="_blank"><img loading="lazy" src="/uploads/bxl-youtube.svg" alt="youtube"/></a>
-        <a href="https://www.linkedin.com/company/urosystem-inc" rel="noopener noreferrer" target="_blank"><img loading="lazy" src="/uploads/bxl-linkedin.svg" alt="linkedin"/></a>
-        <a href="https://twitter.com/UroSystem_Inc" rel="noopener noreferrer" target="_blank"><img loading="lazy" src="/uploads/bxl-twitter.svg" alt="twitter"/></a>
+        <a href="https://www.facebook.com/UroDapter-101721465255769" rel="noopener noreferrer" target="_blank"><img loading="lazy" src="/uploads/bxl-facebook.svg?v=white" alt="facebook"/></a>
+        <a href="https://www.instagram.com/urodapter/" rel="noopener noreferrer" target="_blank"><img loading="lazy" src="/uploads/bxl-instagram.svg?v=white" alt="instagram"/></a>
+        <a href="https://www.youtube.com/channel/UCuS_Y21yqaUrj5u8h8NYiZg" rel="noopener noreferrer" target="_blank"><img loading="lazy" src="/uploads/bxl-youtube.svg?v=white" alt="youtube"/></a>
+        <a href="https://www.linkedin.com/company/urosystem-inc" rel="noopener noreferrer" target="_blank"><img loading="lazy" src="/uploads/bxl-linkedin.svg?v=white" alt="linkedin"/></a>
+        <a href="https://twitter.com/UroSystem_Inc" rel="noopener noreferrer" target="_blank"><img loading="lazy" src="/uploads/bxl-twitter.svg?v=white" alt="twitter"/></a>
       </li>-->
       <!--<li>
         <h4>ACCEPTED PAYMENTS</h4>

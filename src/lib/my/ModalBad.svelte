@@ -142,7 +142,7 @@
     top: var(--halfgap);
     inset-inline-end: 0;
     background-color: var(--light);
-    background-image: url(/uploads/bx-x.svg);
+    background-image: url(/uploads/bx-x.svg?v=white);
     border-radius: 50% ;
     background-position: center;
     background-repeat: no-repeat;

@@ -101,17 +101,17 @@
       <div></div>
     {/if}
     <ul>
-      <!--<li><a href="https://www.facebook.com/UroDapter-101721465255769" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-facebook.svg" alt="facebook"/></a></li>-->
-      <!--<li><a href="https://www.instagram.com/urodapter/" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-instagram.svg" alt="instagram"/></a></li>-->
-      <li><a href="https://www.youtube.com/channel/UCuS_Y21yqaUrj5u8h8NYiZg" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-youtube.svg" alt="youtube"/></a></li>
-      <li><a href="https://www.linkedin.com/company/urosystem-inc" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-linkedin.svg" alt="linkedin"/></a></li>
-      <!--<li><a href="https://twitter.com/UroSystem_Inc" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-twitter.svg" alt="twitter"/></a></li>
-      <li><a href="https://vk.com/urodapter" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-vk.svg" alt="vk"></a></li>
-      <li><a href="https://ok.ru/urodapter" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-ok-ru.svg" alt="ok"></a></li>-->
+      <!--<li><a href="https://www.facebook.com/UroDapter-101721465255769" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-facebook.svg?v=white" alt="facebook"/></a></li>-->
+      <!--<li><a href="https://www.instagram.com/urodapter/" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-instagram.svg?v=white" alt="instagram"/></a></li>-->
+      <li><a href="https://www.youtube.com/channel/UCuS_Y21yqaUrj5u8h8NYiZg" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-youtube.svg?v=white" alt="youtube"/></a></li>
+      <li><a href="https://www.linkedin.com/company/urosystem-inc" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-linkedin.svg?v=white" alt="linkedin"/></a></li>
+      <!--<li><a href="https://twitter.com/UroSystem_Inc" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-twitter.svg?v=white" alt="twitter"/></a></li>
+      <li><a href="https://vk.com/urodapter" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-vk.svg?v=white" alt="vk"></a></li>
+      <li><a href="https://ok.ru/urodapter" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-ok-ru.svg?v=white" alt="ok"></a></li>-->
       {#if _site == '_ud'}
-      <li><a href="https://linktr.ee/urodapter" rel="noopener noreferrer" target="_blank"><img src="/uploads/linktree.svg" alt="linktree"></a></li>
+      <li><a href="https://linktr.ee/urodapter" rel="noopener noreferrer" target="_blank"><img src="/uploads/linktree.svg?v=white" alt="linktree"></a></li>
       {:else}
-      <li><a href="https://linktr.ee/urosystem" rel="noopener noreferrer" target="_blank"><img src="/uploads/linktree.svg" alt="linktree"></a></li>
+      <li><a href="https://linktr.ee/urosystem" rel="noopener noreferrer" target="_blank"><img src="/uploads/linktree.svg?v=white" alt="linktree"></a></li>
       {/if}
     </ul>
   </div>
@@ -226,7 +226,7 @@
     /*visibility: hidden;*/
   }
   /*nav:focus-within li#over, ul:focus-within li#over {
-    background-image: url(/uploads/open-up.svg);
+    background-image: url(/uploads/open-up.svg?v=white);
     background-position: 0% 90%;
   }*/
   /*nav:not(.moved) li li {
@@ -435,14 +435,14 @@
     display: flex;
     /*padding: 0.65em 1.75em 0 2em;*/
     padding: 0.4em 1.75em 0 2em;
-    background: url("/uploads/bx-world.svg") no-repeat left, var(--marker-down) no-repeat right;
+    background: url("/uploads/bx-world.svg?v=white") no-repeat left, var(--marker-down) no-repeat right;
     background-size: 1.5em, 1.25em;
     /* filter: invert(); */
     text-transform: uppercase;
     /* color: black; */
   }  
   :global([dir='rtl']) select {
-    background: url("/uploads/bx-world.svg") no-repeat right, var(--marker-down) no-repeat left;
+    background: url("/uploads/bx-world.svg?v=white") no-repeat right, var(--marker-down) no-repeat left;
     background-size: 1.5em;
   }
 
