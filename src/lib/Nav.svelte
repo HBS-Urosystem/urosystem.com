@@ -75,7 +75,8 @@
 
   let langchng = $sitelang
 	function newlang() {
-    window.location.href = '/' + langchng + ($state.post.subpage && $state.post.subpage.slug !== '.' ? ('/' + $state.post.subpage.path) : ($state.post.path ? ('/' + $state.post.path) : ''))
+    console.log(langchng, (langchng !== 'en' ? '/' + langchng : '') + ($state.post.subpage && $state.post.subpage.slug !== '.' ? ('/' + $state.post.subpage.path) : ($state.post.path ? ('/' + $state.post.path) : '')))
+    window.location.href = (langchng !== 'en' ? '/' + langchng : '') + ($state.post.subpage && $state.post.subpage.slug !== '.' ? ('/' + $state.post.subpage.path) : ($state.post.path ? ('/' + $state.post.path) : ''))
     //goto(`/${langchng}/${$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}`, { noscroll: true, keepFocus: true })
     //console.log(`${langchng}/${$state.post.path}`)
   }
@@ -119,7 +120,7 @@
     bind:clientWidth={wul}
     data-mobile={!!hamburger}>
     <li>
-      <a href="/{$sitelang}" aria-label="home">
+      <a href="/{($sitelang !== 'en' ? $sitelang : '')}" aria-label="home">
         <img class="sitelogo {logoclass}" src="/uploads/{sitelogo}" alt="UroSystem – Revolutionizing bladder pain treatment">
       </a>
     </li>

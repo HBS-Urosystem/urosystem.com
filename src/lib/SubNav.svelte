@@ -14,16 +14,16 @@
   //$: post = $state.post
 
   let sublink
-  //$: 
+  // console.log($sitelang)
   if (sub.link?.startsWith('#')) {
-    sublink = '/' + ($sitelang.length ? $sitelang + '/' : '') + ($state.post.path ? $state.post.path : '') + sub.link
+    sublink = '/' + ($sitelang !== 'en' ? $sitelang + '/' : '') + ($state.post.path ? $state.post.path : '') + sub.link
   } else if (sub.link?.startsWith('http')) {
     sublink = sub.link// + '#vhollo'
     sub.rel = 'external noopener noreferrer'
   } else if (sub.link?.startsWith('/')) {
     sublink = sub.link// + '#vhollo'
   } else {
-    sublink = '/' + ($sitelang.length ? $sitelang + '/' : '') + sub.link
+    sublink = '/' + ($sitelang !== 'en' ? $sitelang + '/' : '') + sub.link
     //console.log(sub.link)
     //sublink = sub.link
   }

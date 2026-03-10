@@ -6,7 +6,7 @@ export const actions = {
 		if (url.origin.includes('localhost')) origin = 'https://urosystem.netlify.app';
 
     try {
-			const response = await fetch(`${origin}/en/contact`, {
+			const response = await fetch(`${origin}/contact`, {
 				method: 'POST',
 				headers: {
 					'Content-Type': 'application/x-www-form-urlencoded'
