@@ -15,7 +15,7 @@
   export let data
   $: $state = data
   // $: console.log($state.langs)
-  $: $sitelang = $state.langs.length > 1 ? data.thislang.id : ''
+  $: $sitelang = $state.langs.length > 1 ? data.thislang.id : 'en'
 	onMount(() => {
     document.querySelector('html').lang = $state.thislang.id
     document.querySelector('html').dir = $state.thislang.dir

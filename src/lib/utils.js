@@ -69,6 +69,7 @@ export async function _getConf(lang = 'en') {
   }
 
   config.topnav = await Promise.all(config[top]?.map(async (subs) => _subnav(subs)))
+  // console.log('config.topnav',config.topnav)
   config.footnav = await Promise.all(config[footer]?.map(async (subs) => _subnav(subs)))
   //console.log('UTILS',config)
   
@@ -132,6 +133,7 @@ export async function _getConf(lang = 'en') {
       //console.log('obj.subs',subs)
       obj.sublinks = subs
     }
+    // console.log('obj.link',obj.link)
     return obj || {}
   }
 }

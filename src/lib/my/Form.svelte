@@ -111,7 +111,7 @@ function _submit(e) {
   form :global(fieldset.option-group > label:has(.free-text)) {
     flex-direction: column;
     align-items: stretch;
-    gap: 0.25rem;
+    gap: 0.5rem;
     /* padding-top: 0.5rem; */
     /* border-bottom: 1px solid var(--white); */
   }

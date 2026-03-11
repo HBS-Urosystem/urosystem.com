@@ -10,7 +10,7 @@ export const snapto = writable(false)
 //export const cookies = persistent('cookieconsent_status', false)
 //export const gateway = persistent('gateway', {})
 
-export const sitelang = !browser || !typeof localStorage.sitelang ? writable('') : writable(browser && localStorage.sitelang || '')
+export const sitelang = !browser || !typeof localStorage.sitelang ? writable('en') : writable(browser && localStorage.sitelang || 'en')
 sitelang.subscribe((value) => {
   browser && (localStorage.setItem(`sitelang`, value))
   // console.log({value})

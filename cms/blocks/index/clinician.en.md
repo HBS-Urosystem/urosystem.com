@@ -32,7 +32,7 @@ components:
       <fieldset class="option-group">
         <legend>What is your current primary method for instillation?</legend>
         <label><input type="radio" name="current_method" value="Intermittent catheterization" required /> Intermittent catheterization</label>
-        <label><input type="radio" name="current_method" value="Foley catheter" /> Foley catheter</label>
+        <!--<label><input type="radio" name="current_method" value="Foley catheter" /> Foley catheter</label>-->
         <label><input type="radio" name="current_method" value="Other device" /> Other device</label>
         <label><span class="free-text">
           <input type="radio" name="current_method" value="Other method" /> Other
@@ -124,9 +124,8 @@ components:
           <!--small>Select based on expected use.</small-->
           <select name="sample_pack_size" required>
             <option value="">Select</option>
-            <option value="Starter Pack (5 units)">Starter Pack (5 units)</option>
             <option value="Evaluation Pack (10 units)">Evaluation Pack (10 units)</option>
-            <option value="Clinic Trial Pack (25 units)">Clinic Trial Pack (25 units)</option>
+            <option value="Clinic Trial Pack (20 units)">Clinic Trial Pack (20 units)</option>
           </select>
         </label>
         <label>Estimated timeframe for evaluation
@@ -139,12 +138,12 @@ components:
         </label>
       </fieldset>
 
-      <fieldset class="option-group">
+      <!--<fieldset class="option-group">
         <legend>Would you be interested in participating in future clinical evaluations or studies?</legend>
         <label><input type="radio" name="future_research_interest" value="Yes" required /> Yes</label>
         <label><input type="radio" name="future_research_interest" value="Maybe" /> Maybe</label>
         <label><input type="radio" name="future_research_interest" value="No" /> No</label>
-      </fieldset>
+      </fieldset>-->
 
       <h3>Logistics and Compliance</h3>
 

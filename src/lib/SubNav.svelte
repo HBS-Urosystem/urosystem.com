@@ -14,7 +14,7 @@
   //$: post = $state.post
 
   let sublink
-  // console.log($sitelang)
+  // console.log({$sitelang})
   if (sub.link?.startsWith('#')) {
     sublink = '/' + ($sitelang !== 'en' ? $sitelang + '/' : '') + ($state.post.path ? $state.post.path : '') + sub.link
   } else if (sub.link?.startsWith('http')) {
@@ -24,7 +24,7 @@
     sublink = sub.link// + '#vhollo'
   } else {
     sublink = '/' + ($sitelang !== 'en' ? $sitelang + '/' : '') + sub.link
-    //console.log(sub.link)
+    // console.log($sitelang, sublink)
     //sublink = sub.link
   }
   //$: sublink = sub.link.startsWith('#') ? sub.link : `${$sitelang}/${sub.link}`

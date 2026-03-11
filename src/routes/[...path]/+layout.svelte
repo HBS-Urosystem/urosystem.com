@@ -1,7 +1,8 @@
 <script context="module">
-  import { state, snapto } from '$lib/stores'
+  import { state, snapto, variables } from '$lib/stores'
   import Components from '$lib/Components.svelte'
   import SubPage from '$lib/SubPage.svelte'
+  const _site = variables.site
 </script>
 <script>
   let post
@@ -10,7 +11,7 @@
   }
 </script>
 
-<main>
+<main class={_site}>
   {#if !!post.hero}
     <header id="header" class="full" style="{post.hero.background ? post.hero.background : ``}" on:click={() => $snapto = '#content'} on:keypress={() => $snapto = '#content'} tabindex="0" role="link">{#if post.herotitle && post.herotitle.trim() != ''}
         <h1>{post.herotitle}</h1>
@@ -79,6 +80,9 @@
 
 <style>
   header {
+    padding-top: 8.6rem;
+  }
+  main.us header {
     padding-top: 9.2rem;
   }
   header:not(:empty) {
