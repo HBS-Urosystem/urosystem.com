@@ -118,11 +118,11 @@ function _submit(e) {
   form :global(div.fieldset) { 
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 0.75rem 2rem;
     align-items: flex-start;
     justify-content: flex-start;
     text-align: left;
-    margin-bottom: 1em;
+    margin-bottom: 3em;
   }
   form :global(div.fieldset > label > input) { 
     margin-top: .125rem;

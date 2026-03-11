@@ -79,7 +79,7 @@
 
 <style>
   header {
-    padding-top: 8.5rem;
+    padding-top: 9.2rem;
   }
   header:not(:empty) {
     padding-top: 12rem;
