@@ -432,6 +432,9 @@
     cursor: pointer;
     font-size: 1rem;
   }
+  option {
+    color: black;
+  }
   select {
     display: flex;
     /*padding: 0.65em 1.75em 0 2em;*/
