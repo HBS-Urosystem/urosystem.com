@@ -7,5 +7,5 @@ components:
     title: Your submission has been received.
     button: Back to the site
     link: "."
-    text: You should receive an email within a few minutes.
+    text: You should receive an email within a few days.
 ---

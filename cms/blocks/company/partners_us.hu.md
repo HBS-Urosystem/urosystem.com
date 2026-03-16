@@ -59,10 +59,6 @@ components:
           <dd>Phone: <a href="tel:+919003242613">+91 9003242613</a></dd>
           </dl>
           </div>
-  - type: article
-    title: Partnerségi felhívás
-
-    text: "Akár a szabadalmaztatott UroDapter® bevezetését tervezi portfóliójába, akár disztribúciós partnerséget keres, vegye fel velünk a kapcsolatot még ma, hogy többet megtudjon ajánlatainkról. Dolgozzunk együtt egy egészségesebb holnapért!"
   - type: cta
     button: Lépjen velünk kapcsolatba!
     anchor: contact

@@ -13,7 +13,6 @@ background:
     name: dark-blue
 components:
   - type: cta
-    background: ""
     text: >-
       ### UroSystem is dedicated to lower urinary tract conditions, especially
       interstitial cystitis/bladder pain syndrome (IC/BPS). 

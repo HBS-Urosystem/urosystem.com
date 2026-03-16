@@ -4,6 +4,8 @@ folder: products
 fallback: en
 components:
   - type: article
+    subhead: Ismerje meg az Urosystem az alsó húgyúti tünetegyüttesben szenvedő páciensek életminőségnek javítását célzó projektjeit és termékeit.
+  - type: article
     text: >-
       Káliummentes, lassú és kontrollált hatóanyag leadású (slow-release)
       lúgosító tabletta, amely egyszerre növeli a vizelet pH-ját, és csökkenti a
@@ -41,7 +43,7 @@ components:
       UroStill® tartalmazza az UroDapter® fecskendő adaptert is. 
 
 
-      Az eszköz prototípusa Magyarországon már elérhető: jelenleg 70-nél is több IC/BPS páciens végez önkezelést a segítségével. A COVID világjárvány okozta helyzet kihangsúlyozta az otthon is elvégezhető terápia előnyeit.
+      Az eszköz prototípusa Magyarországon már elérhető: már számos IC/BPS páciens végez önkezelést a segítségével. A COVID világjárvány okozta helyzet kihangsúlyozta az otthon is elvégezhető terápia előnyeit.
     title: UroStill®
     anchor: urostill
   - type: article

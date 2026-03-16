@@ -21,7 +21,7 @@ components:
         <legend>Which intravesical therapies do you currently administer?</legend>
         <label><input type="checkbox" name="current_therapies" value="Hyaluronic Acid / GAG therapy" required /> Hyaluronic Acid / GAG therapy</label>
         <label><input type="checkbox" name="current_therapies" value="DMSO" /> DMSO</label>
-        <label><input type="checkbox" name="current_therapies" value="Gentamicin" /> Gentamicin</label>
+        <label><input type="checkbox" name="current_therapies" value="Antibiotics" /> Antibiotics</label>
         <label><input type="checkbox" name="current_therapies" value="Lidocaine" /> Lidocaine</label>
         <label><input type="checkbox" name="current_therapies" value="Heparin" /> Heparin</label>
         <label><input type="checkbox" name="current_therapies" value="Botox" /> Botox</label>
@@ -33,7 +33,7 @@ components:
         <legend>What is your current primary method for instillation?</legend>
         <label><input type="radio" name="current_method" value="Intermittent catheterization" required /> Intermittent catheterization</label>
         <!--<label><input type="radio" name="current_method" value="Foley catheter" /> Foley catheter</label>-->
-        <label><input type="radio" name="current_method" value="Other device" /> Other device</label>
+        <!--label><input type="radio" name="current_method" value="Other device" /> Other device</label-->
         <label><span class="free-text">
           <input type="radio" name="current_method" value="Other method" /> Other
           <small>(please specify)</small></span>
@@ -117,11 +117,10 @@ components:
         </label>
       </fieldset>
 
-      <h3>Sample Selection</h3>
+      <!--h3>Sample Selection</h3>
 
       <fieldset>
         <label class="" title="Choose the quantity that best matches your expected evaluation volume">Sample pack size requested
-          <!--small>Select based on expected use.</small-->
           <select name="sample_pack_size" required>
             <option value="">Select</option>
             <option value="Evaluation Pack (10 units)">Evaluation Pack (10 units)</option>
@@ -136,7 +135,7 @@ components:
             <option value="Future interest">Future interest</option>
           </select>
         </label>
-      </fieldset>
+      </fieldset-->
 
       <!--<fieldset class="option-group">
         <legend>Would you be interested in participating in future clinical evaluations or studies?</legend>

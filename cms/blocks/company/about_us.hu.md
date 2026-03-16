@@ -7,12 +7,6 @@ components:
     title: Rólunk
     anchor: about
     text: >-
-      Az Egyesült Államok-beli Élelmiszer- és Gyógyszerügyi Hivatal (FDA) megfogalmazása alapján az interstitiális cystitis/hólyagfájdalom szindróma (IC/BPS) „összetett, keveset tanulmányozott, ismeretlen eredetű állapot”. A leggyakoribb tünetei a krónikus húgyhólyagfájdalom, amelyet gyakori, illetve sürgető vizelési inger kísér. Csak az Egyesült Államokban mintegy 5 millióra tehető az érintettek száma. A betegség diagnosztizáltsági aránya rendkívül rossz; a Földön feltehetőleg mintegy 100 millió látens páciens él.
-
-
-      Az Urosystem által fejlesztett portfolió kifejezetten az IC/BPS-re koncentrálva kínál orvosi eszközöket, orális készítményeket, illetve diagnosztikai módszereket. Célunk és küldetésünk, hogy helyreállítsuk a világ IC/BPS-ben szenvedő pácienseinek az életminőségét. A portfolió számos eleme azonban más, az alsó húgyutakat érintő megbetegedések terápiájában is használható; ezek közé tartoznak a visszatérő húgyúti fertőzések, illetve a kemoterápiás cystitis.
-
-
       A magyarországi székhelyű Urosystem Zrt. elsődleges célja, hogy cégünk egyik alapítója, Lovász Sándor MD. PhD. urológus, és munkatársai találmányait továbbfejlesszük és piacra vezessük. Lovász Sándor az IC/BPS világszerte elismert szakértője, munkája során több száz pácienst kezelt sikeresen. (<a href="https://www.lovaszsandor.hu/eletrajz" rel="_noopener" target="_blank">https://www.lovaszsandor.hu/eletrajz</a>)
 
 
