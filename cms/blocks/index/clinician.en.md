@@ -50,7 +50,7 @@ components:
       </fieldset>
 
       <fieldset class="option-group">
-        <legend>What interests you most about evaluating UroDapter?</legend>
+        <legend>What interests you most about evaluating UroDapter®?</legend>
         <label><input type="checkbox" name="primary_interest" value="Reducing catheterization" /> Reducing catheterization</label>
         <label><input type="checkbox" name="primary_interest" value="Improving patient comfort" /> Improving patient comfort</label>
         <label><input type="checkbox" name="primary_interest" value="Reducing infection risk" /> Reducing infection risk</label>
@@ -117,6 +117,12 @@ components:
         </label>
       </fieldset>
 
+      <fieldset>
+        <label>NPI Number <small class="hint">Required for U.S. Sunshine Act compliance</small>
+        <input type="text" name="npi_number" required /></label>
+        <label>State Medical License Number <input type="text" name="state_license_number" /></label>
+      </fieldset>
+
       <!--h3>Sample Selection</h3>
 
       <fieldset>
@@ -144,13 +150,7 @@ components:
         <label><input type="radio" name="future_research_interest" value="No" /> No</label>
       </fieldset>-->
 
-      <h3>Logistics and Compliance</h3>
-
-      <fieldset>
-        <label>NPI Number <small class="hint">Required for U.S. Sunshine Act compliance</small>
-        <input type="text" name="npi_number" required /></label>
-        <label>State Medical License Number <input type="text" name="state_license_number" /></label>
-      </fieldset>
+      <h3>Shipping Information</h3>
 
       <fieldset>
         <label>Shipping Contact Name <input type="text" name="shipping_contact_name" required /></label>
@@ -173,7 +173,7 @@ components:
       </fieldset>
 
       <fieldset>
-        <label>How did you hear about UroDapter?
+        <label>How did you hear about UroDapter®?
           <select name="referral_source" required>
             <option value="">Select</option>
             <option value="Conference">Conference</option>
@@ -187,6 +187,12 @@ components:
         </label>
         <label></label>
       </fieldset>
+      
+      <div class="fieldset">
+        <label>
+          <input type="checkbox" name="larger_quantity" value="Larger quantity – product trial" /> If you are interested in conducting a product trial and would like a larger quantity of free samples, please check this box, and add details in the additional notes.
+        </label>
+      </div>
 
       <fieldset>
         <label>Additional Notes <textarea name="message" rows="4"></textarea></label>
@@ -202,6 +208,6 @@ components:
       </section>
     name: Clinician
     action: /thankyou
-    netlify: false
+    netlify: true
     always: true
 ---
