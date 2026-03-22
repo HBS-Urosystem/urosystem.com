@@ -3,19 +3,107 @@
   //import { enhance } from '$app/forms'
 </script>
 <script>
+import { dev } from '$app/environment'
+import { page } from '$app/stores'
+import { get } from 'svelte/store'
+import { onMount, tick } from 'svelte'
+
 export let comp
-function _submit(e) {
-  //console.log(comp.name)
-  //if (comp.cookie) 
+let submitting = false
+let formEl
 
-  if (comp.always !== true) $gateway[comp.name] = true ///
+function _setCheckboxByValue(form, name, value) {
+  for (const input of form.querySelectorAll(`input[name="${name}"]`)) {
+    if (input.type === 'checkbox' && input.value === value) {
+      input.checked = true
+      return
+    }
+  }
+}
 
-  //const myform = document.getElementsByName(name)
-  //console.log(myform[0])
-  //myform[0].submit()
+function _setRadioByValue(form, name, value) {
+  for (const input of form.querySelectorAll(`input[name="${name}"]`)) {
+    if (input.type === 'radio' && input.value === value) {
+      input.checked = true
+      return
+    }
+  }
+}
+
+function _prefillClinician(form) {
+  const text = {
+    first_name: 'John',
+    last_name: 'Doe',
+    practice_name: 'Doe Medical Practice',
+    department: 'Urology',
+    npi_number: '1234567890',
+    shipping_contact_name: 'John Doe',
+    email: 'john.doe@example.com',
+    state: 'CA',
+    city: 'San Francisco',
+    zip_code: '94102',
+    shipping_address_line1: '123 Main St',
+  }
+  for (const [name, val] of Object.entries(text)) {
+    const el = form.querySelector(`[name="${name}"]`)
+    if (el && !el.disabled) el.value = val
+  }
+
+  for (const [name, val] of Object.entries({
+    professional_title: 'MD',
+    specialty: 'Urology',
+    practice_type: 'Private Urology Clinic',
+    monthly_volume: '10-25',
+    referral_source: 'Colleague',
+  })) {
+    const sel = form.querySelector(`select[name="${name}"]`)
+    if (sel) sel.value = val
+  }
+
+  _setRadioByValue(form, 'current_method', 'Intermittent catheterization')
+  _setCheckboxByValue(form, 'current_therapies', 'Hyaluronic Acid / GAG therapy')
+  _setCheckboxByValue(form, 'patient_types', 'Interstitial Cystitis / BPS')
+  _setCheckboxByValue(form, 'primary_interest', 'Reducing catheterization')
+
+  for (const name of ['compliance_statement', 'privacy']) {
+    const el = form.querySelector(`input[name="${name}"][type="checkbox"]`)
+    if (el) el.checked = true
+  }
+}
+
+onMount(async () => {
+  const url = get(page).url
+  if (!(dev || url.searchParams.has('prefill'))) return
+  if (comp.name !== 'Clinician') return
+  await tick()
+  if (formEl) _prefillClinician(formEl)
+})
+
+async function _submit(e) {
+  if (comp.always !== true) $gateway[comp.name] = true
+
+  if (comp.pipedrive) {
+    e.preventDefault()
+    const form = e.target
+    const btn = form.querySelector('button[type="submit"]')
+    if (btn) { btn.disabled = true; btn.textContent = 'Submitting…' }
+    submitting = true
+
+    try {
+      const res = await fetch('/api/pipedrive', { method: 'POST', body: new FormData(form) })
+      const data = await res.json()
+      if (!res.ok) console.error('Pipedrive API error:', res.status, data)
+      else console.log('Pipedrive lead created:', data)
+    } catch (err) {
+      console.error('Pipedrive submission failed:', err)
+    }
+
+    form.submit()
+    return
+  }
+
   if (!comp.action) e.preventDefault()
 }
-//$: console.log($state.post.path, $state.post.subpage?.path)
 </script>
 
 <!--{#if !$gateway[comp.name]}-->
@@ -23,7 +111,7 @@ function _submit(e) {
   {#if !!comp.title}<h2>{comp.title}</h2>{/if}
   {#if !!comp.subhead}<h3>{comp.subhead}</h3>{/if}
   <div>
-    <form id={comp.anchor} name="{comp.name}" method={!!comp.netlify ? "POST" : ''} action={(!!comp.action ? comp.action : '')} on:submit="{_submit}" data-netlify={comp.netlify}>
+    <form bind:this={formEl} id={comp.anchor} name="{comp.name}" method={!!comp.netlify ? "POST" : ''} data-remove-prefix action={(!!comp.action ? comp.action : '')} on:submit="{_submit}" data-netlify={comp.netlify}>
       <input type="hidden" name="form-name" value={comp.name}>
       {#if !!comp.text}{@html comp.text}{/if}
       <!--{#if !!comp.netlify}

@@ -75,7 +75,7 @@
 
   let langchng = $sitelang
 	function newlang() {
-    console.log(langchng, (langchng !== 'en' ? '/' + langchng : '') + ($state.post.subpage && $state.post.subpage.slug !== '.' ? ('/' + $state.post.subpage.path) : ($state.post.path ? ('/' + $state.post.path) : '')))
+    // console.log(langchng, (langchng !== 'en' ? '/' + langchng : '') + ($state.post.subpage && $state.post.subpage.slug !== '.' ? ('/' + $state.post.subpage.path) : ($state.post.path ? ('/' + $state.post.path) : '')))
     window.location.href = (langchng !== 'en' ? '/' + langchng : '') + ($state.post.subpage && $state.post.subpage.slug !== '.' ? ('/' + $state.post.subpage.path) : ($state.post.path ? ('/' + $state.post.path) : ''))
     //goto(`/${langchng}/${$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}`, { noscroll: true, keepFocus: true })
     //console.log(`${langchng}/${$state.post.path}`)

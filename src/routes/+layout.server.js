@@ -18,7 +18,7 @@ export const load = async ({ params, url }) => {
 	let post, conf
 
 	conf = await _getConf(lang)
-  console.log('conf.thislang',conf.thislang)
+  // console.log('conf.thislang',conf.thislang)
   if (!conf.thislang) {
 		conf = await _getConf(store(sitelang) || 'en')
     if (!conf.thislang) return false

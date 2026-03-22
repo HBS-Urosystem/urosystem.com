@@ -158,7 +158,7 @@ components:
       </fieldset>
 
       <fieldset>
-        <label>Country <input type="text" name="country" value="USA" required disabled /></label>
+        <label>Country <input type="text" name="country" value="USA" required readonly /></label>
         <label>State <input type="text" name="state" required /></label>
       </fieldset>
 
@@ -190,7 +190,7 @@ components:
       
       <div class="fieldset">
         <label>
-          <input type="checkbox" name="larger_quantity" value="Larger quantity – product trial" /> If you are interested in conducting a product trial and would like a larger quantity of free samples, please check this box, and add details in the additional notes.
+          <input type="checkbox" name="larger_quantity" value="Yes" /> If you are interested in conducting a product trial and would like a larger quantity of free samples, please check this box, and add details in the additional notes.
         </label>
       </div>
 
@@ -209,5 +209,6 @@ components:
     name: Clinician
     action: /thankyou
     netlify: true
+    pipedrive: true
     always: true
 ---
