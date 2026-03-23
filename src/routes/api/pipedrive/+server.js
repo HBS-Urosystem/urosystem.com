@@ -87,9 +87,9 @@ export async function POST({ request }) {
 		});
 
 		const LABELS = {
-			hot:  '9c3b5f25-e433-49c1-bd57-c65b1864fa9c',
-			warm: 'fb2bd4b8-a11e-42c7-ae7b-a97ec86e1fe9',
-			cold: 'dba5971d-4291-4993-9912-593a187183f7'
+			hot:  'f9a2b1c6-5fa0-448e-bdfd-695c1ca49557',
+			warm: 'b380fac8-8d7d-47aa-9c95-799f75fa7c20',
+			cold: 'fd9459c8-7b6b-4736-8680-ba0e1a503bc2'
 		};
 
 		const volume = fd.get('monthly_volume') || '';
