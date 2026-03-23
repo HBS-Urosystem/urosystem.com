@@ -118,6 +118,7 @@ async function _submit(e) {
       <input type="text" name="country">
       {/if}-->
       {#if !!comp.action}
+        <!-- svelte-ignore a11y-missing-content -->
         <a href="/{comp.lang}{comp.action}" hidden aria-hidden="true"></a>
       {/if}
     </form>
@@ -242,13 +243,6 @@ async function _submit(e) {
     text-align: left;
     /* cursor: help; */
   }
-  input[name="country"] {
-    display: none;
-  }
-
-  /*button {
-    margin-block: 0;
-  }*/
   div {
     text-align: center;
     /*margin-bottom: 3.75em;
