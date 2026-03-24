@@ -20,8 +20,10 @@
     document.querySelector('html').lang = $state.thislang.id
     document.querySelector('html').dir = $state.thislang.dir
     const params = new URLSearchParams(window.location.search)
-    if (params.has('email') || params.has('mail')) {
-      $clinician = true
+    if (params.has('email')) {
+      $clinician = 'email'
+    } else if (params.has('mail')) {
+      $clinician = 'mail'
     } else if (params.has('reset')) {
       $clinician = false
     }

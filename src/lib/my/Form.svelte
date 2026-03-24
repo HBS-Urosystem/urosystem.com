@@ -1,5 +1,5 @@
 <script context="module">
-  import { gateway } from '$lib/stores'
+  import { gateway, clinician } from '$lib/stores'
   //import { enhance } from '$app/forms'
 </script>
 <script>
@@ -113,6 +113,7 @@ async function _submit(e) {
   <div>
     <form bind:this={formEl} id={comp.anchor} name="{comp.name}" method={!!comp.netlify ? "POST" : ''} data-remove-prefix action={(!!comp.action ? comp.action : '')} on:submit="{_submit}" data-netlify={comp.netlify}>
       <input type="hidden" name="form-name" value={comp.name}>
+      {#if $clinician}<input type="hidden" name="contact_method" value={$clinician}>{/if}
       {#if !!comp.text}{@html comp.text}{/if}
       <!--{#if !!comp.netlify}
       <input type="text" name="country">
