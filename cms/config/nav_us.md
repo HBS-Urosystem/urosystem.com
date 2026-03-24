@@ -1,9 +1,5 @@
 ---
 top_us:
-  # - subpages:
-  #     - link: diagnostic-help/gag-layer
-  #     - link: diagnostic-help/gag-layer-pro
-  #   link: diagnostic-help
   - link: company
     titles:
       - lang: en
@@ -51,14 +47,17 @@ top_us:
         title: Contact
       - lang: hu
         title: Kapcsolat
+  - link: clinician
+    secret: true
+    titles:
+      - lang: en
+        title: Sample
   - link: shop
   - link: https://www.urodapter.com
     ext: true
     titles:
       - lang: en
         title: UroDapter®
-      # - lang: hu
-      #   title: UroDapter®
   - titles:
       - lang: hu
         title: Termékek

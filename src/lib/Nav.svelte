@@ -1,5 +1,5 @@
 <script context="module">
-	import { state, sitelang, variables } from '$lib/stores'
+	import { state, sitelang, variables, clinician } from '$lib/stores'
   import { onMount, afterUpdate } from 'svelte'
   //import { goto } from '$app/navigation'
   import SubNav from '$lib/SubNav.svelte'
@@ -126,7 +126,7 @@
     </li>
     <!--{@debug topnav}-->
     {#each $state.topnav as nav}
-      {#if nav.title}
+      {#if nav.title && (!nav.secret || $clinician)}
         <li aria-current={nav.link == $state.post.path || $state.post.folder == nav.link ? 'page' : undefined}>
           <SubNav mobile={!!hamburger} sub={nav}/>
           <!--{#if nav.modal}
