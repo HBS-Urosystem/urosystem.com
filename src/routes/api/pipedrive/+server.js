@@ -102,7 +102,7 @@ export async function POST({ request }) {
 		else if (volume === '25-50') label_ids = [LABELS.cold];
 
 		const lead = await pipedrivePost('/leads', {
-			title: `Clinician Sample Request — ${firstName} ${lastName}`,
+			title: `Sample Request — ${firstName} ${lastName}`,
 			person_id: person?.data?.id,
 			organization_id: org?.data?.id,
 			...(label_ids.length && { label_ids })

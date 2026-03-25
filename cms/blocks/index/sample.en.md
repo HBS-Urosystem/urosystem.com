@@ -1,5 +1,5 @@
 ---
-id: clinician
+id: sample
 folder: index
 background:
   # - type: image
@@ -206,7 +206,7 @@ components:
       <section>
         <button type="submit">Request Sample Pack</button>
       </section>
-    name: Clinician
+    name: Sample
     action: /thankyou
     netlify: true
     pipedrive: true

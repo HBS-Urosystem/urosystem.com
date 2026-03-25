@@ -1,5 +1,5 @@
 <script context="module">
-	import { state, sitelang, variables, clinician } from '$lib/stores'
+	import { state, sitelang, variables, sample } from '$lib/stores'
   import { onMount, afterUpdate } from 'svelte'
   //import { goto } from '$app/navigation'
   import SubNav from '$lib/SubNav.svelte'
@@ -24,6 +24,7 @@
     }
   })
   afterUpdate(() => {
+    if (wul && wul > nwidth) nwidth = wul
     hamburger = (nwidth > wnav)
   })
   let duration = "250ms";
@@ -126,7 +127,7 @@
     </li>
     <!--{@debug topnav}-->
     {#each $state.topnav as nav}
-      {#if nav.title && (!nav.secret || $clinician)}
+      {#if nav.title && (!nav.secret || $sample)}
         <li aria-current={nav.link == $state.post.path || $state.post.folder == nav.link ? 'page' : undefined}>
           <SubNav mobile={!!hamburger} sub={nav}/>
           <!--{#if nav.modal}

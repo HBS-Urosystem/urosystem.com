@@ -1,7 +1,7 @@
 <script context="module">
   import "/src/app.postcss"
   import { onMount } from 'svelte'
-  import { state, sitelang, cookies, clinician, variables } from '$lib/stores'
+  import { state, sitelang, cookies, sample, variables } from '$lib/stores'
   import { dev/*, browser, amp, prerendering*/ } from '$app/environment'
   import Nav from '$lib/Nav.svelte'
   import Footer from '$lib/Footer.svelte'
@@ -21,11 +21,11 @@
     document.querySelector('html').dir = $state.thislang.dir
     const params = new URLSearchParams(window.location.search)
     if (params.has('email')) {
-      $clinician = 'email'
+      $sample = 'email'
     } else if (params.has('mail')) {
-      $clinician = 'mail'
+      $sample = 'mail'
     } else if (params.has('reset')) {
-      $clinician = false
+      $sample = false
     }
 	});
 </script>

@@ -47,7 +47,7 @@ top_us:
         title: Contact
       - lang: hu
         title: Kapcsolat
-  - link: clinician
+  - link: sample
     secret: true
     titles:
       - lang: en

@@ -1,5 +1,5 @@
 <script context="module">
-  import { gateway, clinician } from '$lib/stores'
+  import { gateway, sample } from '$lib/stores'
   //import { enhance } from '$app/forms'
 </script>
 <script>
@@ -30,7 +30,7 @@ function _setRadioByValue(form, name, value) {
   }
 }
 
-function _prefillClinician(form) {
+function _prefillSample(form) {
   const text = {
     first_name: 'John',
     last_name: 'Doe',
@@ -74,9 +74,9 @@ function _prefillClinician(form) {
 onMount(async () => {
   const url = get(page).url
   if (!(dev || url.searchParams.has('prefill'))) return
-  if (comp.name !== 'Clinician') return
+  if (comp.name !== 'Sample') return
   await tick()
-  if (formEl) _prefillClinician(formEl)
+  if (formEl) _prefillSample(formEl)
 })
 
 async function _submit(e) {
@@ -113,7 +113,7 @@ async function _submit(e) {
   <div>
     <form bind:this={formEl} id={comp.anchor} name="{comp.name}" method={!!comp.netlify ? "POST" : ''} data-remove-prefix action={(!!comp.action ? comp.action : '')} on:submit="{_submit}" data-netlify={comp.netlify}>
       <input type="hidden" name="form-name" value={comp.name}>
-      {#if $clinician}<input type="hidden" name="contact_method" value={$clinician}>{/if}
+      {#if $sample}<input type="hidden" name="contact_method" value={$sample}>{/if}
       {#if !!comp.text}{@html comp.text}{/if}
       <!--{#if !!comp.netlify}
       <input type="text" name="country">

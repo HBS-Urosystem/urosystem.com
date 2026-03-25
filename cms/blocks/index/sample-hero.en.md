@@ -1,5 +1,5 @@
 ---
-id: clinician-hero
+id: sample-hero
 folder: index
 background:
   # - type: image

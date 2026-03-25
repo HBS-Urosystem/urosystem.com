@@ -22,8 +22,8 @@ cookies.subscribe((value) => browser && (localStorage.setItem(`cookies`, JSON.st
 export const gateway = !browser || !typeof localStorage.gateway ? writable({}) : writable(JSON.parse(browser && localStorage.gateway || '{}'))
 gateway.subscribe((value) => browser && (localStorage.setItem(`gateway`, JSON.stringify(value))))
 
-export const clinician = !browser || !typeof localStorage.clinician ? writable(false) : writable(JSON.parse(browser && localStorage.clinician || 'false'))
-clinician.subscribe((value) => browser && (localStorage.setItem(`clinician`, JSON.stringify(value))))
+export const sample = !browser || !typeof localStorage.sample ? writable(false) : writable(JSON.parse(browser && localStorage.sample || 'false'))
+sample.subscribe((value) => browser && (localStorage.setItem(`sample`, JSON.stringify(value))))
 
 
 export const variables = {
