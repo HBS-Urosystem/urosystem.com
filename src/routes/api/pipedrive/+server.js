@@ -3,8 +3,14 @@ import { json } from '@sveltejs/kit';
 
 const PIPEDRIVE_BASE = 'https://api.pipedrive.com/v1';
 
+/** Netlify injects function-scoped env at Lambda runtime, not during `vite build`. Bracket access avoids bundlers inlining an empty value when the var is missing at build time. */
+function pipedriveToken() {
+	return process.env['PIPEDRIVE_API_TOKEN'] || env.PIPEDRIVE_API_TOKEN;
+}
+
 async function pipedrivePost(path, body) {
-	const res = await fetch(`${PIPEDRIVE_BASE}${path}?api_token=${env.PIPEDRIVE_API_TOKEN}`, {
+	const token = pipedriveToken();
+	const res = await fetch(`${PIPEDRIVE_BASE}${path}?api_token=${token}`, {
 		method: 'POST',
 		headers: { 'Content-Type': 'application/json' },
 		body: JSON.stringify(body)
@@ -43,8 +49,8 @@ function buildNote(fd) {
 	sections.push(`<p>${get('city')}, ${get('state')} ${get('zip_code')}, USA</p>`);
 
 	sections.push('<h3>Other</h3>');
-	if (get('contact_method')) sections.push(`<p><b>Contact method:</b> ${get('contact_method').charAt(0).toUpperCase() + get('contact_method').slice(1)}</p>`);
-	sections.push(`<p><b>Referral source:</b> ${get('referral_source')}</p>`);
+	if (get('contact_method')) sections.push(`<p><b>Contact source:</b> ${get('contact_method').charAt(0).toUpperCase() + get('contact_method').slice(1)}</p>`);
+	sections.push(`<p><b>Referral:</b> ${get('referral_source')}</p>`);
 	if (get('larger_quantity')) sections.push(`<p><b>Larger quantity interest:</b> Yes</p>`);
 	if (get('message')) sections.push(`<p><b>Additional notes:</b> ${get('message')}</p>`);
 
@@ -52,7 +58,7 @@ function buildNote(fd) {
 }
 
 export async function POST({ request }) {
-	if (!env.PIPEDRIVE_API_TOKEN) {
+	if (!pipedriveToken()) {
 		console.error('PIPEDRIVE_API_TOKEN is not set in environment');
 		return json({ error: 'Pipedrive API token not configured' }, { status: 500 });
 	}

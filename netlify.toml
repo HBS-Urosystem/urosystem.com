@@ -1,3 +1,7 @@
+# Secrets for SvelteKit routes in .netlify/functions-internal must be set in the Netlify UI
+# with scope "Functions" (and the right deploy context). Values in [build] below are NOT
+# injected into serverless functions — see https://docs.netlify.com/functions/environment-variables/
+
 [dev]
   command = "vite dev"
   targetPort = 5173
