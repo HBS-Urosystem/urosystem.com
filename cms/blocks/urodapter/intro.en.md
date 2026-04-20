@@ -45,10 +45,10 @@ components:
     link: details
   - type: images
     slide: false
-    title: UroDapter Web Manual App
+    title: UroDapter® Web Manual App
     anchor: manual
     images:
-      - alt: UroDapter Web Manual App
+      - alt: UroDapter® Web Manual App
         shape: rounded
         src: /uploads/Thumbnail-Web-App_optim.jpg
         posx: ""
