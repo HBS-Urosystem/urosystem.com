@@ -24,6 +24,8 @@
       $sample = 'email'
     } else if (params.has('mail')) {
       $sample = 'mail'
+    } else if (params.has('app')) {
+      $sample = 'app'
     } else if (params.has('reset')) {
       $sample = false
     }
