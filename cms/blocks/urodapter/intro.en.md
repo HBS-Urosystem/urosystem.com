@@ -33,16 +33,16 @@ components:
     shape: rounded
     ratio: 100
   - type: cta
-    button: How to buy?
-    link: /shop
+    button: Details
+    link: details
   - type: video
     source: youtube
     id: x10av1eP8L8
     title: A quick demonstration on the UroDapter® syringe adapter
     anchor: animation
   - type: cta
-    button: Details
-    link: details
+    button: Resources
+    link: resources
   - type: images
     slide: false
     title: UroDapter® Web Manual App

@@ -23,11 +23,11 @@
 
 <aside class:consent={!!$cookies}>
 	{#if $sitelang == '' || $sitelang == 'en' || $sitelang == 'fr' || $sitelang == 'es' || $sitelang == 'it' || $sitelang == 'ja' || $sitelang == 'he' || $sitelang == 'ar' || $sitelang == 'ko' || $sitelang == 'pt' || $sitelang == 'zh' || $sitelang == 'tr'}
-		<p>The UroSystem website uses cookies in compliance with GDPR and CCPA. – <a href="/{$sitelang}/privacy-policy">Privacy Policy</a></p>
+		<p>This website uses cookies in compliance with GDPR and CCPA. – <a href="/{$sitelang}/privacy-policy">Privacy Policy</a></p>
 		{#if !$cookies}<button on:click={consent}>Accept</button>{:else}<button on:click={unconsent}>Revoke</button>{/if}
 	{/if}
 	{#if $sitelang == 'hu'}
-		<p>Az UroSystem weboldal cookie-kat használ, amelyek megfelelnek a GDPR-nek és a CCPA-nak. <a href="/{$sitelang}/privacy-policy">– Adatkezelési tájékoztató</a></p>
+		<p>A weboldal cookie-kat használ, amelyek megfelelnek a GDPR-nek és a CCPA-nak. <a href="/{$sitelang}/privacy-policy">– Adatkezelési tájékoztató</a></p>
 		{#if !$cookies}<button on:click={consent}>Elfogadom</button>{:else}<button on:click={unconsent}>Visszavonom</button>{/if}
 	{/if}
 	<!-- {#if $sitelang == 'de'}

@@ -23,7 +23,7 @@ components:
 
       <fieldset>
         <label>Company <input type="text" name="account" /></label>   
-        <label>EU VAT <input type="text" name="vat" /></label>
+        <label>Country <input type="text" name="country" /></label>
       </fieldset>
 
       <fieldset>
