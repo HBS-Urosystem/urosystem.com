@@ -9,8 +9,10 @@ menutitle: UroSystem
 hero: urosystem/hero
 blocks:
   - id: urosystem/intro
+  - id: index/regulatory
+  - id: index/testimonials
+  - id: cta/clinician
+  - id: cta/distributor
   # - id: urodapter/details
-  # - id: cta/shop_ud
-  # - id: index/testimonials
   # - id: modal/september
 ---

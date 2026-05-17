@@ -15,6 +15,10 @@ components:
     text: >-
       <input type="hidden" name="subject" value="Clinician Sample Request (USA)" />
 
+      <p class="hint"><strong>After your request:</strong> explore <a href="/resources">Resources</a>
+      to evaluate and implement in clinic. For peer and patient perspectives, browse
+      <em>UroDapter Success Stories</em> on the <a href="/">homepage</a>.</p>
+
       <h3>Clinical Context</h3>
 
       <fieldset class="option-group">

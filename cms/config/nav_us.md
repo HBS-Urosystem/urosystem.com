@@ -29,6 +29,12 @@ top_us:
         titles:
           - lang: hu
             title: Pályázatok
+  - link: distributors
+    titles:
+      - lang: en
+        title: For Distributors
+      - lang: hu
+        title: Forgalmazóknak
   - link: development
   # - link: /hu/hirlevel
   #   hidden-titles:
@@ -48,10 +54,11 @@ top_us:
       - lang: hu
         title: Kapcsolat
   - link: sample
-    secret: true
     titles:
       - lang: en
         title: Sample
+      - lang: hu
+        title: Klinikai minta
   - link: shop
   - link: https://www.urodapter.com
     ext: true

@@ -19,12 +19,24 @@ footer_ud:
             title: Partners
           - lang: hu
             title: Partnerek
+      - link: distributors
+        titles:
+          - lang: en
+            title: For Distributors
+          - lang: hu
+            title: Forgalmazóknak
       - link: contact
         titles:
           - lang: en
             title: Contact us
           - lang: hu
             title: Kapcsolat
+      - link: sample
+        titles:
+          - lang: en
+            title: Sample
+          - lang: hu
+            title: Klinikai minta
   - link: ""
     titles:
       - lang: en

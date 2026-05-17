@@ -4,6 +4,7 @@
 </script>
 
 <script>
+  import { trackEvent } from '$lib/analytics'
 	//import { stores } from '@sapper/app';
 	//const { /*preloading, */page/*, session */} = stores();
   //console.log($page)
@@ -14,6 +15,31 @@
   //$: post = $state.post
 
   let sublink
+  function _trackDistributorNavClick(href) {
+    if (!href || !href.toLowerCase().includes('distributor')) return
+    trackEvent('distributor-nav-click', {
+      label: sub?.title || sub?.alt || '',
+      href,
+      path: href,
+      location: 'nav'
+    })
+  }
+
+  function _trackClinicianNavClick(href) {
+    if (!href || !href.toLowerCase().includes('sample')) return
+    trackEvent('clinician-nav-click', {
+      label: sub?.title || sub?.alt || '',
+      href,
+      path: href,
+      location: 'nav'
+    })
+  }
+
+  function _trackNavFunnelClicks(href) {
+    _trackDistributorNavClick(href)
+    _trackClinicianNavClick(href)
+  }
+
   // console.log({$sitelang})
   if (sub.link?.startsWith('#')) {
     sublink = '/' + ($sitelang !== 'en' ? $sitelang + '/' : '') + ($state.post.path ? $state.post.path : '') + sub.link
@@ -33,9 +59,9 @@
 
 {#if sub.ext}
   {#if sub.logo}
-    <a href="{sublink}" rel="external noopener noreferrer" target="_blank"><img src="{sub.logo}" alt="{sub.alt}"/></a>
+    <a href="{sublink}" rel="external noopener noreferrer" target="_blank" on:click={() => _trackNavFunnelClicks(sublink)}><img src="{sub.logo}" alt="{sub.alt}"/></a>
   {:else if sub.title}
-    <a class="{dir}" href="{sublink}" rel="external noopener noreferrer" target="_blank">{sub.title}
+    <a class="{dir}" href="{sublink}" rel="external noopener noreferrer" target="_blank" on:click={() => _trackNavFunnelClicks(sublink)}>{sub.title}
       {#if sub.sublinks}<img src="/uploads/open-down.svg?v=white" alt="" aria-hidden="true">{/if}
     </a>
   <!--{:else if subpage}
@@ -43,10 +69,10 @@
   {/if}
 {:else}
   {#if sub.logo}
-    <a rel={sub.rel || ''} class="{dir}" href="{sublink}"><img src="{sub.logo}" alt="{sub.alt}"/></a>
+    <a rel={sub.rel || ''} class="{dir}" href="{sublink}" on:click={() => _trackNavFunnelClicks(sublink)}><img src="{sub.logo}" alt="{sub.alt}"/></a>
   {:else if sub.title}
     {#if sub.link && (!mobile || !sub.sublinks)}
-      <a rel={sub.rel || ''} class="{dir}" href="{sublink}">{sub.title}
+      <a rel={sub.rel || ''} class="{dir}" href="{sublink}" on:click={() => _trackNavFunnelClicks(sublink)}>{sub.title}
         {#if sub.sublinks}<img src="/uploads/open-down.svg?v=white" alt="" aria-hidden="true">{/if}
       </a>
     {:else}

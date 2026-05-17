@@ -1,8 +1,35 @@
 <script>
   import { snapto, sitelang } from '$lib/stores'
+  import { trackEvent } from '$lib/analytics'
   //console.log({sitelang})
   export let comp//, lang
   let rel = '', target = '', link, scrollto = false
+
+  function _trackDistributorCtaClick(href) {
+    if (!href || !href.toLowerCase().includes('distributor')) return
+    trackEvent('distributor-cta-click', {
+      label: comp?.button || comp?.title || '',
+      href,
+      path: href,
+      location: 'cta'
+    })
+  }
+
+  function _trackClinicianCtaClick(href) {
+    if (!href || !href.toLowerCase().includes('sample')) return
+    trackEvent('clinician-cta-click', {
+      label: comp?.button || comp?.title || '',
+      href,
+      path: href,
+      location: 'cta'
+    })
+  }
+
+  function _handleCtaClick() {
+    $snapto = `${scrollto}`
+    _trackDistributorCtaClick(link)
+    _trackClinicianCtaClick(link)
+  }
   //console.log(comp.lang, $sitelang)
   $: {
     //console.log('1',/*scrollto,*/ comp.link)
@@ -33,7 +60,7 @@
   {#if comp.text}<div>{@html comp.text}</div>{/if}
   {#if comp.button}
   <div>
-    <a on:click|stopPropagation={() => $snapto = `${scrollto}`} on:keypress={() => $snapto = `${scrollto}`} href={link} rel={rel} target={target}><button tabindex="-1">{#if comp.icon}<img src="{comp.icon}" aria-hidden="true" alt=""/>{/if}{comp.button}</button></a>
+    <a on:click|stopPropagation={_handleCtaClick} on:keypress={() => $snapto = `${scrollto}`} href={link} rel={rel} target={target}><button tabindex="-1">{#if comp.icon}<img src="{comp.icon}" aria-hidden="true" alt=""/>{/if}{comp.button}</button></a>
     <!--<a on:click|stopPropagation href={link} rel={rel} target={target}><button tabindex="-1">{#if comp.icon}<img src="{comp.icon}" aria-hidden="true" alt=""/>{/if}{comp.button}</button></a>-->
     {#if comp.below}<p>{comp.below}</p>{/if}
   </div>

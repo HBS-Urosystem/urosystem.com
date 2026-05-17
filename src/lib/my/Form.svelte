@@ -7,10 +7,58 @@ import { dev } from '$app/environment'
 import { page } from '$app/stores'
 import { get } from 'svelte/store'
 import { onMount, tick } from 'svelte'
+import { trackEvent } from '$lib/analytics'
 
 export let comp
 let submitting = false
 let formEl
+let distributorForm = false
+let distributorStarted = false
+let clinicianSampleForm = false
+let clinicianStarted = false
+
+function _isDistributorIntent(value) {
+  return typeof value === 'string' && value.toLowerCase().includes('distributor')
+}
+
+$: distributorForm = [
+  comp?.title,
+  comp?.name,
+  comp?.text,
+  comp?.action,
+  comp?.anchor
+].some(_isDistributorIntent)
+
+$: clinicianSampleForm = comp?.name === 'Sample'
+
+function _distributorAttributes() {
+  const pathname = get(page)?.url?.pathname || ''
+  return {
+    form_name: comp?.name || '',
+    form_title: comp?.title || '',
+    action: comp?.action || '',
+    anchor: comp?.anchor || '',
+    path: pathname,
+    location: 'form'
+  }
+}
+
+function _trackDistributorFormStart() {
+  if (!distributorForm || distributorStarted) return
+  distributorStarted = true
+  trackEvent('distributor-form-start', _distributorAttributes())
+}
+
+function _trackClinicianFormStart() {
+  if (!clinicianSampleForm || clinicianStarted) return
+  clinicianStarted = true
+  trackEvent('clinician-form-start', _distributorAttributes())
+}
+
+function _trackFormIntentStart() {
+  _trackDistributorFormStart()
+  _trackClinicianFormStart()
+}
 
 function _setCheckboxByValue(form, name, value) {
   for (const input of form.querySelectorAll(`input[name="${name}"]`)) {
@@ -80,6 +128,14 @@ onMount(async () => {
 })
 
 async function _submit(e) {
+  if (distributorForm) {
+    trackEvent('distributor-form-submit', _distributorAttributes())
+  }
+
+  if (clinicianSampleForm) {
+    trackEvent('clinician-form-submit', _distributorAttributes())
+  }
+
   if (comp.always !== true) $gateway[comp.name] = true
 
   if (comp.pipedrive) {
@@ -111,7 +167,7 @@ async function _submit(e) {
   {#if !!comp.title}<h2>{comp.title}</h2>{/if}
   {#if !!comp.subhead}<h3>{comp.subhead}</h3>{/if}
   <div>
-    <form bind:this={formEl} id={comp.anchor} name="{comp.name}" method={!!comp.netlify ? "POST" : ''} data-remove-prefix action={(!!comp.action ? comp.action : '')} on:submit="{_submit}" data-netlify={comp.netlify}>
+    <form bind:this={formEl} id={comp.anchor} name="{comp.name}" method={!!comp.netlify ? "POST" : ''} data-remove-prefix action={(!!comp.action ? comp.action : '')} on:focusin={_trackFormIntentStart} on:input={_trackFormIntentStart} on:submit="{_submit}" data-netlify={comp.netlify}>
       <input type="hidden" name="form-name" value={comp.name}>
       {#if $sample}<input type="hidden" name="contact_method" value={$sample}>{/if}
       {#if !!comp.text}{@html comp.text}{/if}

@@ -23,12 +23,24 @@ top_ud:
         title: Resources
       - lang: hu
         title: Oktatóanyagok
+  - link: distributors
+    titles:
+      - lang: en
+        title: For Distributors
+      - lang: hu
+        title: Forgalmazóknak
   - link: company
     titles:
       - lang: en
         title: Company
       - lang: hu
         title: UroSystem Zrt.
+  - link: sample
+    titles:
+      - lang: en
+        title: Sample
+      - lang: hu
+        title: Klinikai minta
   - link: contact
     titles:
       - lang: en

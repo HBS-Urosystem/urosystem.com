@@ -59,6 +59,13 @@ Use this document as the operational guide for agentic updates.
 - Navigation labels and structure come from `cms/config/nav_*.md` and `cms/config/footnav_*.md`.
 - Language availability comes from `cms/config/langs_*.md` (plus shared `langs.md` content).
 
+### Navigation Key Conventions
+
+- Active/rendered keys: `titles`, `subpages`.
+- Parked/non-rendered keys (intentional placeholders): `t-itles`, `s-ubpages`.
+- Do not auto-correct parked keys or treat them as typos unless explicitly requested.
+- Do not change `_subnav` behavior in `src/lib/utils.js` unless explicitly requested.
+
 ## Environment Variables
 
 Expected runtime/build variables used by app code:
@@ -81,6 +88,29 @@ Never print secrets into logs, docs, or commits.
 - Keep `_us` and `_ud` parity in mind; when changing one site variant, verify whether the other variant needs equivalent updates.
 - Avoid touching API endpoints unless the task is backend/integration specific.
 - Treat out-of-service routes as frozen unless explicitly instructed.
+
+### Homepage and CTA Governance
+
+- Homepage minimum composition for both `_us` and `_ud`: hero -> proof/trust -> CTA.
+- Keep dual-intent CTA coverage on both homepages:
+  - clinician path
+  - distributor path
+- `_us` messaging is corporate partnership-first for distributor journeys.
+- `_ud` messaging is product-commercial enablement-first for distributor journeys.
+
+### Measurement Gates
+
+- Distributor funnel events to keep implemented and auditable:
+  - `distributor-nav-click`
+  - `distributor-cta-click`
+  - `distributor-form-start`
+  - `distributor-form-submit`
+- Clinician funnel events (sample request / evaluation path) to keep implemented and auditable:
+  - `clinician-nav-click`
+  - `clinician-cta-click`
+  - `clinician-form-start`
+  - `clinician-form-submit`
+- Define and track baseline plus target conversion for form start and form submit rates before marking UX funnel work complete.
 
 ## Verification Checklist For Agent Changes
 

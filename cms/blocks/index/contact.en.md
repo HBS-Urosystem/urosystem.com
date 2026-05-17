@@ -13,6 +13,9 @@ components:
     title: Contact us
     anchor: contact
     text: >-
+      <p class="hint"><strong>For US clinicians:</strong> to request a clinician evaluation pack, use the
+      <a href="/sample">Clinician Sample Request</a> form first. This page is for general questions and other topics.</p>
+
       Should you have questions, remarks or need further information on any
       conditions or products, please, use the form below.
 

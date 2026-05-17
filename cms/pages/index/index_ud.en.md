@@ -10,7 +10,10 @@ hero: products/hero_urodapter
 blocks:
   # - id: modal/september
   - id: urodapter/intro
+  - id: index/regulatory
   - id: index/testimonials
+  - id: cta/clinician
+  - id: cta/distributor
   - id: cta/shop_ud
 herotitle: ""
 ---
