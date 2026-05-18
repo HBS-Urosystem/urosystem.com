@@ -19,7 +19,7 @@ components:
 
       <fieldset class="option-group">
         <legend>Which intravesical therapies do you currently administer?</legend>
-        <label><input type="checkbox" name="current_therapies" value="Hyaluronic Acid / GAG therapy" required /> Hyaluronic Acid / GAG therapy</label>
+        <label><input type="checkbox" name="current_therapies" value="Hyaluronic Acid / GAG therapy" /> Hyaluronic Acid / GAG therapy</label>
         <label><input type="checkbox" name="current_therapies" value="DMSO" /> DMSO</label>
         <label><input type="checkbox" name="current_therapies" value="Antibiotics" /> Antibiotics</label>
         <label><input type="checkbox" name="current_therapies" value="Lidocaine" /> Lidocaine</label>
@@ -42,7 +42,7 @@ components:
 
       <fieldset class="option-group">
         <legend>Which patient types do you treat most frequently?</legend>
-        <label><input type="checkbox" name="patient_types" value="Interstitial Cystitis / BPS" required /> Interstitial Cystitis / BPS</label>
+        <label><input type="checkbox" name="patient_types" value="Interstitial Cystitis / BPS" /> Interstitial Cystitis / BPS</label>
         <label><input type="checkbox" name="patient_types" value="Recurrent UTI" /> Recurrent UTI</label>
         <label><input type="checkbox" name="patient_types" value="Post-TURBT chemotherapy" /> Post-TURBT chemotherapy</label>
         <label><input type="checkbox" name="patient_types" value="Neurogenic bladder" /> Neurogenic bladder</label>
