@@ -19,6 +19,18 @@ footer_us:
             title: Partners
           - lang: hu
             title: Partnerek
+      - link: company#representatives
+        titles:
+          - lang: en
+            title: Representatives
+          - lang: hu
+            title: Képviselet
+      - link: partners
+        titles:
+          - lang: en
+            title: For Partners
+          - lang: hu
+            title: Partnereknek
       - link: distributors
         titles:
           - lang: en

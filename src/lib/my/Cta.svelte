@@ -25,8 +25,19 @@
     })
   }
 
+  function _trackPartnerCtaClick(href) {
+    if (!href || !href.toLowerCase().includes('/partners')) return
+    trackEvent('partner-cta-click', {
+      label: comp?.button || comp?.title || '',
+      href,
+      path: href,
+      location: 'cta'
+    })
+  }
+
   function _handleCtaClick() {
     $snapto = `${scrollto}`
+    _trackPartnerCtaClick(link)
     _trackDistributorCtaClick(link)
     _trackClinicianCtaClick(link)
   }

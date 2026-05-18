@@ -25,10 +25,22 @@ top_us:
             title: Our Partners
           - lang: hu
             title: Partnereink
+      - link: company#representatives
+        titles:
+          - lang: en
+            title: Representatives
+          - lang: hu
+            title: Képviselet
       - link: company#palyazatok
         titles:
           - lang: hu
             title: Pályázatok
+  - link: partners
+    titles:
+      - lang: en
+        title: For Partners
+      - lang: hu
+        title: Partnereknek
   - link: distributors
     titles:
       - lang: en

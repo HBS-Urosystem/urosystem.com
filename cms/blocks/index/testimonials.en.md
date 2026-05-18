@@ -3,6 +3,7 @@ id: testimonials
 folder: index
 components:
   - type: qas
+    anchor: testimonials
     title: UroDapter Success Stories
     items:
       - subhead: Clinician Testimonials

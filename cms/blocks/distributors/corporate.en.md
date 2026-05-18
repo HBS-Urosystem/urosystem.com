@@ -7,6 +7,9 @@ components:
     title: Corporate Partnership Program
     subhead: Built for long-term regional distribution partnerships
     text: >-
+      <p class="hint">Looking for an OEM, license, or multi-country corporate
+      alliance? See <a href="/partners">strategic partnerships</a>.</p>
+
       <p>UroSystem partners with distributors that value clinical quality,
       responsible growth, and durable market access. Our approach combines
       product know-how, onboarding support, and a transparent partnership

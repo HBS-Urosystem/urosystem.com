@@ -9,10 +9,10 @@ menutitle: UroSystem
 hero: urosystem/hero
 blocks:
   - id: urosystem/intro
+  - id: index/eval-pack
+  - id: index/dual-cta-us
   - id: index/regulatory
   - id: index/testimonials
   - id: cta/clinician
-  - id: cta/distributor
-  # - id: urodapter/details
-  # - id: modal/september
+  - id: cta/partner
 ---

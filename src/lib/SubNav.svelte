@@ -35,7 +35,18 @@
     })
   }
 
+  function _trackPartnerNavClick(href) {
+    if (!href || !href.toLowerCase().includes('/partners')) return
+    trackEvent('partner-nav-click', {
+      label: sub?.title || sub?.alt || '',
+      href,
+      path: href,
+      location: 'nav'
+    })
+  }
+
   function _trackNavFunnelClicks(href) {
+    _trackPartnerNavClick(href)
     _trackDistributorNavClick(href)
     _trackClinicianNavClick(href)
   }

@@ -8,8 +8,9 @@ description: The UroDapter® urological adapter replaces catheter. It enables pa
 menutitle: UroDapter®
 hero: products/hero_urodapter
 blocks:
-  # - id: modal/september
   - id: urodapter/intro
+  - id: index/eval-pack-ud
+  - id: index/dual-cta-ud
   - id: index/regulatory
   - id: index/testimonials
   - id: cta/clinician

@@ -14,6 +14,8 @@ let submitting = false
 let formEl
 let distributorForm = false
 let distributorStarted = false
+let partnerForm = false
+let partnerStarted = false
 let clinicianSampleForm = false
 let clinicianStarted = false
 
@@ -21,15 +23,43 @@ function _isDistributorIntent(value) {
   return typeof value === 'string' && value.toLowerCase().includes('distributor')
 }
 
-$: distributorForm = [
-  comp?.title,
-  comp?.name,
-  comp?.text,
-  comp?.action,
-  comp?.anchor
-].some(_isDistributorIntent)
+$: partnerForm = comp?.name === 'Partner'
+
+$: distributorForm =
+  comp?.name === 'Distributor' ||
+  (comp?.name !== 'Partner' &&
+    [comp?.title, comp?.name, comp?.text, comp?.action, comp?.anchor].some(_isDistributorIntent))
 
 $: clinicianSampleForm = comp?.name === 'Sample'
+
+function _isUnitedStates(country) {
+  if (!country) return false
+  const c = country.trim().toLowerCase()
+  return c === 'united states' || c === 'usa' || c === 'us'
+}
+
+function _applyCountryFields(form) {
+  const select = form.querySelector('select[name="country"]')
+  if (!select) return
+  const country = select.value
+  const isUS = _isUnitedStates(country)
+  const isOther = country === 'Other'
+
+  for (const el of form.querySelectorAll('[data-country-only]')) {
+    const only = el.getAttribute('data-country-only')
+    let show = false
+    if (only === 'US') show = isUS
+    else if (only === 'Other') show = isOther
+    el.hidden = !show
+    for (const input of el.querySelectorAll('input, select, textarea')) {
+      const req =
+        show &&
+        ((only === 'US' && (input.name === 'npi_number' || input.name === 'state')) ||
+          (only === 'Other' && input.name === 'country_other'))
+      input.required = !!req
+    }
+  }
+}
 
 function _distributorAttributes() {
   const pathname = get(page)?.url?.pathname || ''
@@ -55,7 +85,14 @@ function _trackClinicianFormStart() {
   trackEvent('clinician-form-start', _distributorAttributes())
 }
 
+function _trackPartnerFormStart() {
+  if (!partnerForm || partnerStarted) return
+  partnerStarted = true
+  trackEvent('partner-form-start', _distributorAttributes())
+}
+
 function _trackFormIntentStart() {
+  _trackPartnerFormStart()
   _trackDistributorFormStart()
   _trackClinicianFormStart()
 }
@@ -120,27 +157,46 @@ function _prefillSample(form) {
 }
 
 onMount(async () => {
+  await tick()
+  if (formEl && clinicianSampleForm) {
+    const select = formEl.querySelector('select[name="country"]')
+    if (select) {
+      _applyCountryFields(formEl)
+      select.addEventListener('change', () => _applyCountryFields(formEl))
+    }
+  }
   const url = get(page).url
   if (!(dev || url.searchParams.has('prefill'))) return
   if (comp.name !== 'Sample') return
-  await tick()
   if (formEl) _prefillSample(formEl)
 })
 
 async function _submit(e) {
+  const form = e.target
+
+  if (partnerForm) {
+    trackEvent('partner-form-submit', _distributorAttributes())
+  }
+
   if (distributorForm) {
     trackEvent('distributor-form-submit', _distributorAttributes())
   }
 
   if (clinicianSampleForm) {
     trackEvent('clinician-form-submit', _distributorAttributes())
+    const subject = form.querySelector('input[name="subject"]')
+    const select = form.querySelector('select[name="country"]')
+    if (subject && select) {
+      subject.value = _isUnitedStates(select.value)
+        ? 'Clinician Sample Request (USA)'
+        : 'Clinician Sample Request'
+    }
   }
 
   if (comp.always !== true) $gateway[comp.name] = true
 
   if (comp.pipedrive) {
     e.preventDefault()
-    const form = e.target
     const btn = form.querySelector('button[type="submit"]')
     if (btn) { btn.disabled = true; btn.textContent = 'Submitting…' }
     submitting = true
@@ -290,6 +346,9 @@ async function _submit(e) {
     background-repeat: no-repeat;
     padding-right: 2em;
     /* font-size: 75%; */
+  }
+  form :global([hidden]) {
+    display: none !important;
   }
   form :global(.hint) {
     /* display: block;

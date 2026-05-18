@@ -13,7 +13,7 @@ components:
     # title: Clinician Sample Request
     anchor: contact
     text: >-
-      <input type="hidden" name="subject" value="Clinician Sample Request (USA)" />
+      <input type="hidden" name="subject" value="Clinician Sample Request" />
 
       <p class="hint"><strong>After your request:</strong> explore <a href="/resources">Resources</a>
       to evaluate and implement in clinic. For peer and patient perspectives, browse
@@ -121,9 +121,9 @@ components:
         </label>
       </fieldset>
 
-      <fieldset>
+      <fieldset data-country-only="US">
         <label>NPI Number <small class="hint">Required for U.S. Sunshine Act compliance</small>
-        <input type="text" name="npi_number" required /></label>
+        <input type="text" name="npi_number" /></label>
         <label>State Medical License Number <input type="text" name="state_license_number" /></label>
       </fieldset>
 
@@ -162,7 +162,7 @@ components:
       </fieldset>
 
       <fieldset>
-        <label>Country <input type="text" name="country" value="USA" required readonly /></label>
+        <label>Country <input type="text" name="country" value="USA" required /></label>
         <label>State <input type="text" name="state" required /></label>
       </fieldset>
 
@@ -204,6 +204,7 @@ components:
 
       <div class="fieldset">
         <label><input type="checkbox" name="compliance_statement" required /> I confirm that I am a licensed healthcare professional and that samples are requested for clinical evaluation purposes only.</label>
+        <label data-country-only="US"><input type="checkbox" name="sunshine_acknowledgment" /> I understand that sample requests in the United States may be reported under applicable transparency requirements (e.g. Sunshine Act).</label>
         <label><input type="checkbox" class="checkbox checkbox-primary" name="privacy" required /> I've read and accept the <a href="/privacy-policy" target="_blank">privacy policy</a>.</label>
       </div>
 

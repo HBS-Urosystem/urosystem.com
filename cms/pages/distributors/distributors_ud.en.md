@@ -10,5 +10,5 @@ hero: ""
 blocks:
   - id: distributors/product
   - id: urodapter/legal
-  - id: cta/distributor-contact
+  - id: distributors/form-ud
 ---

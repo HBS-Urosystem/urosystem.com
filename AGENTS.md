@@ -110,6 +110,11 @@ Never print secrets into logs, docs, or commits.
   - `clinician-cta-click`
   - `clinician-form-start`
   - `clinician-form-submit`
+- Partner funnel events (strategic partnership path on `_us`, `/partners`) to keep implemented and auditable:
+  - `partner-nav-click`
+  - `partner-cta-click`
+  - `partner-form-start`
+  - `partner-form-submit`
 - Define and track baseline plus target conversion for form start and form submit rates before marking UX funnel work complete.
 
 ## Verification Checklist For Agent Changes
