@@ -3,7 +3,6 @@
   //import { enhance } from '$app/forms'
 </script>
 <script>
-import { dev } from '$app/environment'
 import { page } from '$app/stores'
 import { get } from 'svelte/store'
 import { onMount, tick } from 'svelte'
@@ -166,7 +165,7 @@ onMount(async () => {
     }
   }
   const url = get(page).url
-  if (!(dev || url.searchParams.has('prefill'))) return
+  if (!url.searchParams.has('prefill')) return
   if (comp.name !== 'Sample') return
   if (formEl) _prefillSample(formEl)
 })
