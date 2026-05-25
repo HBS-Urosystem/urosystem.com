@@ -1,7 +1,7 @@
 <script context="module">
   import "/src/app.postcss"
   import { onMount } from 'svelte'
-  import { beforeNavigate, goto } from '$app/navigation'
+  import { afterNavigate, beforeNavigate, goto } from '$app/navigation'
   import { state, sitelang, cookies, sample, variables } from '$lib/stores'
   import { dev/*, browser, amp, prerendering*/ } from '$app/environment'
   import { normalizePathname } from '$lib/paths'
@@ -31,6 +31,12 @@
     if (!target) return
     cancel()
     goto(target, { replaceState: true, noScroll: true, keepfocus: true })
+  })
+
+  afterNavigate(({ to }) => {
+    if (!to) return
+    const target = stripTrailingSlash(to.url.pathname, to.url.search, to.url.hash)
+    if (target) history.replaceState(history.state, '', target)
   })
 
 	onMount(() => {

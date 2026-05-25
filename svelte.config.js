@@ -9,6 +9,9 @@ const config = {
   extensions: [".svelte", ...mdsvexConfig.extensions],
 
   kit: {
+    paths: {
+      relative: false,
+    },
     adapter: htmlMinifierAdaptor(
       adapter(/*{
         fallback: 'index.html' // may differ from host to host

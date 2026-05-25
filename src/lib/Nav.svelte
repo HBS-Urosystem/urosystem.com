@@ -3,6 +3,7 @@
   import { onMount, afterUpdate } from 'svelte'
   //import { goto } from '$app/navigation'
   import SubNav from '$lib/SubNav.svelte'
+  import { sitePath } from '$lib/paths'
   import * as scrollnav from "svelte-scrollto"
   import { cubicIn, cubicOut } from 'svelte/easing'
   import { createEventDispatcher } from "svelte";
@@ -121,7 +122,7 @@
     bind:clientWidth={wul}
     data-mobile={!!hamburger}>
     <li>
-      <a href="/{($sitelang !== 'en' ? $sitelang : '')}" aria-label="home">
+      <a href={sitePath($sitelang)} aria-label="home">
         <img class="sitelogo {logoclass}" src="/uploads/{sitelogo}" alt="UroSystem – Revolutionizing bladder pain treatment">
       </a>
     </li>
