@@ -1,5 +1,6 @@
 <script context="module">
   import { state, sitelang } from '$lib/stores'
+  import { siteHref } from '$lib/paths'
   //import { _getPost } from '$lib/utils'
 </script>
 
@@ -14,18 +15,13 @@
   //$: post = $state.post
 
   let sublink
-  // console.log({$sitelang})
-  if (sub.link?.startsWith('#')) {
-    sublink = '/' + ($sitelang !== 'en' ? $sitelang + '/' : '') + ($state.post.path ? $state.post.path : '') + sub.link
-  } else if (sub.link?.startsWith('http')) {
-    sublink = sub.link// + '#vhollo'
-    sub.rel = 'external noopener noreferrer'
-  } else if (sub.link?.startsWith('/')) {
-    sublink = sub.link// + '#vhollo'
-  } else {
-    sublink = '/' + ($sitelang !== 'en' ? $sitelang + '/' : '') + sub.link
-    // console.log($sitelang, sublink)
-    //sublink = sub.link
+  $: {
+    if (sub.link?.startsWith('http')) {
+      sublink = sub.link
+      sub.rel = 'external noopener noreferrer'
+    } else {
+      sublink = siteHref($sitelang, sub.link, $state.post?.path || '')
+    }
   }
   //$: sublink = sub.link.startsWith('#') ? sub.link : `${$sitelang}/${sub.link}`
   //$: console.log('SubNav:', sub)

@@ -1,22 +1,31 @@
 <script>
   export let comp
+
+  const isHeadingItem = (item) => item?.subhead && !item?.q && !item?.text
 </script>
 
 <article id={comp.anchor} style="{comp.background ? comp.background : ``}">
   {#if comp.title}<h2>{comp.title}</h2>{/if}
-  {#if comp.subhead}<div><h3>{comp.subhead}</h3></div>{/if}
   <div>
     {#if comp.fixed}
       {#each comp.items || [] as item}
-        <h3 id={item.anchor}>{item.q}</h3>
-        {@html item.text}
+        {#if isHeadingItem(item)}
+          <div class="mid-subhead"><h3>{item.subhead}</h3></div>
+        {:else}
+          <h3 id={item.anchor}>{item.q}</h3>
+          {@html item.text}
+        {/if}
       {/each}
     {:else}
       {#each comp.items || [] as item}
-        <details>
-          <summary><h3 id={item.anchor}>{item.q}</h3></summary>
-          {@html item.text}
-        </details>
+        {#if isHeadingItem(item)}
+          <div class="mid-subhead"><h3>{item.subhead}</h3></div>
+        {:else}
+          <details>
+            <summary><h3 id={item.anchor}>{item.q}</h3></summary>
+            {@html item.text}
+          </details>
+        {/if}
       {/each}
     {/if}
   </div>
@@ -33,6 +42,9 @@
   :not([open]) summary h3 {
     display: inline;
     /*color: var(--pale);*/
+  }
+  .mid-subhead {
+    text-align: center;
   }
   /*h3 {
     display: inline;

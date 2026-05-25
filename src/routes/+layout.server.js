@@ -4,13 +4,14 @@ export const prerender = true
 
 import { redirect } from '@sveltejs/kit'
 import { _getPost, _getConf } from '$lib/utils'
+import { normalizePathname } from '$lib/paths'
 import { get as store} from 'svelte/store'
 import { sitelang } from '$lib/stores'
 
 /** @type {import('./$types').LayoutServerLoad} */
 export const load = async ({ params, url }) => {
   let [l, p, s] = params.path?.split('/') || []
-  let [x, lang, path, sub] = url.pathname.split('/') || []
+  let [x, lang, path, sub] = normalizePathname(url.pathname).split('/') || []
   lang = lang || 'en'
   path = path || ''
   sub = sub || ''

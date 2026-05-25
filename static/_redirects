@@ -1,3 +1,6 @@
+# Strip trailing slashes (keeps / intact)
+/*/  /:splat  301!
+
 /admin    /admin/index.html
 
 /hirlevel  /hu/hirlevel

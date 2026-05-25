@@ -1,8 +1,10 @@
 <script context="module">
   import "/src/app.postcss"
   import { onMount } from 'svelte'
+  import { beforeNavigate, goto } from '$app/navigation'
   import { state, sitelang, cookies, sample, variables } from '$lib/stores'
   import { dev/*, browser, amp, prerendering*/ } from '$app/environment'
+  import { normalizePathname } from '$lib/paths'
   import Nav from '$lib/Nav.svelte'
   import Footer from '$lib/Footer.svelte'
   import Cookies from '$lib/Cookies.svelte'
@@ -16,7 +18,21 @@
   $: $state = data
   // $: console.log($state.langs)
   $: $sitelang = $state.langs.length > 1 ? data.thislang.id : 'en'
+
+  beforeNavigate(({ to, cancel }) => {
+    if (!to) return
+    const { pathname, search, hash } = to.url
+    if (pathname.length > 1 && pathname.endsWith('/')) {
+      cancel()
+      goto(normalizePathname(pathname) + search + hash, { replaceState: true, noScroll: true, keepfocus: true })
+    }
+  })
+
 	onMount(() => {
+    const { pathname, search, hash } = window.location
+    if (pathname.length > 1 && pathname.endsWith('/')) {
+      goto(normalizePathname(pathname) + search + hash, { replaceState: true, noScroll: true, keepfocus: true })
+    }
     document.querySelector('html').lang = $state.thislang.id
     document.querySelector('html').dir = $state.thislang.dir
     const params = new URLSearchParams(window.location.search)
