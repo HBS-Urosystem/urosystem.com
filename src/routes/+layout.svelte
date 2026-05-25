@@ -19,19 +19,28 @@
   // $: console.log($state.langs)
   $: $sitelang = $state.langs.length > 1 ? data.thislang.id : 'en'
 
+  /** @param {string} pathname */
+  function stripTrailingSlash(pathname, search, hash) {
+    if (pathname.length <= 1 || !pathname.endsWith('/')) return null
+    return normalizePathname(pathname) + search + hash
+  }
+
   beforeNavigate(({ to, cancel }) => {
     if (!to) return
-    const { pathname, search, hash } = to.url
-    if (pathname.length > 1 && pathname.endsWith('/')) {
-      cancel()
-      goto(normalizePathname(pathname) + search + hash, { replaceState: true, noScroll: true, keepfocus: true })
-    }
+    const target = stripTrailingSlash(to.url.pathname, to.url.search, to.url.hash)
+    if (!target) return
+    cancel()
+    goto(target, { replaceState: true, noScroll: true, keepfocus: true })
   })
 
 	onMount(() => {
-    const { pathname, search, hash } = window.location
-    if (pathname.length > 1 && pathname.endsWith('/')) {
-      goto(normalizePathname(pathname) + search + hash, { replaceState: true, noScroll: true, keepfocus: true })
+    const target = stripTrailingSlash(
+      window.location.pathname,
+      window.location.search,
+      window.location.hash
+    )
+    if (target) {
+      history.replaceState(history.state, '', target)
     }
     document.querySelector('html').lang = $state.thislang.id
     document.querySelector('html').dir = $state.thislang.dir
