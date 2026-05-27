@@ -20,7 +20,7 @@ components:
       that remains as accessible as today’s market rates.
   - type: buy
     title: Buy from our webshop
-    subhead: 10 pcs for €150
+    subhead: 10 pcs for €99
     t-ext: Choose the desired quantity and buy!
     button: Shop now
     product: "5983114002592"
@@ -38,7 +38,7 @@ components:
     text: Purchase our revolutionary UroDapter® device with a 50% discount available until September 30, 2025.
     
     
-      Get the 10-pack for a price of €75 instead of €150!
+      Get the 10-pack for a price of €49.50 instead of €99!
     button: Shop now
     product: "5983114002592"
   - type: grid
