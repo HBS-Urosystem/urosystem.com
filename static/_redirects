@@ -1,5 +1,8 @@
 /admin    /admin/index.html
 
+/en       /           301
+/en/*     /:splat     301
+
 /hirlevel  /hu/hirlevel
 
 /blog/events  /events

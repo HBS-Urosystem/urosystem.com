@@ -22,8 +22,8 @@
 </script>
 
 <aside class:consent={!!$cookies}>
-	{#if $sitelang == '' || $sitelang == 'en' || $sitelang == 'fr' || $sitelang == 'es' || $sitelang == 'it' || $sitelang == 'ja' || $sitelang == 'he' || $sitelang == 'ar' || $sitelang == 'ko' || $sitelang == 'pt' || $sitelang == 'zh' || $sitelang == 'tr'}
-		<p>This website uses cookies in compliance with GDPR and CCPA. – <a href="/{$sitelang}/privacy-policy">Privacy Policy</a></p>
+	{#if $sitelang == '' || $sitelang == 'en'}
+		<p>This website uses cookies in compliance with GDPR and CCPA. – <a href="/privacy-policy">Privacy Policy</a></p>
 		{#if !$cookies}<button on:click={consent}>Accept</button>{:else}<button on:click={unconsent}>Revoke</button>{/if}
 	{/if}
 	{#if $sitelang == 'hu'}

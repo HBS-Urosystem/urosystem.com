@@ -54,11 +54,11 @@ footer_ud:
         logo: /uploads/linktree.svg
         alt: linktree
   - logo: /uploads/sitelogo_ud.svg
-    alt: IFU
-    ext: true
+    alt: UroDapter®
     title:
     subpages:
       - link: /uploads/Urodapter-instructions.pdf
+        ext: true
         titles:
         - lang: en
           title: Instructions for Use

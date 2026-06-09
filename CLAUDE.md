@@ -1,0 +1,1 @@
+Use AGENTS.md and the Graphify output
