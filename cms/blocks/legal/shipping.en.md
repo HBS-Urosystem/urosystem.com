@@ -5,20 +5,36 @@ fallback: ""
 components:
   - type: article
     text: >-
-      1. The shipping company which is responsible for delivering the products
-      purchased by the customer is the following:
+      1. The shipping companies which are responsible for delivering the products
+      purchased by the customer are the following:
 
-         * Name: Portó Budapest Kft.
-         * Address: 1137 Budapest, Pozsonyi út 40. alagsor
+
+      Worldwide except the USA:
+
+
+         * Name: Portó Kft.
+         * Address: 40. alagsor, Pozsonyi út, 1137 Budapest, Hungary
+         * E-mail: [porto@porto.hu](mailto:porto@porto.hu)
+
+
+      USA:
+
+
+         * Name: Dawa Medical LLC
+         * Address: 7320 NW 12th St #103, Miami, FL 33126, US
+         * E-mail: [marketing@dawamedical.com](mailto:marketing@dawamedical.com)
       2. The shipping costs, according to the customer’s country as follows:
 
-         * EU, Russia and Ukraine: €9.50
+         * EU, USA, Ukraine: €9.50
          * Other countries: €10.00
       3. The estimated delivery time, according to the customer’s country as follows:
 
          * EU countries: 12 days
-         * Armenia, Azerbaijan, Georgia, Kazakhstan, Kyrgyzstan, Moldova, Russia, Tajikistan, Turkmenistan, Ukraine, Uzbekistan: 19 days
+         * USA: 10 days
+         * Armenia, Azerbaijan, Georgia, Kazakhstan, Kyrgyzstan, Moldova, Tajikistan, Turkmenistan, Ukraine, Uzbekistan: 19 days
          * Other countries: 15 days
+
+         For informational purposes only, may differ in certain cases.
 
       4. In case the customer has not received the purchased products, we recommend they contact our company using the following e-mail address: [shop@urosystem.com](mailto:shop@urosystem.com)
 

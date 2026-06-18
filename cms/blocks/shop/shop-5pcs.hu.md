@@ -7,33 +7,33 @@ components:
     title: Különleges ajánlatunk azon betegeknek és orvosoknak, akik még nem használták!
     anchor: contact
     text: Ismerve az új orvostechnológiákról szerzett közvetlen tapasztalat fontosságát, exkluzív lehetőséget kínálunk a UroDapter®-t első alkalommal kipróbáló páciensek és egészségügyi szakemberek számára. Vegye fel velünk a <a href="/contact">kapcsolatot</a>, hogy 50%-os kedvezménnyel vásárolhasson forradalmi UroDapter® készülékünkből. Ez az egyedi ajánlat biztosítja, hogy megismerhesse az UroDapter® előnyeit olyan áron, amely a mai piaci árakhoz képest is megfizethető.
-  - t-ype: cta
-    button: Lépjen velünk kapcsolatba!
-    link: /contact
+  # - t-ype: cta
+    # button: Lépjen velünk kapcsolatba!
+    # link: /contact
   - type: buy
     title: Vásároljon webshopunkból!
     button: Vásárlás
     product: "5983114002592"
-    t-ext: Válassza ki a kívánt mennyiséget!
-    subhead: "A 10 db-os csomag ára: €150"
-  - t-ype: article
-    title: Szeptember az IC tudatosság hónapja
-    anchor: september
-    text: >-
-      <center>
-        <img loading="lazy" src="/uploads/september.webp" alt="" aria-hidden="true" width="256"/>
-      </center>
-  - t-ype: buy
-    lang: hu
-    t-itle: Szeptember az IC tudatosság hónapja
-    subhead: 50%-os kedvezmény!
-    text: >-
-      Vásárolja meg forradalmi UroDapter® termékünket 50% kedvezménnyel 2025. szeptember 30-ig!
+    # t-ext: Válassza ki a kívánt mennyiséget!
+    subhead: "A 10 db-os csomag ára: €99"
+  # - t-ype: article
+    # title: Szeptember az IC tudatosság hónapja
+    # anchor: september
+    # text: >-
+      # <center>
+        # <img loading="lazy" src="/uploads/september.webp" alt="" aria-hidden="true" width="256"/>
+      # </center>
+  # - t-ype: buy
+    # lang: hu
+    # t-itle: Szeptember az IC tudatosság hónapja
+    # subhead: 50%-os kedvezmény!
+    # text: >-
+      # Vásárolja meg forradalmi UroDapter® termékünket 50% kedvezménnyel 2025. szeptember 30-ig!
     
     
-      Az 10 db-os csomag ára: <s>€150</s> helyett €75.
-    button: Vásárlás
-    product: "5983114002592"
+      # Az 10 db-os csomag ára: <s>€150</s> helyett €75.
+    # button: Vásárlás
+    # product: "5983114002592"
   - type: grid
     slide: false
     components:
@@ -58,7 +58,7 @@ components:
   - type: article
     text: >-
       <h4>FIZETÉSI MÓDOK</h4>
-      <a href="/en/shop"><img src="/uploads/visa-master.png" alt="visa mastercard amex apple" style="filter: invert(); height: 2rem;"></a>
+      <img src="/uploads/visa-master.png" alt="visa mastercard amex apple" style="filter: invert(); height: 2rem;">
   - type: article
     text: >-
       #### VÁRHATÓ SZÁLLÍTÁSI IDŐ A VÁSÁRLÁS ORSZÁGÁNAK MEGFELELŐEN:
@@ -74,6 +74,16 @@ components:
 
 
       Tájékoztató adatok, esetenként eltérhet.
+    subhead: ""
+  - type: article
+    text: >-
+      #### ELÁLLÁSI JOG
+
+      Az EU fogyasztói számára 14 napon belül indoklás nélkül elállási jogot biztosít a távollevő szerződéstől, az EU 2023/2673 irányelve szerint.
+    subhead: ""
+  - type: cta
+    button: Rendeléseim kezelése
+    link: https://shopify.com/44714295456/account
   - type: cta
     button: Lépjen velünk kapcsolatba!
     anchor: contact

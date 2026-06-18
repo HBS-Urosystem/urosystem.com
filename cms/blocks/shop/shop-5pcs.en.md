@@ -21,26 +21,26 @@ components:
   - type: buy
     title: Buy from our webshop
     subhead: 10 pcs for €99
-    t-ext: Choose the desired quantity and buy!
+    # t-ext: Choose the desired quantity and buy!
     button: Shop now
     product: "5983114002592"
-  - t-ype: article
-    title: September is IC Awareness Month
-    anchor: september
-    text: >-
-      <center>
-        <img loading="lazy" src="/uploads/september.webp" alt="" aria-hidden="true" width="256"/>
-      </center>
-  - t-ype: buy
-    lang: en
-    t-itle: September is IC Awareness Month
-    subhead: Get a 50% discount on the UroDapter®
-    text: Purchase our revolutionary UroDapter® device with a 50% discount available until September 30, 2025.
+  # - t-ype: article
+    # title: September is IC Awareness Month
+    # anchor: september
+    # text: >-
+      # <center>
+        # <img loading="lazy" src="/uploads/september.webp" alt="" aria-hidden="true" width="256"/>
+      # </center>
+  # - t-ype: buy
+    # lang: en
+    # t-itle: September is IC Awareness Month
+    # subhead: Get a 50% discount on the UroDapter®
+    # text: Purchase our revolutionary UroDapter® device with a 50% discount available until September 30, 2025.
     
     
-      Get the 10-pack for a price of €49.50 instead of €99!
-    button: Shop now
-    product: "5983114002592"
+      # Get the 10-pack for a price of €49.50 instead of €99!
+    # button: Shop now
+    # product: "5983114002592"
   - type: grid
     slide: false
     components:
@@ -63,7 +63,7 @@ components:
   - type: article
     text: >-
       <h4>ACCEPTED PAYMENTS</h4>
-      <a href="/en/shop"><img src="/uploads/visa-master.png" alt="visa mastercard amex apple" style="filter: invert(); height: 2rem;"></a>
+      <img src="/uploads/visa-master.png" alt="visa mastercard amex apple" style="filter: invert(); height: 2rem;">
   - type: article
     text: >-
       #### DELIVERY TIME
@@ -81,6 +81,15 @@ components:
 
       For informational purposes only, may differ in certain cases.
     subhead: ""
+  - type: article
+    text: >-
+      #### RIGHT OF WITHDRAWAL
+
+      EU consumers have the right to withdraw from a distance purchase within 14 days without giving any reason, in accordance with EU Directive 2023/2673.
+    subhead: ""
+  - type: cta
+    button: Manage my orders
+    link: https://shopify.com/44714295456/account
   - type: article
     text: >
       Whether you aim to introduce the patented UroDapter® in your portfolio, or you seek a partnership for distribution, <a href="/contact">contact us</a> today to learn more about our offers. Let us work together for a healthier tomorrow!
