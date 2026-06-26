@@ -22,31 +22,31 @@ components:
       - alt: Az UroDapter® fecskendő adapter és annak részei
         src: /uploads/image4-web_optim_satin.webp
         text: Az UroDapter® fecskendő adapter és annak részei
-  - t-ype: article
-    subhead: Erős jogi háttér
-    text: >-
-      * Az eszköz rendelkezik az EU-beli forgalmazáshoz szükséges CE
-      tanúsítvánnyal, azt az Egyesült Államok-beli Élelmiszer- és
-      Gyógyszerügyi Hivatal (FDA) nyilvántartásába vette. Számos országban
-      az UroDapter® intellektuális tulajdoni védelem alatt áll. 
+  # - t-ype: article
+    # subhead: Erős jogi háttér
+    # text: >-
+      # * Az eszköz rendelkezik az EU-beli forgalmazáshoz szükséges CE
+      # tanúsítvánnyal, azt az Egyesült Államok-beli Élelmiszer- és
+      # Gyógyszerügyi Hivatal (FDA) nyilvántartásába vette. Számos országban
+      # az UroDapter® intellektuális tulajdoni védelem alatt áll. 
 
-      * Az UroDapter® szabadalmi státusza: folyamatban. 
+      # * Az UroDapter® szabadalmi státusza: folyamatban. 
 
-      * Nemzetközi bejelentési szám: PCT/HU2016/000063
-  - t-ype: grid
-    slide: false
-    title: UroDapter® bemutató videók
-    components:
-      - type: video
-        source: youtube
-        id: MONZqHMJv7Q
-        anchor: lovasz
-        cat: VIDEÓ PREZENTÁCIÓ
-        subhead: Lovász Sándor MD PhD feltaláló bemutatója az UroDapter® eszközről
-      - type: video
-        source: youtube
-        id: OgwxcHuhQuQ
-        anchor: using
-        cat: AZ IBSA OKTATÓVIDEÓJA
-        subhead: Az iAluadapter® (UroDapter®) használatáról
+      # * Nemzetközi bejelentési szám: PCT/HU2016/000063
+  # - t-ype: grid
+    # slide: false
+    # title: UroDapter® bemutató videók
+    # components:
+      # - type: video
+        # source: youtube
+        # id: MONZqHMJv7Q
+        # anchor: lovasz
+        # cat: VIDEÓ PREZENTÁCIÓ
+        # subhead: Lovász Sándor MD PhD feltaláló bemutatója az UroDapter® eszközről
+      # - type: video
+        # source: youtube
+        # id: OgwxcHuhQuQ
+        # anchor: using
+        # cat: AZ IBSA OKTATÓVIDEÓJA
+        # subhead: Az iAluadapter® (UroDapter®) használatáról
 ---

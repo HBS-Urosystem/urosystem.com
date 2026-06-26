@@ -1,3 +1,0 @@
----
-id: resources-pro
----

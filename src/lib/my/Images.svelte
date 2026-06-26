@@ -48,8 +48,8 @@
     text-align: center;
   }
   figure {
-    flex: 1 1 var(--img-width, 56ch);
-    /*max-width: var(--img-width, 56ch);*/
+    flex: 1 1 var(--img-width, 64ch);
+    /*max-width: var(--img-width, 64ch);*/
     /*margin: 0 auto var(--gap);*/
     margin: 0 2.5vw 0;
   }
@@ -66,11 +66,11 @@
   }
   div {
     position: relative;
-    /*width: var(--img-width, 56ch);*/
+    /*width: var(--img-width, 64ch);*/
     margin: 0 auto;
     overflow: hidden;
     /*max-width: 100%;*/
-    max-width: var(--img-width, 56ch);
+    max-width: var(--img-width, 64ch);
     /*width: min-content;*/
     text-align: center;
   }

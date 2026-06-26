@@ -37,53 +37,53 @@ components:
 
           E fenntarthatóságot a hazai ismert betegek folyamatos kezelésével, illetve a magyar és nemzetközi betegképviseleti szervezetek segítségével az előzetesen felmért megrendelések alapján látjuk biztosítva. Célunk, hogy a projekt megvalósítása során a termék kifejlesztése és engedélyezése megtörténjen, és alkalmassá váljon a sorozatgyártásra. A betegszám ismeretében – az érintettek száma a világon többmillióra tehető – a készítmény, illetve a terápia várhatóan gyorsan elterjed, hiszen jelenleg nincs az IC betegek savas vizeletének savasságát a pH beállításával egyenletesen csökkentő, az állandó fájdalmat tartósan enyhítő megoldás. A hagyományos lúgosító tabletták ugyanis nem csökkentik hatékonyan a fájdalmat: nem biztosítanak egyenletes vizelet pH-t, és a káliumtartalom miatt a hólyagirritáció és a fájdalom folyamatosan jelentkezik.
         anchor: nkfi
-      - hidden-type: article
-        title: ""
-        button: ""
-        text: >-
-          ### Nőbetegek önkatéterezésére szolgáló gyógyászati segédeszköz
-          prototípusának kifejlesztése
+      # - hidden-type: article
+        # title: ""
+        # button: ""
+        # text: >-
+          # ### Nőbetegek önkatéterezésére szolgáló gyógyászati segédeszköz
+          # prototípusának kifejlesztése
           
-          **Kedvezményezett neve:** Happy Business Services Zrt. (ma: Urosystem
-          Zrt.)\
+          # **Kedvezményezett neve:** Happy Business Services Zrt. (ma: Urosystem
+          # Zrt.)\
 
-          **A projekt címe:** Nőbetegek önkatéterezésre szolgáló gyógyászati segédeszköz prototípusának kifejlesztése\
+          # **A projekt címe:** Nőbetegek önkatéterezésre szolgáló gyógyászati segédeszköz prototípusának kifejlesztése\
 
-          **Szerződött támogatás összege:** 116 334 000,- HUF\
+          # **Szerződött támogatás összege:** 116 334 000,- HUF\
 
-          **A támogatás mértéke:** 61%\
+          # **A támogatás mértéke:** 61%\
 
-          **Pályázati kiírás:** GINOP-2.1.7-15 Prototípus, termék, technológia-, és szolgáltatásfejlesztés\
+          # **Pályázati kiírás:** GINOP-2.1.7-15 Prototípus, termék, technológia-, és szolgáltatásfejlesztés\
 
-          **A projekt tervezett befejezési dátuma:** 2018. december 7.
-
-
-          ![GINOP pályázat](/uploads/ginop.png)
+          # **A projekt tervezett befejezési dátuma:** 2018. december 7.
 
 
-          Pályázatunk egy olyan moduláris felépítésű gyógyászati segédeszköz prototípusának kifejlesztését célozza meg, amely a nőbetegek önkatéterezését nagymértékben megkönnyíti. Gyorsabbá, egyszerűbbé és biztonságosabbá teszi a katéter bevezetését, így sok olyan beteg is élvezheti az önkatéterezés előnyeit, akik eddig nem tudták megtanulni vagy kivitelezni azt.
+          # ![GINOP pályázat](/uploads/ginop.png)
 
 
-          Az eszközzel többféle beteg helyzetét is jelentősen megkönnyíthetjük: azokét, akik rendszeres hólyagcsapolásra szorulnak, akik gyógyszeres hólyagkezelésre szorulnak, és akik mindkettőt igénylik.
+          # Pályázatunk egy olyan moduláris felépítésű gyógyászati segédeszköz prototípusának kifejlesztését célozza meg, amely a nőbetegek önkatéterezését nagymértékben megkönnyíti. Gyorsabbá, egyszerűbbé és biztonságosabbá teszi a katéter bevezetését, így sok olyan beteg is élvezheti az önkatéterezés előnyeit, akik eddig nem tudták megtanulni vagy kivitelezni azt.
 
 
-          A primer módon értettek az intestitialis cystitisben, más néven hólyagfájdalom szindrómában (közkeletű rövidítése: IC/BPS) szenvedők. Az ő rendszeres katéterezésük komoly fájdalommal, és fertőzésveszéllyel jár, ráadásul minden kezelés orvosi beavatkozást (katéterbevezetést) igényel. Az érintettek száma az USA-ban mintegy 5 millióra tehető. Magyarországon feltehetőleg legalább 20 000 fő szenved IC/BPS-ben – a pontos adat nem ismert, mivel a betegséget sajnos rendkívül ritkán diagnosztizálják. 
+          # Az eszközzel többféle beteg helyzetét is jelentősen megkönnyíthetjük: azokét, akik rendszeres hólyagcsapolásra szorulnak, akik gyógyszeres hólyagkezelésre szorulnak, és akik mindkettőt igénylik.
 
 
-          A tervezett segédeszköz a vizelet lecsapolásán túlmenően megkönnyíti a hólyag gyógyszeres kezelését (katéteren keresztül, gyógyszeroldattal történő feltöltését), valamint lehetővé teszi az általunk már szabadalmi bejelentéssel védett katéter nélküli hólyagkezelés módszerének alkalmazását is. Eszközünk segítségével a katéterezést vagy a húgyhólyag katéter nélküli feltöltését a nőbeteg önállóan, orvosi beavatkozás nélkül el tudja végezni. Az eszköz pontos, gyors katéter bevezetést, és csökkentett fertőződési veszélyt biztosít.
+          # A primer módon értettek az intestitialis cystitisben, más néven hólyagfájdalom szindrómában (közkeletű rövidítése: IC/BPS) szenvedők. Az ő rendszeres katéterezésük komoly fájdalommal, és fertőzésveszéllyel jár, ráadásul minden kezelés orvosi beavatkozást (katéterbevezetést) igényel. Az érintettek száma az USA-ban mintegy 5 millióra tehető. Magyarországon feltehetőleg legalább 20 000 fő szenved IC/BPS-ben – a pontos adat nem ismert, mivel a betegséget sajnos rendkívül ritkán diagnosztizálják. 
 
 
-          A fejlesztést több munkafázisra osztjuk, melyből egyes feladatok párhuzamosan zajlanak. Az első és legfontosabb maga a prototípus megtervezése és kifejlesztése. Már ezen munkaszakasszal párhuzamosan megkezdődött a marketing tevékenység a marketing tanulmány elkészítése, melynek célja egyrészt a tervezés során meghatározandó célirányok érvényesítése, másrészt azon piac felmérése, ahol a prototípus sikerrel alkalmazható lehet.
+          # A tervezett segédeszköz a vizelet lecsapolásán túlmenően megkönnyíti a hólyag gyógyszeres kezelését (katéteren keresztül, gyógyszeroldattal történő feltöltését), valamint lehetővé teszi az általunk már szabadalmi bejelentéssel védett katéter nélküli hólyagkezelés módszerének alkalmazását is. Eszközünk segítségével a katéterezést vagy a húgyhólyag katéter nélküli feltöltését a nőbeteg önállóan, orvosi beavatkozás nélkül el tudja végezni. Az eszköz pontos, gyors katéter bevezetést, és csökkentett fertőződési veszélyt biztosít.
 
 
-          Az elkészült prototípusokat humán vizsgálatnak fogjuk alávetni. A több hónapos tesztelés során a kiválasztott alanyok egyrészt kérdőívvel segítik munkánkat, másrészt az orvosi vizsgálatok és visszajelzések adják meg majd az eredményeket. A tesztelésnek köszönhetően várhatóan az ergonómiailag legjobb termék kerül majd gyártásra.
+          # A fejlesztést több munkafázisra osztjuk, melyből egyes feladatok párhuzamosan zajlanak. Az első és legfontosabb maga a prototípus megtervezése és kifejlesztése. Már ezen munkaszakasszal párhuzamosan megkezdődött a marketing tevékenység a marketing tanulmány elkészítése, melynek célja egyrészt a tervezés során meghatározandó célirányok érvényesítése, másrészt azon piac felmérése, ahol a prototípus sikerrel alkalmazható lehet.
 
 
-          A prototípus elkészítéséhez és piacra viteléhez mind a szellemi, mind pedig a szükséges infrastrukturális háttér biztosított.
+          # Az elkészült prototípusokat humán vizsgálatnak fogjuk alávetni. A több hónapos tesztelés során a kiválasztott alanyok egyrészt kérdőívvel segítik munkánkat, másrészt az orvosi vizsgálatok és visszajelzések adják meg majd az eredményeket. A tesztelésnek köszönhetően várhatóan az ergonómiailag legjobb termék kerül majd gyártásra.
 
 
-          A projekt a pécsi orvosi egyetemmel szoros szakmai együttműködésben, pécsi telephelyünkön valósul meg.
-        anchor: ginop
+          # A prototípus elkészítéséhez és piacra viteléhez mind a szellemi, mind pedig a szükséges infrastrukturális háttér biztosított.
+
+
+          # A projekt a pécsi orvosi egyetemmel szoros szakmai együttműködésben, pécsi telephelyünkön valósul meg.
+        # anchor: ginop
     title: Pályázatok
     anchor: palyazatok
 ---

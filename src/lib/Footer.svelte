@@ -32,7 +32,15 @@
       {#each footnav as nav}
       <li>
         {#if nav.logo}
-          <a href="{nav.link}" rel="noopener noreferrer" target="_blank"><img loading="lazy" src="{nav.logo}" alt="{nav.alt}"/></a>
+          {#if nav.link}
+            {#if nav.ext}
+              <a href="{nav.link}" rel="external noopener noreferrer" target="_blank"><img loading="lazy" src="{nav.logo}" alt="{nav.alt}"/></a>
+            {:else}
+              <a href="{nav.link}"><img loading="lazy" src="{nav.logo}" alt="{nav.alt}"/></a>
+            {/if}
+          {:else}
+            <img loading="lazy" src="{nav.logo}" alt="{nav.alt}"/>
+          {/if}
         {:else}
           <h5><span>{nav.title}</span></h5>
         {/if}

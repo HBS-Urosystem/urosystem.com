@@ -107,7 +107,7 @@ components:
       Vásárlás esetén a szükséges pénzügyi információkat leíró adatokat a Stripe-nak továbbítjuk. Az Adatkezelőt a Stripe értesíti jelentés formájában a pénzügyi tranzakció sikerességéről.
 
 
-      Stripe Payments Europe Limited – 1 Grand Canal Street Lower, Grand Canal Dock, Dublin, D02 H210, Ireland – [https://stripe.com/en-hu/privacy](http://https://stripe.com/en-hu/privacy)
+      Stripe Payments Europe Limited – 1 Grand Canal Street Lower, Grand Canal Dock, Dublin, D02 H210, Ireland – [https://stripe.com/en-hu/privacy](https://stripe.com/en-hu/privacy)
 
 
       A Weblap Webshopját a Shopify rendszere működteti, következésképp a szükséges adatokat az Adatkezelők a Shopify-nak továbbítják.
@@ -116,19 +116,27 @@ components:
       Shopify International Ltd. - Attn: Data Protection Officer – c/o Intertrust Ireland 2nd Floor 1-2 Victoria Buildings, Haddington Road, Dublin 4, D04 XN32, Ireland
 
 
-      A szállításhoz és kézbesítéshez szükséges adatokat az Adatkezelővel együtt működő szállítmányozó cégnek továbbítjuk.
+      A termékek kézbesítéséhez szükséges adatokat a szállító cégnek továbbítjuk:
 
 
-      Portó Kft.
+      Világszerte az USA kivételével:
 
 
-      1137 Budapest, Pozsonyi út 40., alagsor.
+      * Név: Portó Kft.
+
+      * Cím: 40. alagsor, Pozsonyi út, 1137 Budapest, Magyarország
+
+      * E-mail: [porto@porto.hu](mailto:porto@porto.hu)
 
 
-      Az oldallal kapcsolatos, emailben történő visszajelzéseket a Hotjar Feedback rendszere kezeli.
+      USA:
 
 
-      Hotjar Ltd. - Dragonara ROad, Paceville St Julian’s STJ 3141, Malta
+      * Név: Dawa Medical LLC
+
+      * Cím: 7320 NW 12th St #103, Miami, FL 33126, US
+
+      * E-mail: [marketing@dawamedical.com](mailto:marketing@dawamedical.com)
 
 
       Az adatokat más harmadik személynek is továbbítjuk, amennyiben azokra bűnesetek felderítése, illetve kivizsgálása miatt, vagy nemzetbiztonsági célból van szükség. Ez esetben az adatokat igénylő harmadik félnek meg kell határoznia az igényelt adatok típusát, valamint az adatkezelés pontos célját is.

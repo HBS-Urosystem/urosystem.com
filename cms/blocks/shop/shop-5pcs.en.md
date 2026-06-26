@@ -11,13 +11,13 @@ background:
   - type: gradient
     name: dark-blue-75
 components:
-  - type: article
-    title: Our Offer for First-Time Patients, and Doctors
-    anchor: contact
-    text: >-
-      <a href="/contact">Contact us</a> to obtain samples of UroDapter® at a 50% discount. This exclusive offer is designed to ensure
-      that you can experience the benefits of the UroDapter® at a cost
-      that remains as accessible as today’s market rates.
+  # - type: article
+  #   title: Our Offer for First-Time Patients, and Doctors
+  #   anchor: contact
+  #   text: >-
+  #     <a href="/contact">Contact us</a> to obtain samples of UroDapter® at a 50% discount. This exclusive offer is designed to ensure
+  #     that you can experience the benefits of the UroDapter® at a cost
+  #     that remains as accessible as today’s market rates.
   - type: buy
     title: Buy from our webshop
     subhead: 10 pcs for €150

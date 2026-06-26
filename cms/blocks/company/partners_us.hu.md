@@ -23,7 +23,7 @@ components:
   - type: grid
     slide: false
     title: "Meghatalmazott képviselőink"
-    s-ubhead: "Please contact our authorized representative"
+    # s-ubhead: "Please contact our authorized representative"
     components:
       - type: article
         subhead: ""

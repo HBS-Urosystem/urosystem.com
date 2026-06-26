@@ -95,7 +95,7 @@
     padding: var(--gap) var(--sides);
   }
   details {
-    max-width: 56ch;
+    max-width: 64ch;
     padding: 0;
     margin-inline: auto;
   }

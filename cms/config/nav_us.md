@@ -6,47 +6,29 @@ top_us:
         title: Company
       - lang: hu
         title: UroSystem Zrt.
-    s-ubpages:
-      - link: company#about
-        titles:
-          - lang: en
-            title: About us
-          - lang: hu
-            title: Rólunk
-      # - link: /events
-      #   hidden-titles:
-      #     - lang: en
-      #       title: Events
-      #     - lang: hu
-      #       title: Events
-      - link: company#partners
-        titles:
-          - lang: en
-            title: Our Partners
-          - lang: hu
-            title: Partnereink
-      - link: company#representatives
-        titles:
-          - lang: en
-            title: Representatives
-          - lang: hu
-            title: Képviselet
-      - link: company#palyazatok
-        titles:
-          - lang: hu
-            title: Pályázatok
-  - link: partners
-    titles:
-      - lang: en
-        title: For Partners
-      - lang: hu
-        title: Partnereknek
-  - link: distributors
-    titles:
-      - lang: en
-        title: For Distributors
-      - lang: hu
-        title: Forgalmazóknak
+    # s-ubpages:
+    #   - link: company#about
+    #     titles:
+    #       - lang: en
+    #         title: About us
+    #       - lang: hu
+    #         title: Rólunk
+    #   # - link: /events
+    #   #   hidden-titles:
+    #   #     - lang: en
+    #   #       title: Events
+    #   #     - lang: hu
+    #   #       title: Events
+    #   - link: company#partners
+    #     titles:
+    #       - lang: en
+    #         title: Our Partners
+    #       - lang: hu
+    #         title: Partnereink
+    #   - link: company#palyazatok
+    #     titles:
+    #       - lang: hu
+    #         title: Pályázatok
   - link: development
   # - link: /hu/hirlevel
   #   hidden-titles:
@@ -66,11 +48,10 @@ top_us:
       - lang: hu
         title: Kapcsolat
   - link: sample
+    secret: true
     titles:
       - lang: en
         title: Sample
-      - lang: hu
-        title: Klinikai minta
   - link: shop
   - link: https://www.urodapter.com
     ext: true

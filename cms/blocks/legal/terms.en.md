@@ -110,9 +110,6 @@ components:
       - Codes are generated and revoked regarding specific marketing campaigns.
 
 
-      - A full discount is only applicable on the 5 pcs package, upon negotiated conditions.
-
-
       - Discounts are not applicable on the shipping costs.
 
 

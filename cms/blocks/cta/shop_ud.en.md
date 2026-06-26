@@ -4,6 +4,6 @@ folder: cta
 fallback: ""
 components:
   - type: cta
-    button: How to buy?
+    button: Buy the UroDapter®
     link: /shop
 ---

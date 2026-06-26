@@ -3,20 +3,20 @@ top_ud:
   - link: details
     titles:
       - lang: en
-        title: Details
+        title: How it works
       - lang: hu
         title: Részletek
-  - s-ubpages:
-      - link: ic-bps
-      - link: rutis
-      - link: post-cancer-treatment
-      - link: bladder-cancer
-      - link: other-uses-and-indications
-    t-itles:
-      - lang: en
-        title: Indications
-      - lang: hu
-        title: Felhasználási területek
+  # - s-ubpages:
+  #     - link: ic-bps
+  #     - link: rutis
+  #     - link: post-cancer-treatment
+  #     - link: bladder-cancer
+  #     - link: other-uses-and-indications
+  #   t-itles:
+  #     - lang: en
+  #       title: Indications
+  #     - lang: hu
+  #       title: Felhasználási területek
   - link: resources
     titles:
       - lang: en

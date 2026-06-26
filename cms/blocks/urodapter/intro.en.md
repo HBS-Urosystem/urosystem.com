@@ -33,7 +33,8 @@ components:
     shape: rounded
     ratio: 100
   - type: cta
-    button: Details
+    button: See how it works
+    # button: Details
     link: details
   - type: video
     source: youtube

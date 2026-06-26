@@ -1,10 +1,10 @@
 <script context="module">
   import { state, sitelang } from '$lib/stores'
+  import { siteHref } from '$lib/paths'
   //import { _getPost } from '$lib/utils'
 </script>
 
 <script>
-  import { trackEvent } from '$lib/analytics'
 	//import { stores } from '@sapper/app';
 	//const { /*preloading, */page/*, session */} = stores();
   //console.log($page)
@@ -15,64 +15,27 @@
   //$: post = $state.post
 
   let sublink
-  function _trackDistributorNavClick(href) {
-    if (!href || !href.toLowerCase().includes('distributor')) return
-    trackEvent('distributor-nav-click', {
-      label: sub?.title || sub?.alt || '',
-      href,
-      path: href,
-      location: 'nav'
-    })
+  $: {
+    if (sub.link?.startsWith('http')) {
+      sublink = sub.link
+      sub.rel = 'external noopener noreferrer'
+    } else {
+      sublink = siteHref($sitelang, sub.link, $state.post?.path || '')
+    }
   }
-
-  function _trackClinicianNavClick(href) {
-    if (!href || !href.toLowerCase().includes('sample')) return
-    trackEvent('clinician-nav-click', {
-      label: sub?.title || sub?.alt || '',
-      href,
-      path: href,
-      location: 'nav'
-    })
-  }
-
-  function _trackPartnerNavClick(href) {
-    if (!href || !href.toLowerCase().includes('/partners')) return
-    trackEvent('partner-nav-click', {
-      label: sub?.title || sub?.alt || '',
-      href,
-      path: href,
-      location: 'nav'
-    })
-  }
-
-  function _trackNavFunnelClicks(href) {
-    _trackPartnerNavClick(href)
-    _trackDistributorNavClick(href)
-    _trackClinicianNavClick(href)
-  }
-
-  // console.log({$sitelang})
-  if (sub.link?.startsWith('#')) {
-    sublink = '/' + ($sitelang !== 'en' ? $sitelang + '/' : '') + ($state.post.path ? $state.post.path : '') + sub.link
-  } else if (sub.link?.startsWith('http')) {
-    sublink = sub.link// + '#vhollo'
-    sub.rel = 'external noopener noreferrer'
-  } else if (sub.link?.startsWith('/')) {
-    sublink = sub.link// + '#vhollo'
-  } else {
-    sublink = '/' + ($sitelang !== 'en' ? $sitelang + '/' : '') + sub.link
-    // console.log($sitelang, sublink)
-    //sublink = sub.link
-  }
+  // Static file links (e.g. PDFs under /uploads) need a full-page navigation;
+  // otherwise SvelteKit's client router treats them as an app route, matches
+  // the [...path] catch-all, finds no page, and lands on the homepage.
+  $: isFile = /\.[a-z0-9]+($|[?#])/i.test(sub.link || '')
   //$: sublink = sub.link.startsWith('#') ? sub.link : `${$sitelang}/${sub.link}`
   //$: console.log('SubNav:', sub)
 </script>
 
 {#if sub.ext}
   {#if sub.logo}
-    <a href="{sublink}" rel="external noopener noreferrer" target="_blank" on:click={() => _trackNavFunnelClicks(sublink)}><img src="{sub.logo}" alt="{sub.alt}"/></a>
+    <a href="{sublink}" rel="external noopener noreferrer" target="_blank"><img src="{sub.logo}" alt="{sub.alt}"/></a>
   {:else if sub.title}
-    <a class="{dir}" href="{sublink}" rel="external noopener noreferrer" target="_blank" on:click={() => _trackNavFunnelClicks(sublink)}>{sub.title}
+    <a class="{dir}" href="{sublink}" rel="external noopener noreferrer" target="_blank">{sub.title}
       {#if sub.sublinks}<img src="/uploads/open-down.svg?v=white" alt="" aria-hidden="true">{/if}
     </a>
   <!--{:else if subpage}
@@ -80,10 +43,10 @@
   {/if}
 {:else}
   {#if sub.logo}
-    <a rel={sub.rel || ''} class="{dir}" href="{sublink}" on:click={() => _trackNavFunnelClicks(sublink)}><img src="{sub.logo}" alt="{sub.alt}"/></a>
+    <a rel={sub.rel || ''} class="{dir}" href="{sublink}" data-sveltekit-reload={isFile || undefined}><img src="{sub.logo}" alt="{sub.alt}"/></a>
   {:else if sub.title}
     {#if sub.link && (!mobile || !sub.sublinks)}
-      <a rel={sub.rel || ''} class="{dir}" href="{sublink}" on:click={() => _trackNavFunnelClicks(sublink)}>{sub.title}
+      <a rel={sub.rel || ''} class="{dir}" href="{sublink}" data-sveltekit-reload={isFile || undefined}>{sub.title}
         {#if sub.sublinks}<img src="/uploads/open-down.svg?v=white" alt="" aria-hidden="true">{/if}
       </a>
     {:else}

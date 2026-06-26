@@ -1,4 +1,0 @@
----
-id: pro
-fallback: en
----

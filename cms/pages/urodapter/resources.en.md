@@ -8,8 +8,5 @@ description: Everything you need to know about the use of the UroDapter® - guid
 canonical: _ud
 menutitle: Resources
 blocks:
-  - id: urodapter/downloads
-  - id: urodapter/videos
-  - id: urodapter/references
-  - id: cta/shop_ud
+  - id: urodapter/resources-cols
 ---

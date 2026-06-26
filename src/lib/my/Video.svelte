@@ -47,6 +47,9 @@
     order: -1;
     padding-top: 1.5em;
   }
+  :global(section) h2, :global(section) h3, :global(section)  h4 {
+    text-align:start;
+  }
 
   div {
     position: relative;

@@ -3,11 +3,15 @@
   import Images from '$lib/my/Images.svelte'
   import Cta from '$lib/my/Cta.svelte'
   import Video from '$lib/my/Video.svelte'
+  import Links from '$lib/my/Links.svelte'
+  import Refs from '$lib/my/Refs.svelte'
   const options = {
 		//article: Article,
 		images: Images,
 		cta: Cta,
 		video: Video,
+		links: Links,
+		refs: Refs,
 	};
 </script>
 <script>
@@ -38,7 +42,7 @@
     /*border: 2px #fff solid;*/
     /*padding: var(--gap);*/
     
-    max-width: 56ch;
+    max-width: 64ch;
     margin-inline: auto;
     margin-block: 3rem;
   }

@@ -11,9 +11,6 @@ components:
   - type: grid
     slide: false
     components:
-      - t-ype: cta
-        button: US webshop
-        link: https://www.tyro-medical.com/shop/?store-page=Urology-c156988914
       - type: cta
         button: Webshop
         link: "#content"

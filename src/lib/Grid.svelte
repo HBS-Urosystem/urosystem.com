@@ -1,11 +1,13 @@
 <script context="module">
   import Article from '$lib/my/Article.svelte'
+  import Image from '$lib/my/Image.svelte'
   import Images from '$lib/my/Images.svelte'
   import Cta from '$lib/my/Cta.svelte'
   import BuyButton from '$lib/my/BuyButton.svelte'
   import Video from '$lib/my/Video.svelte'
   const options = {
 		article: Article,
+		image: Image,
 		images: Images,
 		cta: Cta,
 		buy: BuyButton,

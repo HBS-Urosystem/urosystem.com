@@ -19,24 +19,12 @@ footer_ud:
             title: Partners
           - lang: hu
             title: Partnerek
-      - link: distributors
-        titles:
-          - lang: en
-            title: For Distributors
-          - lang: hu
-            title: Forgalmazóknak
       - link: contact
         titles:
           - lang: en
             title: Contact us
           - lang: hu
             title: Kapcsolat
-      - link: sample
-        titles:
-          - lang: en
-            title: Sample
-          - lang: hu
-            title: Klinikai minta
   - link: ""
     titles:
       - lang: en
@@ -66,11 +54,12 @@ footer_ud:
         logo: /uploads/linktree.svg
         alt: linktree
   - logo: /uploads/sitelogo_ud.svg
-    alt: IFU
-    ext: true
+    alt: UroDapter®
+    link: /
     title:
     subpages:
       - link: /uploads/Urodapter-instructions.pdf
+        ext: true
         titles:
         - lang: en
           title: Instructions for Use

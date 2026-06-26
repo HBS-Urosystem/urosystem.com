@@ -25,7 +25,7 @@ select {
 }
 .card {
   flex: 1 0 25ch;
-  max-width: 56ch;
+  max-width: 64ch;
   margin: 0 auto;
 }
 
@@ -254,9 +254,13 @@ a.inline-block {
 }
 
 article > div, article > details, aside > div, figcaption {
-  max-width: 56ch;
+  max-width: 64ch;
   margin: 0 auto;
   padding: 0;
+}
+
+header.full article > div, header.full article > details, header.full aside > div, header.full figcaption {
+  max-width: none;
 }
 section > aside > div {
   max-width: 40ch;
@@ -589,4 +593,59 @@ li, summary {
 
 .inline {
   display: inline!important;
+}
+
+/* Homepage audience router: Patients / Clinicians / Distributors */
+#audience > h2 {
+  text-align: center;
+}
+#audience > section {
+  align-items: stretch;
+  margin-block: 1rem;
+}
+#audience > section > aside {
+  flex: 1 1 31ch;
+  max-width: 44ch;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 1rem;
+  text-align: center;
+  transition: background .2s ease, transform .2s ease;
+}
+#audience > section > aside:hover {
+  background: rgba(255, 255, 255, 0.14);
+  transform: translateY(-4px);
+}
+#audience > section > aside > h2 {
+  margin-top: 0;
+}
+#audience > section > aside a {
+  margin: 1.5rem 0 0;
+}
+#audience > section > aside a button {
+  padding: 0 var(--gap);
+}
+
+/* Resources: two-column layout (For Patients | For Clinicians) */
+#resources-cols > section {
+  align-items: stretch;
+  gap: 2rem 3rem;
+}
+#resources-cols > section > article {
+  flex: 1 1 40ch;
+  max-width: 56ch;
+}
+#col-patients > section,
+#col-clinicians > section {
+  flex-direction: column;
+  align-items: stretch;
+}
+#col-patients > section > *,
+#col-clinicians > section > * {
+  flex: 0 0 auto;
+  max-width: 100%;
 }

@@ -14,15 +14,15 @@ components:
     images:
       - alt: UroDapter® – Urological Syringe Adapter and its parts
         src: /uploads/image4-web_optim_satin.webp
-        t-ext: UroDapter® – Urological Syringe Adapter and its parts
-  - t-ype: grid
-    slide: false
-    title: UroDapter® presentation videos
-    components:
-      - type: video
-        source: youtube
-        id: MONZqHMJv7Q
-        anchor: lovasz
-        cat: VIDEO PRESENTATION
-        subhead: Dr. Sándor Lovász on the use of UroDapter®
+        # t-ext: UroDapter® – Urological Syringe Adapter and its parts
+  # - t-ype: grid
+    # slide: false
+    # title: UroDapter® presentation videos
+    # components:
+      # - type: video
+        # source: youtube
+        # id: MONZqHMJv7Q
+        # anchor: lovasz
+        # cat: VIDEO PRESENTATION
+        # subhead: Dr. Sándor Lovász on the use of UroDapter®
 ---
