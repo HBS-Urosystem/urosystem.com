@@ -21,13 +21,13 @@ components:
       - type: article
         title: 1,000,000+
         text: >-
-          <p>Procedures performed</p>
+          <p class="text-center">Procedures performed</p>
       - type: article
         title: Scientifically validated
         text: >-
-          <p>Peer-reviewed clinical evidence</p>
+          <p class="text-center">Peer-reviewed clinical evidence</p>
       - type: article
-        title: CE · FDA · MDR
+        title: Globally certified
         text: >-
-          <img style="height:40px" src='/uploads/CE-FDA-ISO.svg' alt='CE Marked / FDA Registered / ISO 13485:2016'>
+          <p class="text-center"><img style="height:1rem;vertical-align: middle;" src='/uploads/CE-FDA-ISO_nobg.svg' alt='CE Marked / FDA Registered / ISO 13485:2016'></p>
 ---

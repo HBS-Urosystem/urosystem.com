@@ -22,6 +22,4 @@ components:
       # UroDapter®
 
       ### A simple way to perform bladder instillations without catheterization.
-
-      <img style="height:48px" src='/uploads/CE-FDA-ISO.svg' alt='CE Marked / FDA Registered / ISO 13485:2016'>
 ---
