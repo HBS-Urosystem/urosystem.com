@@ -39,6 +39,17 @@
     flex-wrap: nowrap;
     overflow-x: auto;
   }
+  /* Grid-parented components scale their headings down one step: H2->H3, H3->H4.
+     The grid's own title/subhead sit outside <section>, so they keep their level. */
+  section :global(h2) {
+    font-size: 1.5rem;
+  }
+  section :global(h3) {
+    font-size: 1.3rem;
+  }
+  section :global(h4) {
+    font-size: 1.2rem;
+  }
   h3 {
     text-align: center;
   }

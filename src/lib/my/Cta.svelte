@@ -16,8 +16,19 @@
   }
 
   function _trackClinicianCtaClick(href) {
-    if (!href || !href.toLowerCase().includes('sample')) return
+    const h = href ? href.toLowerCase() : ''
+    if (!h || (!h.includes('sample') && !h.includes('/clinicians'))) return
     trackEvent('clinician-cta-click', {
+      label: comp?.button || comp?.title || '',
+      href,
+      path: href,
+      location: 'cta'
+    })
+  }
+
+  function _trackPatientCtaClick(href) {
+    if (!href || !href.toLowerCase().includes('/patients')) return
+    trackEvent('patient-cta-click', {
       label: comp?.button || comp?.title || '',
       href,
       path: href,
@@ -40,6 +51,7 @@
     _trackPartnerCtaClick(link)
     _trackDistributorCtaClick(link)
     _trackClinicianCtaClick(link)
+    _trackPatientCtaClick(link)
   }
   //console.log(comp.lang, $sitelang)
   $: {

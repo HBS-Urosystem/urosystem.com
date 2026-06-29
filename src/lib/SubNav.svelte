@@ -5,12 +5,24 @@
 </script>
 
 <script>
+  import { trackEvent } from '$lib/analytics'
 	//import { stores } from '@sapper/app';
 	//const { /*preloading, */page/*, session */} = stores();
   //console.log($page)
 	//import { lang } from '$lib/stores'
   //const lang = $sitelang
   export let /*post, */sub, dir = 'ltr', mobile = false
+
+  function _navAttrs() {
+    return { label: sub?.title || '', href: sublink || '', path: sub?.link || '', location: 'nav' }
+  }
+  function _trackNav() {
+    const l = (sub?.link || '').toLowerCase()
+    if (!l) return
+    if (l.includes('patient')) trackEvent('patient-nav-click', _navAttrs())
+    else if (l.includes('clinician') || l.includes('sample')) trackEvent('clinician-nav-click', _navAttrs())
+    else if (l.includes('partner') || l.includes('distributor')) trackEvent('partner-nav-click', _navAttrs())
+  }
   //console.log(sub)
   //$: post = $state.post
 
@@ -46,7 +58,7 @@
     <a rel={sub.rel || ''} class="{dir}" href="{sublink}" data-sveltekit-reload={isFile || undefined}><img src="{sub.logo}" alt="{sub.alt}"/></a>
   {:else if sub.title}
     {#if sub.link && (!mobile || !sub.sublinks)}
-      <a rel={sub.rel || ''} class="{dir}" href="{sublink}" data-sveltekit-reload={isFile || undefined}>{sub.title}
+      <a on:click={_trackNav} rel={sub.rel || ''} class="{dir}" href="{sublink}" data-sveltekit-reload={isFile || undefined}>{sub.title}
         {#if sub.sublinks}<img src="/uploads/open-down.svg?v=white" alt="" aria-hidden="true">{/if}
       </a>
     {:else}
