@@ -9,4 +9,5 @@ canonical: _ud
 menutitle: Resources
 blocks:
   - id: urodapter/resources-cols
+  - id: index/testimonials
 ---

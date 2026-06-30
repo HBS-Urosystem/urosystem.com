@@ -9,4 +9,5 @@ menutitle: Knowledge
 hero: knowledge/hero
 blocks:
   - id: knowledge/roadmap
+  - id: index/testimonials
 ---

@@ -17,7 +17,7 @@ components:
 
       <p class="hint"><strong>After your request:</strong> explore <a href="/knowledge">Knowledge</a>
       to evaluate and implement in clinic. For peer and patient perspectives, browse
-      <em>UroDapter Success Stories</em> on the <a href="/knowledge">Knowledge</a> page.</p>
+      <em><a href="/knowledge#testimonials">UroDapter Success Stories</a></em>.</p>
 
       <h3>Clinical Context</h3>
 

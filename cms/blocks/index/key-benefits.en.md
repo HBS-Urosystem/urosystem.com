@@ -24,9 +24,11 @@ components:
     subhead: A Better Experience for Patients. A Practical Solution for Clinicians.
     components:
       - type: article
+        subhead: For Patients
         text: >-
           <ul><li>Catheter-free treatment</li><li>Greater comfort</li><li>Less anxiety</li></ul>
       - type: article
+        subhead: For Clinicians
         text: >-
           <ul><li>Better patient experience</li><li>Fewer complications</li><li>Simple integration into practice</li></ul>
 ---
