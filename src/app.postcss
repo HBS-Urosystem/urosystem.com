@@ -432,17 +432,6 @@ article h4, article h5, article h6 {
   }
 }
 
-/* Text-alignment utilities for CMS content (Tailwind utilities are not compiled
-   into the global bundle — only @tailwind base is — so define the ones authors
-   use here). Class specificity beats the `article p ... { text-align: justify }`
-   rule above, so these win inside article/aside content. */
-.text-left { text-align: left; }
-.text-center { text-align: center; }
-.text-right { text-align: right; }
-.text-start { text-align: start; }
-.text-end { text-align: end; }
-.text-justify { text-align: justify; }
-
 article > h1:first-child, article > .h1:first-child, article > h2:first-child, article > h3:first-child, article > h4:first-child, article > h5:first-child, article > h6:first-child, aside > h1:first-child, aside > .h1:first-child, aside > h2:first-child, aside > h3:first-child, aside > h4:first-child, aside > h5:first-child, aside > h6:first-child {
   padding-top: 1.5em;
   margin-top: 0;
@@ -668,3 +657,11 @@ li, summary {
   flex: 0 0 auto;
   max-width: 100%;
 }
+
+/* Tailwind utilities are emitted LAST so author-supplied CMS classes win over
+   default element styling (e.g. `.text-center` beats `article p { justify }`).
+   The components layer is intentionally NOT included: daisyUI form components
+   (.btn / .checkbox / .card) appear in some markup and must stay inert here so
+   forms are not restyled. Utilities for CMS come from scanning cms/** plus the
+   safelist in tailwind.config.cjs. */
+@tailwind utilities;

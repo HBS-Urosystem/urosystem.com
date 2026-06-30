@@ -15,9 +15,9 @@ components:
     text: >-
       <input type="hidden" name="subject" value="Clinician Sample Request" />
 
-      <p class="hint"><strong>After your request:</strong> explore <a href="/resources">Resources</a>
+      <p class="hint"><strong>After your request:</strong> explore <a href="/knowledge">Knowledge</a>
       to evaluate and implement in clinic. For peer and patient perspectives, browse
-      <em>UroDapter Success Stories</em> on the <a href="/">homepage</a>.</p>
+      <em>UroDapter Success Stories</em> on the <a href="/knowledge">Knowledge</a> page.</p>
 
       <h3>Clinical Context</h3>
 
