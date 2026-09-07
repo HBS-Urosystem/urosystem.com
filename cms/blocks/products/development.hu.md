@@ -72,7 +72,7 @@ components:
       A felületen a páciensek kitölthetik a jól ismert IC/BPS állapotfelmérő kérdőíveket (O’Leary-Sant, Dorfman), feltölthetik a GAG-réteg integritás teszt eredményeit, s mindezen adatokat a rendszer grafikonok formájában is ábrázolja. A kezelőorvos így könnyedén el tudja dönteni, reagál-e a páciens a kezelésre, illetve hogy szükség van-e bármilyen változtatásra, vagy személyes vizitre. 
 
 
-      Lovász Sándor MD PhD. Hosszú évek óta dolgozik egy hasonló rendszerrel. A pácienskövető rendszer mindenki számára elérhető változata fejlesztés alatt áll.
+      Lovász Sándor MD PhD. Hosszú évek óta dolgozik egy hasonló rendszerrel. A pácienskövető rendszer mindenki számára elérhető változata már elérhető a megújult <a href="https://www.holyagfajdalom.hu" target="_blank">www.holyagfajdalom.hu</a> oldalon.
     title: Online pácienskövető rendszer
     anchor: follow-up
 ---
