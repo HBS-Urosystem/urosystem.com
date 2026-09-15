@@ -39,16 +39,15 @@
       }
       function ShopifyBuyInit() {
         var client = ShopifyBuy.buildClient({
-          domain:
-            comp.domain || "shop.urosystem.com",
+          domain: comp.domain || "ify.urosystem.com",
           storefrontAccessToken: "c1a2152628eaac39db753d008b8e24a2",
         });
         ShopifyBuy.UI.onReady(client).then(function (ui) {
           ui.createComponent("product", {
             id: comp.product || "5983114002592",
-              variantId: '39737392300192',
+            variantId: "39737392300192",
             node: document.getElementById(
-              `product-component-1616169000007-${comp.lang}`
+              `product-component-1616169000007-${comp.lang}`,
             ),
             moneyFormat: "%24%7B%7Bamount%7D%7D",
             options: {
@@ -95,7 +94,7 @@
                 text: {
                   button: (comp.button || "Shop now") + " ✔︎",
                 },
-                width: "360px"
+                width: "360px",
               },
               productSet: {
                 styles: {
@@ -189,7 +188,7 @@
                     };*/
                     //console.log('afterInit',cart)
                   },
-                }
+                },
               },
               toggle: {
                 styles: {
@@ -222,14 +221,14 @@
   {#if comp.text}<div>{@html comp.text}</div>{/if}
   {#if comp.button && langs}
     {#each langs as lang}
-      {#if lang.id == 'ru'}
+      {#if lang.id == "ru"}
         <div
           id="product-component-1616169000007-{lang.id}"
           lang={lang.id}
           hidden={comp.lang !== lang.id}
           aria-hidden={comp.lang !== lang.id}
         />
-        <p 
+        <p
           lang={lang.id}
           hidden={comp.lang !== lang.id}
           aria-hidden={comp.lang !== lang.id}
@@ -237,14 +236,14 @@
         >
           <small>Оплата банковской картой защищена Stripe</small>
         </p>
-      {:else if lang.id == 'hu'}
+      {:else if lang.id == "hu"}
         <div
           id="product-component-1616169000007-{lang.id}"
           lang={lang.id}
           hidden={comp.lang !== lang.id}
           aria-hidden={comp.lang !== lang.id}
         />
-        <p 
+        <p
           lang={lang.id}
           hidden={comp.lang !== lang.id}
           aria-hidden={comp.lang !== lang.id}
@@ -259,7 +258,7 @@
           hidden={comp.lang !== lang.id}
           aria-hidden={comp.lang !== lang.id}
         />
-        <p 
+        <p
           lang={lang.id}
           hidden={comp.lang !== lang.id}
           aria-hidden={comp.lang !== lang.id}
@@ -270,7 +269,6 @@
       {/if}
     {/each}
   {/if}
-
 </aside>
 
 <style>
