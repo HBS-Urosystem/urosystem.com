@@ -83,7 +83,7 @@ components:
     subhead: ""
   - type: cta
     button: Rendeléseim kezelése
-    link: https://shopify.com/44714295456/account
+    link: https://shop.urosystem.com
   - type: cta
     button: Lépjen velünk kapcsolatba!
     anchor: contact

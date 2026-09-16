@@ -89,7 +89,7 @@ components:
     subhead: ""
   - type: cta
     button: Manage my orders
-    link: https://shopify.com/44714295456/account
+    link: https://shop.urosystem.com
   - type: article
     text: >
       Whether you aim to introduce the patented UroDapter® in your portfolio, or you seek a partnership for distribution, <a href="/contact">contact us</a> today to learn more about our offers. Let us work together for a healthier tomorrow!
