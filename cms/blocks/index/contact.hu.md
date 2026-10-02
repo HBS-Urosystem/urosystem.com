@@ -37,7 +37,7 @@ components:
       </fieldset>
 
       <fieldset>
-        <label>Üzenet <textarea name="message" rows="4" required></textarea></label>
+        <label>Üzenet <textarea name="message" rows="4" placeholder="Első vásárló 50%-os kedvezményéhez írja ide a szállítási címét." required></textarea></label>
       </fieldset>
 
       <div>

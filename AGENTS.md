@@ -58,6 +58,8 @@ Use this document as the operational guide for agentic updates.
 - Site-specific page variants are selected by suffix in page IDs/slugs (for example `index_us`, `index_ud`) via `src/lib/utils.js`.
 - Navigation labels and structure come from `cms/config/nav_*.md` and `cms/config/footnav_*.md`.
 - Language availability comes from `cms/config/langs_*.md` (plus shared `langs.md` content).
+- Language fallback (`fallback: en` in `cms/blocks/**` and `cms/pages/**`) merges objects but does not merge arrays: a language file that defines `components` replaces the fallback language's list entirely, so a component added to an `en` block must also be added to the `hu` (or other language) block if that block defines its own `components`.
+- `type: cta` links get the language prefix automatically (`src/lib/my/Cta.svelte` -> `siteHref` in `src/lib/paths.js`): write `link: /contact` in every language (the `hu` page renders `/hu/contact`; writing `/hu/contact` would render `/hu/hu/contact`). Raw `<a href>` inside block `text` HTML is used as written and is not prefixed.
 
 ## Environment Variables
 
@@ -87,4 +89,5 @@ Never print secrets into logs, docs, or commits.
 - Confirm correct site mode with `VITE_SITE`.
 - Run `npm run build` for structural/content edits.
 - For route/content updates, smoke-check key pages in dev mode for both language and site variant impact.
+- A URL without a language prefix (for example `/contact`) is always English: `src/routes/+layout.server.js` falls back to `en`, not to the `sitelang` store. That store is module-level state shared by all server requests (and prerendered pages), so reading it in a loader made `/contact` render Hungarian right after `/hu/contact` (visible when switching hu -> en with the language select in `Nav.svelte`, which does a full page load). Do not read `sitelang` in server code; it is only a client-side convenience store set from `data.thislang` in `src/routes/+layout.svelte`.
 - If touching integrations, verify endpoint behavior with safe local tests and no secret leakage.

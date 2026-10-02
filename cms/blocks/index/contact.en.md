@@ -36,7 +36,7 @@ components:
       </fieldset>
 
       <fieldset>
-        <label>Message <textarea name="message" rows="4" required></textarea></label>
+        <label>Message <textarea name="message" rows="4" placeholder="For the 50% first-time buyer discount, enter your shipping address here." required></textarea></label>
       </fieldset>
 
       <div class="fieldset">

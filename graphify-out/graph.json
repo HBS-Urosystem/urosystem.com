@@ -414,7 +414,7 @@
       "source_file": "package.json",
       "source_location": "L43",
       "id": "urosystem_kit1_package_dependencies_netlify_identity_widget",
-      "community": 6,
+      "community": 3,
       "norm_label": "netlify-identity-widget"
     },
     {
@@ -436,12 +436,39 @@
       "norm_label": "svelte-scrollto"
     },
     {
+      "label": "settings.local.json",
+      "file_type": "code",
+      "source_file": ".claude/settings.local.json",
+      "source_location": "L1",
+      "id": "claude_settings_local_json",
+      "community": 1196,
+      "norm_label": "settings.local.json"
+    },
+    {
+      "label": "permissions",
+      "file_type": "code",
+      "source_file": ".claude/settings.local.json",
+      "source_location": "L2",
+      "id": "claude_settings_local_permissions",
+      "community": 1196,
+      "norm_label": "permissions"
+    },
+    {
+      "label": "allow",
+      "file_type": "code",
+      "source_file": ".claude/settings.local.json",
+      "source_location": "L3",
+      "id": "claude_settings_local_permissions_allow",
+      "community": 1196,
+      "norm_label": "allow"
+    },
+    {
       "label": "Cookies.svelte",
       "file_type": "code",
       "source_file": "src/lib/Cookies.svelte",
       "source_location": "L1",
       "id": "src_lib_cookies_svelte",
-      "community": 2,
+      "community": 3,
       "norm_label": "cookies.svelte"
     },
     {
@@ -468,7 +495,7 @@
       "source_file": "$app/environment",
       "confidence": "EXTRACTED",
       "id": "environment",
-      "community": 2,
+      "community": 3,
       "norm_label": "$app/environment"
     },
     {
@@ -495,7 +522,7 @@
       "source_file": "src/lib/stores.js",
       "source_location": "L1",
       "id": "src_lib_stores_js",
-      "community": 2,
+      "community": 1195,
       "norm_label": "stores.js"
     },
     {
@@ -504,7 +531,7 @@
       "source_file": "src/lib/stores.js",
       "source_location": "L5",
       "id": "lib_stores_state",
-      "community": 2,
+      "community": 1195,
       "norm_label": "state"
     },
     {
@@ -513,7 +540,7 @@
       "source_file": "src/lib/stores.js",
       "source_location": "L6",
       "id": "lib_stores_moved",
-      "community": 2,
+      "community": 1195,
       "norm_label": "moved"
     },
     {
@@ -522,7 +549,7 @@
       "source_file": "src/lib/stores.js",
       "source_location": "L7",
       "id": "lib_stores_snapto",
-      "community": 2,
+      "community": 1195,
       "norm_label": "snapto"
     },
     {
@@ -531,7 +558,7 @@
       "source_file": "src/lib/stores.js",
       "source_location": "L29",
       "id": "lib_stores_variables",
-      "community": 2,
+      "community": 1195,
       "norm_label": "variables"
     },
     {
@@ -909,7 +936,7 @@
       "source_file": "src/lib/Identity.svelte",
       "source_location": "L1",
       "id": "src_lib_identity_svelte",
-      "community": 6,
+      "community": 3,
       "norm_label": "identity.svelte"
     },
     {
@@ -918,7 +945,7 @@
       "source_file": "netlify-identity-widget",
       "confidence": "EXTRACTED",
       "id": "netlify_identity_widget",
-      "community": 6,
+      "community": 3,
       "norm_label": "netlify-identity-widget"
     },
     {
@@ -1384,7 +1411,7 @@
       "label": "load()",
       "file_type": "code",
       "source_file": "src/routes/+layout.server.js",
-      "source_location": "L12",
+      "source_location": "L10",
       "id": "routes_layout_server_load",
       "community": 4,
       "norm_label": "load()"
@@ -1906,7 +1933,7 @@
       "label": "Environment Variables",
       "file_type": "document",
       "source_file": "AGENTS.md",
-      "source_location": "L62",
+      "source_location": "L64",
       "id": "urosystem_kit1_agents_environment_variables",
       "community": 8,
       "norm_label": "environment variables"
@@ -1915,7 +1942,7 @@
       "label": "Agent Editing Rules",
       "file_type": "document",
       "source_file": "AGENTS.md",
-      "source_location": "L76",
+      "source_location": "L78",
       "id": "urosystem_kit1_agents_agent_editing_rules",
       "community": 8,
       "norm_label": "agent editing rules"
@@ -1924,10 +1951,19 @@
       "label": "Verification Checklist For Agent Changes",
       "file_type": "document",
       "source_file": "AGENTS.md",
-      "source_location": "L85",
+      "source_location": "L87",
       "id": "urosystem_kit1_agents_verification_checklist_for_agent_changes",
       "community": 8,
       "norm_label": "verification checklist for agent changes"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "id": "claude_md",
+      "community": 1197,
+      "norm_label": "claude.md"
     },
     {
       "label": "video-series.hu.md",
@@ -4504,24 +4540,6 @@
       "norm_label": "shop_ud.hu.md"
     },
     {
-      "label": "shop-5pcs.fr.md",
-      "file_type": "document",
-      "source_file": "cms/blocks/shop/shop-5pcs.fr.md",
-      "source_location": "L1",
-      "id": "cms_blocks_shop_shop_5pcs_fr_md",
-      "community": 312,
-      "norm_label": "shop-5pcs.fr.md"
-    },
-    {
-      "label": "shop-5pcs.zh.md",
-      "file_type": "document",
-      "source_file": "cms/blocks/shop/shop-5pcs.zh.md",
-      "source_location": "L1",
-      "id": "cms_blocks_shop_shop_5pcs_zh_md",
-      "community": 313,
-      "norm_label": "shop-5pcs.zh.md"
-    },
-    {
       "label": "shop-5pcs.en.md",
       "file_type": "document",
       "source_file": "cms/blocks/shop/shop-5pcs.en.md",
@@ -4540,150 +4558,6 @@
       "norm_label": "shop-5pcs.hu.md"
     },
     {
-      "label": "shop-5pcs.es.md",
-      "file_type": "document",
-      "source_file": "cms/blocks/shop/shop-5pcs.es.md",
-      "source_location": "L1",
-      "id": "cms_blocks_shop_shop_5pcs_es_md",
-      "community": 316,
-      "norm_label": "shop-5pcs.es.md"
-    },
-    {
-      "label": "shop-5pcs.it.md",
-      "file_type": "document",
-      "source_file": "cms/blocks/shop/shop-5pcs.it.md",
-      "source_location": "L1",
-      "id": "cms_blocks_shop_shop_5pcs_it_md",
-      "community": 317,
-      "norm_label": "shop-5pcs.it.md"
-    },
-    {
-      "label": "hero.ja.md",
-      "file_type": "document",
-      "source_file": "cms/blocks/shop/hero.ja.md",
-      "source_location": "L1",
-      "id": "cms_blocks_shop_hero_ja_md",
-      "community": 318,
-      "norm_label": "hero.ja.md"
-    },
-    {
-      "label": "hero.he.md",
-      "file_type": "document",
-      "source_file": "cms/blocks/shop/hero.he.md",
-      "source_location": "L1",
-      "id": "cms_blocks_shop_hero_he_md",
-      "community": 319,
-      "norm_label": "hero.he.md"
-    },
-    {
-      "label": "shop-5pcs.ar.md",
-      "file_type": "document",
-      "source_file": "cms/blocks/shop/shop-5pcs.ar.md",
-      "source_location": "L1",
-      "id": "cms_blocks_shop_shop_5pcs_ar_md",
-      "community": 320,
-      "norm_label": "shop-5pcs.ar.md"
-    },
-    {
-      "label": "shop-5pcs.tr.md",
-      "file_type": "document",
-      "source_file": "cms/blocks/shop/shop-5pcs.tr.md",
-      "source_location": "L1",
-      "id": "cms_blocks_shop_shop_5pcs_tr_md",
-      "community": 321,
-      "norm_label": "shop-5pcs.tr.md"
-    },
-    {
-      "label": "hero.ru.md",
-      "file_type": "document",
-      "source_file": "cms/blocks/shop/hero.ru.md",
-      "source_location": "L1",
-      "id": "cms_blocks_shop_hero_ru_md",
-      "community": 322,
-      "norm_label": "hero.ru.md"
-    },
-    {
-      "label": "hero.pt.md",
-      "file_type": "document",
-      "source_file": "cms/blocks/shop/hero.pt.md",
-      "source_location": "L1",
-      "id": "cms_blocks_shop_hero_pt_md",
-      "community": 323,
-      "norm_label": "hero.pt.md"
-    },
-    {
-      "label": "shop-5pcs.de.md",
-      "file_type": "document",
-      "source_file": "cms/blocks/shop/shop-5pcs.de.md",
-      "source_location": "L1",
-      "id": "cms_blocks_shop_shop_5pcs_de_md",
-      "community": 324,
-      "norm_label": "shop-5pcs.de.md"
-    },
-    {
-      "label": "hero.ko.md",
-      "file_type": "document",
-      "source_file": "cms/blocks/shop/hero.ko.md",
-      "source_location": "L1",
-      "id": "cms_blocks_shop_hero_ko_md",
-      "community": 325,
-      "norm_label": "hero.ko.md"
-    },
-    {
-      "label": "hero.ar.md",
-      "file_type": "document",
-      "source_file": "cms/blocks/shop/hero.ar.md",
-      "source_location": "L1",
-      "id": "cms_blocks_shop_hero_ar_md",
-      "community": 326,
-      "norm_label": "hero.ar.md"
-    },
-    {
-      "label": "shop-5pcs.he.md",
-      "file_type": "document",
-      "source_file": "cms/blocks/shop/shop-5pcs.he.md",
-      "source_location": "L1",
-      "id": "cms_blocks_shop_shop_5pcs_he_md",
-      "community": 327,
-      "norm_label": "shop-5pcs.he.md"
-    },
-    {
-      "label": "shop-5pcs.ja.md",
-      "file_type": "document",
-      "source_file": "cms/blocks/shop/shop-5pcs.ja.md",
-      "source_location": "L1",
-      "id": "cms_blocks_shop_shop_5pcs_ja_md",
-      "community": 328,
-      "norm_label": "shop-5pcs.ja.md"
-    },
-    {
-      "label": "hero.it.md",
-      "file_type": "document",
-      "source_file": "cms/blocks/shop/hero.it.md",
-      "source_location": "L1",
-      "id": "cms_blocks_shop_hero_it_md",
-      "community": 329,
-      "norm_label": "hero.it.md"
-    },
-    {
-      "label": "hero.es.md",
-      "file_type": "document",
-      "source_file": "cms/blocks/shop/hero.es.md",
-      "source_location": "L1",
-      "id": "cms_blocks_shop_hero_es_md",
-      "community": 330,
-      "norm_label": "hero.es.md"
-    },
-    {
-      "label": "hero.tr.md",
-      "file_type": "document",
-      "source_file": "cms/blocks/shop/hero.tr.md",
-      "source_location": "L1",
-      "id": "cms_blocks_shop_hero_tr_md",
-      "community": 331,
-      "norm_label": "hero.tr.md"
-    },
-    {
       "label": "hero.en.md",
       "file_type": "document",
       "source_file": "cms/blocks/shop/hero.en.md",
@@ -4693,24 +4567,6 @@
       "norm_label": "hero.en.md"
     },
     {
-      "label": "hero.zh.md",
-      "file_type": "document",
-      "source_file": "cms/blocks/shop/hero.zh.md",
-      "source_location": "L1",
-      "id": "cms_blocks_shop_hero_zh_md",
-      "community": 333,
-      "norm_label": "hero.zh.md"
-    },
-    {
-      "label": "hero.fr.md",
-      "file_type": "document",
-      "source_file": "cms/blocks/shop/hero.fr.md",
-      "source_location": "L1",
-      "id": "cms_blocks_shop_hero_fr_md",
-      "community": 334,
-      "norm_label": "hero.fr.md"
-    },
-    {
       "label": "hero.hu.md",
       "file_type": "document",
       "source_file": "cms/blocks/shop/hero.hu.md",
@@ -4718,42 +4574,6 @@
       "id": "cms_blocks_shop_hero_hu_md",
       "community": 335,
       "norm_label": "hero.hu.md"
-    },
-    {
-      "label": "shop-5pcs.pt.md",
-      "file_type": "document",
-      "source_file": "cms/blocks/shop/shop-5pcs.pt.md",
-      "source_location": "L1",
-      "id": "cms_blocks_shop_shop_5pcs_pt_md",
-      "community": 336,
-      "norm_label": "shop-5pcs.pt.md"
-    },
-    {
-      "label": "shop-5pcs.ko.md",
-      "file_type": "document",
-      "source_file": "cms/blocks/shop/shop-5pcs.ko.md",
-      "source_location": "L1",
-      "id": "cms_blocks_shop_shop_5pcs_ko_md",
-      "community": 337,
-      "norm_label": "shop-5pcs.ko.md"
-    },
-    {
-      "label": "hero.de.md",
-      "file_type": "document",
-      "source_file": "cms/blocks/shop/hero.de.md",
-      "source_location": "L1",
-      "id": "cms_blocks_shop_hero_de_md",
-      "community": 338,
-      "norm_label": "hero.de.md"
-    },
-    {
-      "label": "shop-5pcs.ru.md",
-      "file_type": "document",
-      "source_file": "cms/blocks/shop/shop-5pcs.ru.md",
-      "source_location": "L1",
-      "id": "cms_blocks_shop_shop_5pcs_ru_md",
-      "community": 339,
-      "norm_label": "shop-5pcs.ru.md"
     },
     {
       "label": "rutis.ru.md",
@@ -12467,6 +12287,222 @@
       "id": "cms_pages_company_company_he_md",
       "community": 1194,
       "norm_label": "company.he.md"
+    },
+    {
+      "label": "shop-5pcs.fr.md",
+      "file_type": "document",
+      "source_file": "cms/blocks/shop/shop-5pcs.fr.md",
+      "source_location": "L1",
+      "community": 312,
+      "norm_label": "shop-5pcs.fr.md",
+      "id": "cms_blocks_shop_shop_5pcs_fr_md"
+    },
+    {
+      "label": "shop-5pcs.zh.md",
+      "file_type": "document",
+      "source_file": "cms/blocks/shop/shop-5pcs.zh.md",
+      "source_location": "L1",
+      "community": 313,
+      "norm_label": "shop-5pcs.zh.md",
+      "id": "cms_blocks_shop_shop_5pcs_zh_md"
+    },
+    {
+      "label": "shop-5pcs.es.md",
+      "file_type": "document",
+      "source_file": "cms/blocks/shop/shop-5pcs.es.md",
+      "source_location": "L1",
+      "community": 316,
+      "norm_label": "shop-5pcs.es.md",
+      "id": "cms_blocks_shop_shop_5pcs_es_md"
+    },
+    {
+      "label": "shop-5pcs.it.md",
+      "file_type": "document",
+      "source_file": "cms/blocks/shop/shop-5pcs.it.md",
+      "source_location": "L1",
+      "community": 317,
+      "norm_label": "shop-5pcs.it.md",
+      "id": "cms_blocks_shop_shop_5pcs_it_md"
+    },
+    {
+      "label": "hero.ja.md",
+      "file_type": "document",
+      "source_file": "cms/blocks/shop/hero.ja.md",
+      "source_location": "L1",
+      "community": 318,
+      "norm_label": "hero.ja.md",
+      "id": "cms_blocks_shop_hero_ja_md"
+    },
+    {
+      "label": "hero.he.md",
+      "file_type": "document",
+      "source_file": "cms/blocks/shop/hero.he.md",
+      "source_location": "L1",
+      "community": 319,
+      "norm_label": "hero.he.md",
+      "id": "cms_blocks_shop_hero_he_md"
+    },
+    {
+      "label": "shop-5pcs.ar.md",
+      "file_type": "document",
+      "source_file": "cms/blocks/shop/shop-5pcs.ar.md",
+      "source_location": "L1",
+      "community": 320,
+      "norm_label": "shop-5pcs.ar.md",
+      "id": "cms_blocks_shop_shop_5pcs_ar_md"
+    },
+    {
+      "label": "shop-5pcs.tr.md",
+      "file_type": "document",
+      "source_file": "cms/blocks/shop/shop-5pcs.tr.md",
+      "source_location": "L1",
+      "community": 321,
+      "norm_label": "shop-5pcs.tr.md",
+      "id": "cms_blocks_shop_shop_5pcs_tr_md"
+    },
+    {
+      "label": "hero.ru.md",
+      "file_type": "document",
+      "source_file": "cms/blocks/shop/hero.ru.md",
+      "source_location": "L1",
+      "community": 322,
+      "norm_label": "hero.ru.md",
+      "id": "cms_blocks_shop_hero_ru_md"
+    },
+    {
+      "label": "hero.pt.md",
+      "file_type": "document",
+      "source_file": "cms/blocks/shop/hero.pt.md",
+      "source_location": "L1",
+      "community": 323,
+      "norm_label": "hero.pt.md",
+      "id": "cms_blocks_shop_hero_pt_md"
+    },
+    {
+      "label": "shop-5pcs.de.md",
+      "file_type": "document",
+      "source_file": "cms/blocks/shop/shop-5pcs.de.md",
+      "source_location": "L1",
+      "community": 324,
+      "norm_label": "shop-5pcs.de.md",
+      "id": "cms_blocks_shop_shop_5pcs_de_md"
+    },
+    {
+      "label": "hero.ko.md",
+      "file_type": "document",
+      "source_file": "cms/blocks/shop/hero.ko.md",
+      "source_location": "L1",
+      "community": 325,
+      "norm_label": "hero.ko.md",
+      "id": "cms_blocks_shop_hero_ko_md"
+    },
+    {
+      "label": "hero.ar.md",
+      "file_type": "document",
+      "source_file": "cms/blocks/shop/hero.ar.md",
+      "source_location": "L1",
+      "community": 326,
+      "norm_label": "hero.ar.md",
+      "id": "cms_blocks_shop_hero_ar_md"
+    },
+    {
+      "label": "shop-5pcs.he.md",
+      "file_type": "document",
+      "source_file": "cms/blocks/shop/shop-5pcs.he.md",
+      "source_location": "L1",
+      "community": 327,
+      "norm_label": "shop-5pcs.he.md",
+      "id": "cms_blocks_shop_shop_5pcs_he_md"
+    },
+    {
+      "label": "shop-5pcs.ja.md",
+      "file_type": "document",
+      "source_file": "cms/blocks/shop/shop-5pcs.ja.md",
+      "source_location": "L1",
+      "community": 328,
+      "norm_label": "shop-5pcs.ja.md",
+      "id": "cms_blocks_shop_shop_5pcs_ja_md"
+    },
+    {
+      "label": "hero.it.md",
+      "file_type": "document",
+      "source_file": "cms/blocks/shop/hero.it.md",
+      "source_location": "L1",
+      "community": 329,
+      "norm_label": "hero.it.md",
+      "id": "cms_blocks_shop_hero_it_md"
+    },
+    {
+      "label": "hero.es.md",
+      "file_type": "document",
+      "source_file": "cms/blocks/shop/hero.es.md",
+      "source_location": "L1",
+      "community": 330,
+      "norm_label": "hero.es.md",
+      "id": "cms_blocks_shop_hero_es_md"
+    },
+    {
+      "label": "hero.tr.md",
+      "file_type": "document",
+      "source_file": "cms/blocks/shop/hero.tr.md",
+      "source_location": "L1",
+      "community": 331,
+      "norm_label": "hero.tr.md",
+      "id": "cms_blocks_shop_hero_tr_md"
+    },
+    {
+      "label": "hero.zh.md",
+      "file_type": "document",
+      "source_file": "cms/blocks/shop/hero.zh.md",
+      "source_location": "L1",
+      "community": 333,
+      "norm_label": "hero.zh.md",
+      "id": "cms_blocks_shop_hero_zh_md"
+    },
+    {
+      "label": "hero.fr.md",
+      "file_type": "document",
+      "source_file": "cms/blocks/shop/hero.fr.md",
+      "source_location": "L1",
+      "community": 334,
+      "norm_label": "hero.fr.md",
+      "id": "cms_blocks_shop_hero_fr_md"
+    },
+    {
+      "label": "shop-5pcs.pt.md",
+      "file_type": "document",
+      "source_file": "cms/blocks/shop/shop-5pcs.pt.md",
+      "source_location": "L1",
+      "community": 336,
+      "norm_label": "shop-5pcs.pt.md",
+      "id": "cms_blocks_shop_shop_5pcs_pt_md"
+    },
+    {
+      "label": "shop-5pcs.ko.md",
+      "file_type": "document",
+      "source_file": "cms/blocks/shop/shop-5pcs.ko.md",
+      "source_location": "L1",
+      "community": 337,
+      "norm_label": "shop-5pcs.ko.md",
+      "id": "cms_blocks_shop_shop_5pcs_ko_md"
+    },
+    {
+      "label": "hero.de.md",
+      "file_type": "document",
+      "source_file": "cms/blocks/shop/hero.de.md",
+      "source_location": "L1",
+      "community": 338,
+      "norm_label": "hero.de.md",
+      "id": "cms_blocks_shop_hero_de_md"
+    },
+    {
+      "label": "shop-5pcs.ru.md",
+      "file_type": "document",
+      "source_file": "cms/blocks/shop/shop-5pcs.ru.md",
+      "source_location": "L1",
+      "community": 339,
+      "norm_label": "shop-5pcs.ru.md",
+      "id": "cms_blocks_shop_shop_5pcs_ru_md"
     }
   ],
   "links": [
@@ -12477,9 +12513,9 @@
       "source_file": "svelte.config.js",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "svelte_config_js",
-      "target": "mdsvex_config_js",
-      "confidence_score": 1.0
+      "target": "mdsvex_config_js"
     },
     {
       "relation": "contains",
@@ -12487,9 +12523,9 @@
       "source_file": "svelte.config.js",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "svelte_config_js",
-      "target": "urosystem_kit1_svelte_config_config",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_svelte_config_config"
     },
     {
       "relation": "contains",
@@ -12497,9 +12533,9 @@
       "source_file": "mdsvex.config.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mdsvex_config_js",
-      "target": "urosystem_kit1_mdsvex_config_config",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_mdsvex_config_config"
     },
     {
       "relation": "contains",
@@ -12507,9 +12543,9 @@
       "source_file": "package.json",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_json",
-      "target": "urosystem_kit1_package_dependencies",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_package_dependencies"
     },
     {
       "relation": "contains",
@@ -12517,9 +12553,9 @@
       "source_file": "package.json",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_json",
-      "target": "urosystem_kit1_package_devdependencies",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_package_devdependencies"
     },
     {
       "relation": "contains",
@@ -12527,9 +12563,9 @@
       "source_file": "package.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_json",
-      "target": "urosystem_kit1_package_name",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_package_name"
     },
     {
       "relation": "contains",
@@ -12537,9 +12573,9 @@
       "source_file": "package.json",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_json",
-      "target": "urosystem_kit1_package_private",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_package_private"
     },
     {
       "relation": "contains",
@@ -12547,9 +12583,9 @@
       "source_file": "package.json",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_json",
-      "target": "urosystem_kit1_package_scripts",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_package_scripts"
     },
     {
       "relation": "contains",
@@ -12557,9 +12593,9 @@
       "source_file": "package.json",
       "source_location": "L39",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_json",
-      "target": "urosystem_kit1_package_type",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_package_type"
     },
     {
       "relation": "contains",
@@ -12567,9 +12603,9 @@
       "source_file": "package.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_json",
-      "target": "urosystem_kit1_package_version",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_package_version"
     },
     {
       "relation": "contains",
@@ -12577,9 +12613,9 @@
       "source_file": "package.json",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_package_scripts",
-      "target": "urosystem_kit1_package_scripts_build",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_package_scripts_build"
     },
     {
       "relation": "contains",
@@ -12587,9 +12623,9 @@
       "source_file": "package.json",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_package_scripts",
-      "target": "urosystem_kit1_package_scripts_dev",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_package_scripts_dev"
     },
     {
       "relation": "contains",
@@ -12597,9 +12633,9 @@
       "source_file": "package.json",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_package_scripts",
-      "target": "urosystem_kit1_package_scripts_preview",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_package_scripts_preview"
     },
     {
       "relation": "contains",
@@ -12607,9 +12643,9 @@
       "source_file": "package.json",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_package_devdependencies",
-      "target": "urosystem_kit1_package_devdependencies_autoprefixer",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_package_devdependencies_autoprefixer"
     },
     {
       "relation": "contains",
@@ -12617,9 +12653,9 @@
       "source_file": "package.json",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_package_devdependencies",
-      "target": "urosystem_kit1_package_devdependencies_daisyui",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_package_devdependencies_daisyui"
     },
     {
       "relation": "contains",
@@ -12627,9 +12663,9 @@
       "source_file": "package.json",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_package_devdependencies",
-      "target": "urosystem_kit1_package_devdependencies_dansvel_vite_plugin_markdown",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_package_devdependencies_dansvel_vite_plugin_markdown"
     },
     {
       "relation": "contains",
@@ -12637,9 +12673,9 @@
       "source_file": "package.json",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_package_devdependencies",
-      "target": "urosystem_kit1_package_devdependencies_date_fns",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_package_devdependencies_date_fns"
     },
     {
       "relation": "contains",
@@ -12647,9 +12683,9 @@
       "source_file": "package.json",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_package_devdependencies",
-      "target": "urosystem_kit1_package_devdependencies_lodash",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_package_devdependencies_lodash"
     },
     {
       "relation": "contains",
@@ -12657,9 +12693,9 @@
       "source_file": "package.json",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_package_devdependencies",
-      "target": "urosystem_kit1_package_devdependencies_marked",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_package_devdependencies_marked"
     },
     {
       "relation": "contains",
@@ -12667,9 +12703,9 @@
       "source_file": "package.json",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_package_devdependencies",
-      "target": "urosystem_kit1_package_devdependencies_mdsvex",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_package_devdependencies_mdsvex"
     },
     {
       "relation": "contains",
@@ -12677,9 +12713,9 @@
       "source_file": "package.json",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_package_devdependencies",
-      "target": "urosystem_kit1_package_devdependencies_mixing",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_package_devdependencies_mixing"
     },
     {
       "relation": "contains",
@@ -12687,9 +12723,9 @@
       "source_file": "package.json",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_package_devdependencies",
-      "target": "urosystem_kit1_package_devdependencies_portabletext_svelte",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_package_devdependencies_portabletext_svelte"
     },
     {
       "relation": "contains",
@@ -12697,9 +12733,9 @@
       "source_file": "package.json",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_package_devdependencies",
-      "target": "urosystem_kit1_package_devdependencies_portabletext_to_html",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_package_devdependencies_portabletext_to_html"
     },
     {
       "relation": "contains",
@@ -12707,9 +12743,9 @@
       "source_file": "package.json",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_package_devdependencies",
-      "target": "urosystem_kit1_package_devdependencies_postcss",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_package_devdependencies_postcss"
     },
     {
       "relation": "contains",
@@ -12717,9 +12753,9 @@
       "source_file": "package.json",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_package_devdependencies",
-      "target": "urosystem_kit1_package_devdependencies_postcss_load_config",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_package_devdependencies_postcss_load_config"
     },
     {
       "relation": "contains",
@@ -12727,9 +12763,9 @@
       "source_file": "package.json",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_package_devdependencies",
-      "target": "urosystem_kit1_package_devdependencies_remark_abbr",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_package_devdependencies_remark_abbr"
     },
     {
       "relation": "contains",
@@ -12737,9 +12773,9 @@
       "source_file": "package.json",
       "source_location": "L30",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_package_devdependencies",
-      "target": "urosystem_kit1_package_devdependencies_remark_github",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_package_devdependencies_remark_github"
     },
     {
       "relation": "contains",
@@ -12747,9 +12783,9 @@
       "source_file": "package.json",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_package_devdependencies",
-      "target": "urosystem_kit1_package_devdependencies_remark_slug",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_package_devdependencies_remark_slug"
     },
     {
       "relation": "contains",
@@ -12757,9 +12793,9 @@
       "source_file": "package.json",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_package_devdependencies",
-      "target": "urosystem_kit1_package_devdependencies_rss",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_package_devdependencies_rss"
     },
     {
       "relation": "contains",
@@ -12767,9 +12803,9 @@
       "source_file": "package.json",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_package_devdependencies",
-      "target": "urosystem_kit1_package_devdependencies_svelte",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_package_devdependencies_svelte"
     },
     {
       "relation": "contains",
@@ -12777,9 +12813,9 @@
       "source_file": "package.json",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_package_devdependencies",
-      "target": "urosystem_kit1_package_devdependencies_svelte_preprocess",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_package_devdependencies_svelte_preprocess"
     },
     {
       "relation": "contains",
@@ -12787,9 +12823,9 @@
       "source_file": "package.json",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_package_devdependencies",
-      "target": "urosystem_kit1_package_devdependencies_sveltejs_adapter_auto",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_package_devdependencies_sveltejs_adapter_auto"
     },
     {
       "relation": "contains",
@@ -12797,9 +12833,9 @@
       "source_file": "package.json",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_package_devdependencies",
-      "target": "urosystem_kit1_package_devdependencies_sveltejs_adapter_netlify",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_package_devdependencies_sveltejs_adapter_netlify"
     },
     {
       "relation": "contains",
@@ -12807,9 +12843,9 @@
       "source_file": "package.json",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_package_devdependencies",
-      "target": "urosystem_kit1_package_devdependencies_sveltejs_adapter_static",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_package_devdependencies_sveltejs_adapter_static"
     },
     {
       "relation": "contains",
@@ -12817,9 +12853,9 @@
       "source_file": "package.json",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_package_devdependencies",
-      "target": "urosystem_kit1_package_devdependencies_sveltejs_kit",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_package_devdependencies_sveltejs_kit"
     },
     {
       "relation": "contains",
@@ -12827,9 +12863,9 @@
       "source_file": "package.json",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_package_devdependencies",
-      "target": "urosystem_kit1_package_devdependencies_sveltekit_html_minifier",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_package_devdependencies_sveltekit_html_minifier"
     },
     {
       "relation": "contains",
@@ -12837,9 +12873,9 @@
       "source_file": "package.json",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_package_devdependencies",
-      "target": "urosystem_kit1_package_devdependencies_tailwindcss",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_package_devdependencies_tailwindcss"
     },
     {
       "relation": "contains",
@@ -12847,9 +12883,9 @@
       "source_file": "package.json",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_package_devdependencies",
-      "target": "urosystem_kit1_package_devdependencies_tailwindcss_forms",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_package_devdependencies_tailwindcss_forms"
     },
     {
       "relation": "contains",
@@ -12857,9 +12893,9 @@
       "source_file": "package.json",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_package_devdependencies",
-      "target": "urosystem_kit1_package_devdependencies_tailwindcss_typography",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_package_devdependencies_tailwindcss_typography"
     },
     {
       "relation": "contains",
@@ -12867,9 +12903,9 @@
       "source_file": "package.json",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_package_devdependencies",
-      "target": "urosystem_kit1_package_devdependencies_vite",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_package_devdependencies_vite"
     },
     {
       "relation": "imports",
@@ -12878,9 +12914,9 @@
       "source_location": "L33",
       "weight": 1.0,
       "context": "import",
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_package_devdependencies_svelte",
-      "target": "svelte",
-      "confidence_score": 1.0
+      "target": "svelte"
     },
     {
       "relation": "contains",
@@ -12888,9 +12924,9 @@
       "source_file": "package.json",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_package_dependencies",
-      "target": "urosystem_kit1_package_dependencies_netlify_identity_widget",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_package_dependencies_netlify_identity_widget"
     },
     {
       "relation": "contains",
@@ -12898,9 +12934,9 @@
       "source_file": "package.json",
       "source_location": "L41",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_package_dependencies",
-      "target": "urosystem_kit1_package_dependencies_sanity_client",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_package_dependencies_sanity_client"
     },
     {
       "relation": "contains",
@@ -12908,9 +12944,9 @@
       "source_file": "package.json",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_package_dependencies",
-      "target": "urosystem_kit1_package_dependencies_sanity_image_url",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_package_dependencies_sanity_image_url"
     },
     {
       "relation": "contains",
@@ -12918,9 +12954,9 @@
       "source_file": "package.json",
       "source_location": "L44",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_package_dependencies",
-      "target": "urosystem_kit1_package_dependencies_svelte_portal",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_package_dependencies_svelte_portal"
     },
     {
       "relation": "contains",
@@ -12928,9 +12964,9 @@
       "source_file": "package.json",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_package_dependencies",
-      "target": "urosystem_kit1_package_dependencies_svelte_scrollto",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_package_dependencies_svelte_scrollto"
     },
     {
       "relation": "imports",
@@ -12939,9 +12975,9 @@
       "source_location": "L43",
       "weight": 1.0,
       "context": "import",
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_package_dependencies_netlify_identity_widget",
-      "target": "netlify_identity_widget",
-      "confidence_score": 1.0
+      "target": "netlify_identity_widget"
     },
     {
       "relation": "imports",
@@ -12950,9 +12986,9 @@
       "source_location": "L44",
       "weight": 1.0,
       "context": "import",
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_package_dependencies_svelte_portal",
-      "target": "svelte_portal",
-      "confidence_score": 1.0
+      "target": "svelte_portal"
     },
     {
       "relation": "imports",
@@ -12961,57 +12997,77 @@
       "source_location": "L45",
       "weight": 1.0,
       "context": "import",
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_package_dependencies_svelte_scrollto",
-      "target": "svelte_scrollto",
-      "confidence_score": 1.0
+      "target": "svelte_scrollto"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.local.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_settings_local_json",
+      "target": "claude_settings_local_permissions"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.local.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_settings_local_permissions",
+      "target": "claude_settings_local_permissions_allow"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/Cookies.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_cookies_svelte",
-      "target": "environment",
-      "confidence_score": 1.0
+      "target": "environment"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/Cookies.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_cookies_svelte",
-      "target": "stores",
-      "confidence_score": 1.0
+      "target": "stores"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/Cookies.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_cookies_svelte",
-      "target": "svelte",
-      "confidence_score": 1.0
+      "target": "svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/Headroom.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_headroom_svelte",
-      "target": "svelte",
-      "confidence_score": 1.0
+      "target": "svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/Identity.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_identity_svelte",
-      "target": "svelte",
-      "confidence_score": 1.0
+      "target": "svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/my/BuyButton.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_my_buybutton_svelte",
-      "target": "svelte",
-      "confidence_score": 1.0
+      "target": "svelte"
     },
     {
       "relation": "imports_from",
@@ -13020,113 +13076,113 @@
       "source_file": "src/lib/my/Form.svelte",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_my_form_svelte",
-      "target": "svelte",
-      "confidence_score": 1.0
+      "target": "svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/my/Modal.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_my_modal_svelte",
-      "target": "svelte",
-      "confidence_score": 1.0
+      "target": "svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/my/ModalBad.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_my_modalbad_svelte",
-      "target": "svelte",
-      "confidence_score": 1.0
+      "target": "svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/Nav.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_nav_svelte",
-      "target": "svelte",
-      "confidence_score": 1.0
+      "target": "svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/SubPage.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_subpage_svelte",
-      "target": "svelte",
-      "confidence_score": 1.0
+      "target": "svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/SubscribeActivecamp.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_subscribeactivecamp_svelte",
-      "target": "svelte",
-      "confidence_score": 1.0
+      "target": "svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/routes/+layout.svelte",
+      "confidence_score": 1.0,
       "source": "src_routes_layout_svelte",
-      "target": "svelte",
-      "confidence_score": 1.0
+      "target": "svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/routes/[...path]/events/+page.svelte",
+      "confidence_score": 1.0,
       "source": "src_routes_path_events_page_svelte",
-      "target": "svelte",
-      "confidence_score": 1.0
+      "target": "svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/routes/[...path]/hirlevel/+page.svelte",
+      "confidence_score": 1.0,
       "source": "src_routes_path_hirlevel_page_svelte",
-      "target": "svelte",
-      "confidence_score": 1.0
+      "target": "svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/Components.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_components_svelte",
-      "target": "stores",
-      "confidence_score": 1.0
+      "target": "stores"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/Footer.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_footer_svelte",
-      "target": "stores",
-      "confidence_score": 1.0
+      "target": "stores"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/my/Buttons.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_my_buttons_svelte",
-      "target": "stores",
-      "confidence_score": 1.0
+      "target": "stores"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/my/BuyButton.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_my_buybutton_svelte",
-      "target": "stores",
-      "confidence_score": 1.0
+      "target": "stores"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/my/Cta.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_my_cta_svelte",
-      "target": "stores",
-      "confidence_score": 1.0
+      "target": "stores"
     },
     {
       "relation": "imports_from",
@@ -13135,65 +13191,65 @@
       "source_file": "src/lib/my/Form.svelte",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_my_form_svelte",
-      "target": "stores",
-      "confidence_score": 1.0
+      "target": "stores"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/my/Modal.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_my_modal_svelte",
-      "target": "stores",
-      "confidence_score": 1.0
+      "target": "stores"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/my/ModalBad.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_my_modalbad_svelte",
-      "target": "stores",
-      "confidence_score": 1.0
+      "target": "stores"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/my/Video.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_my_video_svelte",
-      "target": "stores",
-      "confidence_score": 1.0
+      "target": "stores"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/Nav.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_nav_svelte",
-      "target": "stores",
-      "confidence_score": 1.0
+      "target": "stores"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/SubNav.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_subnav_svelte",
-      "target": "stores",
-      "confidence_score": 1.0
+      "target": "stores"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/SubPage.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_subpage_svelte",
-      "target": "stores",
-      "confidence_score": 1.0
+      "target": "stores"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/SubscribeActivecamp.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_subscribeactivecamp_svelte",
-      "target": "stores",
-      "confidence_score": 1.0
+      "target": "stores"
     },
     {
       "relation": "imports_from",
@@ -13202,9 +13258,9 @@
       "source_file": "src/lib/utils.js",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_utils_js",
-      "target": "stores",
-      "confidence_score": 1.0
+      "target": "stores"
     },
     {
       "relation": "imports_from",
@@ -13213,89 +13269,89 @@
       "source_file": "src/routes/+layout.server.js",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_routes_layout_server_js",
-      "target": "stores",
-      "confidence_score": 1.0
+      "target": "stores"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/routes/+layout.svelte",
+      "confidence_score": 1.0,
       "source": "src_routes_layout_svelte",
-      "target": "stores",
-      "confidence_score": 1.0
+      "target": "stores"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/routes/[...path]/contact/+page.svelte",
+      "confidence_score": 1.0,
       "source": "src_routes_path_contact_page_svelte",
-      "target": "stores",
-      "confidence_score": 1.0
+      "target": "stores"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/routes/[...path]/events/+page.svelte",
+      "confidence_score": 1.0,
       "source": "src_routes_path_events_page_svelte",
-      "target": "stores",
-      "confidence_score": 1.0
+      "target": "stores"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/routes/[...path]/hirlevel/+page.svelte",
+      "confidence_score": 1.0,
       "source": "src_routes_path_hirlevel_page_svelte",
-      "target": "stores",
-      "confidence_score": 1.0
+      "target": "stores"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/routes/[...path]/+layout.svelte",
+      "confidence_score": 1.0,
       "source": "src_routes_path_layout_svelte",
-      "target": "stores",
-      "confidence_score": 1.0
+      "target": "stores"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/routes/[...path]/+page.svelte",
+      "confidence_score": 1.0,
       "source": "src_routes_path_page_svelte",
-      "target": "stores",
-      "confidence_score": 1.0
+      "target": "stores"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/routes/[...path]/sample/+page.svelte",
+      "confidence_score": 1.0,
       "source": "src_routes_path_sample_page_svelte",
-      "target": "stores",
-      "confidence_score": 1.0
+      "target": "stores"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/routes/[...path]/thankyou/+page.svelte",
+      "confidence_score": 1.0,
       "source": "src_routes_path_thankyou_page_svelte",
-      "target": "stores",
-      "confidence_score": 1.0
+      "target": "stores"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/Identity.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_identity_svelte",
-      "target": "environment",
-      "confidence_score": 1.0
+      "target": "environment"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/my/Form.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_my_form_svelte",
-      "target": "environment",
-      "confidence_score": 1.0
+      "target": "environment"
     },
     {
       "relation": "imports_from",
@@ -13304,33 +13360,33 @@
       "source_file": "src/lib/stores.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_stores_js",
-      "target": "environment",
-      "confidence_score": 1.0
+      "target": "environment"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/routes/+layout.svelte",
+      "confidence_score": 1.0,
       "source": "src_routes_layout_svelte",
-      "target": "environment",
-      "confidence_score": 1.0
+      "target": "environment"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/routes/[...path]/events/+page.svelte",
+      "confidence_score": 1.0,
       "source": "src_routes_path_events_page_svelte",
-      "target": "environment",
-      "confidence_score": 1.0
+      "target": "environment"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/routes/[...path]/hirlevel/+page.svelte",
+      "confidence_score": 1.0,
       "source": "src_routes_path_hirlevel_page_svelte",
-      "target": "environment",
-      "confidence_score": 1.0
+      "target": "environment"
     },
     {
       "relation": "contains",
@@ -13338,9 +13394,9 @@
       "source_file": "src/lib/stores.js",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_stores_js",
-      "target": "lib_stores_moved",
-      "confidence_score": 1.0
+      "target": "lib_stores_moved"
     },
     {
       "relation": "contains",
@@ -13348,9 +13404,9 @@
       "source_file": "src/lib/stores.js",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_stores_js",
-      "target": "lib_stores_snapto",
-      "confidence_score": 1.0
+      "target": "lib_stores_snapto"
     },
     {
       "relation": "contains",
@@ -13358,9 +13414,9 @@
       "source_file": "src/lib/stores.js",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_stores_js",
-      "target": "lib_stores_state",
-      "confidence_score": 1.0
+      "target": "lib_stores_state"
     },
     {
       "relation": "contains",
@@ -13368,9 +13424,9 @@
       "source_file": "src/lib/stores.js",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_stores_js",
-      "target": "lib_stores_variables",
-      "confidence_score": 1.0
+      "target": "lib_stores_variables"
     },
     {
       "relation": "imports_from",
@@ -13379,49 +13435,49 @@
       "source_file": "src/lib/stores.js",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_stores_js",
-      "target": "store",
-      "confidence_score": 1.0
+      "target": "store"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/SubNav.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_subnav_svelte",
-      "target": "app",
-      "confidence_score": 1.0
+      "target": "app"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/SubNav.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_subnav_svelte",
-      "target": "paths",
-      "confidence_score": 1.0
+      "target": "paths"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/SubNav.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_subnav_svelte",
-      "target": "utils",
-      "confidence_score": 1.0
+      "target": "utils"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/my/Cta.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_my_cta_svelte",
-      "target": "paths",
-      "confidence_score": 1.0
+      "target": "paths"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/Nav.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_nav_svelte",
-      "target": "paths",
-      "confidence_score": 1.0
+      "target": "paths"
     },
     {
       "relation": "imports_from",
@@ -13430,25 +13486,25 @@
       "source_file": "src/routes/+layout.server.js",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_routes_layout_server_js",
-      "target": "paths",
-      "confidence_score": 1.0
+      "target": "paths"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/routes/+layout.svelte",
+      "confidence_score": 1.0,
       "source": "src_routes_layout_svelte",
-      "target": "paths",
-      "confidence_score": 1.0
+      "target": "paths"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/SubPage.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_subpage_svelte",
-      "target": "utils",
-      "confidence_score": 1.0
+      "target": "utils"
     },
     {
       "relation": "imports_from",
@@ -13457,49 +13513,49 @@
       "source_file": "src/routes/+layout.server.js",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_routes_layout_server_js",
-      "target": "utils",
-      "confidence_score": 1.0
+      "target": "utils"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/Components.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_components_svelte",
-      "target": "app",
-      "confidence_score": 1.0
+      "target": "app"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/Footer.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_footer_svelte",
-      "target": "app",
-      "confidence_score": 1.0
+      "target": "app"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/my/Links.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_my_links_svelte",
-      "target": "app",
-      "confidence_score": 1.0
+      "target": "app"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/my/ModalBad.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_my_modalbad_svelte",
-      "target": "app",
-      "confidence_score": 1.0
+      "target": "app"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/my/Refs.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_my_refs_svelte",
-      "target": "app",
-      "confidence_score": 1.0
+      "target": "app"
     },
     {
       "relation": "contains",
@@ -13507,9 +13563,9 @@
       "source_file": "src/lib/paths.js",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_paths_js",
-      "target": "lib_paths_normalizepathname",
-      "confidence_score": 1.0
+      "target": "lib_paths_normalizepathname"
     },
     {
       "relation": "contains",
@@ -13517,9 +13573,9 @@
       "source_file": "src/lib/paths.js",
       "source_location": "L30",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_paths_js",
-      "target": "lib_paths_sitehref",
-      "confidence_score": 1.0
+      "target": "lib_paths_sitehref"
     },
     {
       "relation": "contains",
@@ -13527,9 +13583,9 @@
       "source_file": "src/lib/paths.js",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_paths_js",
-      "target": "lib_paths_sitepath",
-      "confidence_score": 1.0
+      "target": "lib_paths_sitepath"
     },
     {
       "relation": "calls",
@@ -13538,9 +13594,9 @@
       "source_file": "src/lib/paths.js",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_paths_sitehref",
-      "target": "lib_paths_normalizepathname",
-      "confidence_score": 1.0
+      "target": "lib_paths_normalizepathname"
     },
     {
       "relation": "calls",
@@ -13560,81 +13616,81 @@
       "source_file": "src/lib/paths.js",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_paths_sitehref",
-      "target": "lib_paths_sitepath",
-      "confidence_score": 1.0
+      "target": "lib_paths_sitepath"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/Footer.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_footer_svelte",
-      "target": "config",
-      "confidence_score": 1.0
+      "target": "config"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/Footer.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_footer_svelte",
-      "target": "subnav_svelte",
-      "confidence_score": 1.0
+      "target": "subnav_svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/Nav.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_nav_svelte",
-      "target": "subnav_svelte",
-      "confidence_score": 1.0
+      "target": "subnav_svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/SubPage.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_subpage_svelte",
-      "target": "easing",
-      "confidence_score": 1.0
+      "target": "easing"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/SubPage.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_subpage_svelte",
-      "target": "svelte_scrollto",
-      "confidence_score": 1.0
+      "target": "svelte_scrollto"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/Nav.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_nav_svelte",
-      "target": "easing",
-      "confidence_score": 1.0
+      "target": "easing"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/Nav.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_nav_svelte",
-      "target": "svelte_scrollto",
-      "confidence_score": 1.0
+      "target": "svelte_scrollto"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/routes/[...path]/events/+page.svelte",
+      "confidence_score": 1.0,
       "source": "src_routes_path_events_page_svelte",
-      "target": "svelte_scrollto",
-      "confidence_score": 1.0
+      "target": "svelte_scrollto"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/routes/[...path]/hirlevel/+page.svelte",
+      "confidence_score": 1.0,
       "source": "src_routes_path_hirlevel_page_svelte",
-      "target": "svelte_scrollto",
-      "confidence_score": 1.0
+      "target": "svelte_scrollto"
     },
     {
       "relation": "contains",
@@ -13642,9 +13698,9 @@
       "source_file": "src/lib/helpers.js",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_helpers_js",
-      "target": "lib_helpers_builder",
-      "confidence_score": 1.0
+      "target": "lib_helpers_builder"
     },
     {
       "relation": "contains",
@@ -13652,9 +13708,9 @@
       "source_file": "src/lib/helpers.js",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_helpers_js",
-      "target": "lib_helpers_formatblogpostdate",
-      "confidence_score": 1.0
+      "target": "lib_helpers_formatblogpostdate"
     },
     {
       "relation": "contains",
@@ -13662,9 +13718,9 @@
       "source_file": "src/lib/helpers.js",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_helpers_js",
-      "target": "lib_helpers_getsanityimageurl",
-      "confidence_score": 1.0
+      "target": "lib_helpers_getsanityimageurl"
     },
     {
       "relation": "imports",
@@ -13673,9 +13729,9 @@
       "source_file": "src/lib/helpers.js",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_helpers_js",
-      "target": "lib_sanityclient_client",
-      "confidence_score": 1.0
+      "target": "lib_sanityclient_client"
     },
     {
       "relation": "imports_from",
@@ -13684,9 +13740,9 @@
       "source_file": "src/lib/helpers.js",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_helpers_js",
-      "target": "src_lib_sanityclient_js",
-      "confidence_score": 1.0
+      "target": "src_lib_sanityclient_js"
     },
     {
       "relation": "calls",
@@ -13705,9 +13761,9 @@
       "source_file": "src/lib/_validation.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_validation_js",
-      "target": "lib_validation_validate",
-      "confidence_score": 1.0
+      "target": "lib_validation_validate"
     },
     {
       "relation": "contains",
@@ -13715,9 +13771,9 @@
       "source_file": "src/lib/_validation.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_validation_js",
-      "target": "lib_validation_warn",
-      "confidence_score": 1.0
+      "target": "lib_validation_warn"
     },
     {
       "relation": "calls",
@@ -13726,9 +13782,9 @@
       "source_file": "src/lib/_validation.js",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_validation_validate",
-      "target": "lib_validation_warn",
-      "confidence_score": 1.0
+      "target": "lib_validation_warn"
     },
     {
       "relation": "contains",
@@ -13736,9 +13792,9 @@
       "source_file": "src/lib/sanityClient.js",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_sanityclient_js",
-      "target": "lib_sanityclient_client",
-      "confidence_score": 1.0
+      "target": "lib_sanityclient_client"
     },
     {
       "relation": "contains",
@@ -13746,9 +13802,9 @@
       "source_file": "src/lib/sanityClient.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_sanityclient_js",
-      "target": "lib_sanityclient_config",
-      "confidence_score": 1.0
+      "target": "lib_sanityclient_config"
     },
     {
       "relation": "contains",
@@ -13756,9 +13812,9 @@
       "source_file": "src/lib/utils.js",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_utils_js",
-      "target": "lib_utils_allblocks",
-      "confidence_score": 1.0
+      "target": "lib_utils_allblocks"
     },
     {
       "relation": "contains",
@@ -13766,9 +13822,9 @@
       "source_file": "src/lib/utils.js",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_utils_js",
-      "target": "lib_utils_allconfs",
-      "confidence_score": 1.0
+      "target": "lib_utils_allconfs"
     },
     {
       "relation": "contains",
@@ -13776,9 +13832,9 @@
       "source_file": "src/lib/utils.js",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_utils_js",
-      "target": "lib_utils_allposts",
-      "confidence_score": 1.0
+      "target": "lib_utils_allposts"
     },
     {
       "relation": "contains",
@@ -13786,9 +13842,9 @@
       "source_file": "src/lib/utils.js",
       "source_location": "L250",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_utils_js",
-      "target": "lib_utils_findblock",
-      "confidence_score": 1.0
+      "target": "lib_utils_findblock"
     },
     {
       "relation": "contains",
@@ -13796,9 +13852,9 @@
       "source_file": "src/lib/utils.js",
       "source_location": "L202",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_utils_js",
-      "target": "lib_utils_findpost",
-      "confidence_score": 1.0
+      "target": "lib_utils_findpost"
     },
     {
       "relation": "contains",
@@ -13806,9 +13862,9 @@
       "source_file": "src/lib/utils.js",
       "source_location": "L283",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_utils_js",
-      "target": "lib_utils_getbg",
-      "confidence_score": 1.0
+      "target": "lib_utils_getbg"
     },
     {
       "relation": "contains",
@@ -13816,9 +13872,9 @@
       "source_file": "src/lib/utils.js",
       "source_location": "L233",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_utils_js",
-      "target": "lib_utils_getblock",
-      "confidence_score": 1.0
+      "target": "lib_utils_getblock"
     },
     {
       "relation": "contains",
@@ -13826,9 +13882,9 @@
       "source_file": "src/lib/utils.js",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_utils_js",
-      "target": "lib_utils_getconf",
-      "confidence_score": 1.0
+      "target": "lib_utils_getconf"
     },
     {
       "relation": "contains",
@@ -13836,9 +13892,9 @@
       "source_file": "src/lib/utils.js",
       "source_location": "L141",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_utils_js",
-      "target": "lib_utils_getpost",
-      "confidence_score": 1.0
+      "target": "lib_utils_getpost"
     },
     {
       "relation": "contains",
@@ -13846,9 +13902,9 @@
       "source_file": "src/lib/utils.js",
       "source_location": "L272",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_utils_js",
-      "target": "lib_utils_mdtext",
-      "confidence_score": 1.0
+      "target": "lib_utils_mdtext"
     },
     {
       "relation": "contains",
@@ -13856,9 +13912,9 @@
       "source_file": "src/lib/utils.js",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_utils_js",
-      "target": "lib_utils_theconf",
-      "confidence_score": 1.0
+      "target": "lib_utils_theconf"
     },
     {
       "relation": "contains",
@@ -13866,9 +13922,9 @@
       "source_file": "src/lib/utils.js",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_utils_js",
-      "target": "lib_utils_theposts",
-      "confidence_score": 1.0
+      "target": "lib_utils_theposts"
     },
     {
       "relation": "calls",
@@ -13888,9 +13944,9 @@
       "source_file": "src/lib/utils.js",
       "source_location": "L142",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_utils_getpost",
-      "target": "lib_utils_findpost",
-      "confidence_score": 1.0
+      "target": "lib_utils_findpost"
     },
     {
       "relation": "calls",
@@ -13899,9 +13955,9 @@
       "source_file": "src/lib/utils.js",
       "source_location": "L150",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_utils_getpost",
-      "target": "lib_utils_getblock",
-      "confidence_score": 1.0
+      "target": "lib_utils_getblock"
     },
     {
       "relation": "calls",
@@ -13921,9 +13977,9 @@
       "source_file": "src/lib/utils.js",
       "source_location": "L234",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_utils_getblock",
-      "target": "lib_utils_findblock",
-      "confidence_score": 1.0
+      "target": "lib_utils_findblock"
     },
     {
       "relation": "calls",
@@ -13932,17 +13988,17 @@
       "source_file": "src/lib/utils.js",
       "source_location": "L279",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_utils_mdtext",
-      "target": "lib_utils_getbg",
-      "confidence_score": 1.0
+      "target": "lib_utils_getbg"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/Identity.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_identity_svelte",
-      "target": "netlify_identity_widget",
-      "confidence_score": 1.0
+      "target": "netlify_identity_widget"
     },
     {
       "relation": "contains",
@@ -13950,9 +14006,9 @@
       "source_file": "src/lib/Nav.svelte",
       "source_location": "L53",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_nav_svelte",
-      "target": "lib_nav_action",
-      "confidence_score": 1.0
+      "target": "lib_nav_action"
     },
     {
       "relation": "contains",
@@ -13960,9 +14016,9 @@
       "source_file": "src/lib/Nav.svelte",
       "source_location": "L39",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_nav_svelte",
-      "target": "lib_nav_deriveclass",
-      "confidence_score": 1.0
+      "target": "lib_nav_deriveclass"
     },
     {
       "relation": "contains",
@@ -13970,9 +14026,9 @@
       "source_file": "src/lib/Nav.svelte",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_nav_svelte",
-      "target": "lib_nav_dispatch",
-      "confidence_score": 1.0
+      "target": "lib_nav_dispatch"
     },
     {
       "relation": "contains",
@@ -13980,9 +14036,9 @@
       "source_file": "src/lib/Nav.svelte",
       "source_location": "L79",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_nav_svelte",
-      "target": "lib_nav_newlang",
-      "confidence_score": 1.0
+      "target": "lib_nav_newlang"
     },
     {
       "relation": "contains",
@@ -13990,9 +14046,9 @@
       "source_file": "src/lib/Nav.svelte",
       "source_location": "L71",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_nav_svelte",
-      "target": "lib_nav_snap",
-      "confidence_score": 1.0
+      "target": "lib_nav_snap"
     },
     {
       "relation": "contains",
@@ -14000,17 +14056,17 @@
       "source_file": "src/lib/Nav.svelte",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_nav_svelte",
-      "target": "lib_nav_updateclass",
-      "confidence_score": 1.0
+      "target": "lib_nav_updateclass"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/Nav.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_nav_svelte",
-      "target": "navigation",
-      "confidence_score": 1.0
+      "target": "navigation"
     },
     {
       "relation": "calls",
@@ -14019,241 +14075,241 @@
       "source_file": "src/lib/Nav.svelte",
       "source_location": "L49",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_nav_updateclass",
-      "target": "lib_nav_deriveclass",
-      "confidence_score": 1.0
+      "target": "lib_nav_deriveclass"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/my/Modal.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_my_modal_svelte",
-      "target": "navigation",
-      "confidence_score": 1.0
+      "target": "navigation"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/my/ModalBad.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_my_modalbad_svelte",
-      "target": "navigation",
-      "confidence_score": 1.0
+      "target": "navigation"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/routes/+layout.svelte",
+      "confidence_score": 1.0,
       "source": "src_routes_layout_svelte",
-      "target": "navigation",
-      "confidence_score": 1.0
+      "target": "navigation"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/Components.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_components_svelte",
-      "target": "acmail_svelte",
-      "confidence_score": 1.0
+      "target": "acmail_svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/Components.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_components_svelte",
-      "target": "article_svelte",
-      "confidence_score": 1.0
+      "target": "article_svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/Components.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_components_svelte",
-      "target": "b2bmail_svelte",
-      "confidence_score": 1.0
+      "target": "b2bmail_svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/Components.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_components_svelte",
-      "target": "buttons_svelte",
-      "confidence_score": 1.0
+      "target": "buttons_svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/Components.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_components_svelte",
-      "target": "buybutton_svelte",
-      "confidence_score": 1.0
+      "target": "buybutton_svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/Components.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_components_svelte",
-      "target": "cta_svelte",
-      "confidence_score": 1.0
+      "target": "cta_svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/Components.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_components_svelte",
-      "target": "form_svelte",
-      "confidence_score": 1.0
+      "target": "form_svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/Components.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_components_svelte",
-      "target": "grid_svelte",
-      "confidence_score": 1.0
+      "target": "grid_svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/Components.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_components_svelte",
-      "target": "images_svelte",
-      "confidence_score": 1.0
+      "target": "images_svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/Components.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_components_svelte",
-      "target": "links_svelte",
-      "confidence_score": 1.0
+      "target": "links_svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/Components.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_components_svelte",
-      "target": "modal_svelte",
-      "confidence_score": 1.0
+      "target": "modal_svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/Components.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_components_svelte",
-      "target": "qas_svelte",
-      "confidence_score": 1.0
+      "target": "qas_svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/Components.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_components_svelte",
-      "target": "refs_svelte",
-      "confidence_score": 1.0
+      "target": "refs_svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/Components.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_components_svelte",
-      "target": "video_svelte",
-      "confidence_score": 1.0
+      "target": "video_svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/Grid.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_grid_svelte",
-      "target": "article_svelte",
-      "confidence_score": 1.0
+      "target": "article_svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/my/Article.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_my_article_svelte",
-      "target": "article_svelte",
-      "confidence_score": 1.0
+      "target": "article_svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/Grid.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_grid_svelte",
-      "target": "images_svelte",
-      "confidence_score": 1.0
+      "target": "images_svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/my/Article.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_my_article_svelte",
-      "target": "images_svelte",
-      "confidence_score": 1.0
+      "target": "images_svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/Grid.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_grid_svelte",
-      "target": "cta_svelte",
-      "confidence_score": 1.0
+      "target": "cta_svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/my/Article.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_my_article_svelte",
-      "target": "cta_svelte",
-      "confidence_score": 1.0
+      "target": "cta_svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/Grid.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_grid_svelte",
-      "target": "buybutton_svelte",
-      "confidence_score": 1.0
+      "target": "buybutton_svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/Grid.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_grid_svelte",
-      "target": "video_svelte",
-      "confidence_score": 1.0
+      "target": "video_svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/my/Article.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_my_article_svelte",
-      "target": "video_svelte",
-      "confidence_score": 1.0
+      "target": "video_svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/my/Modal.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_my_modal_svelte",
-      "target": "svelte_portal",
-      "confidence_score": 1.0
+      "target": "svelte_portal"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/my/Modal.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_my_modal_svelte",
-      "target": "transition",
-      "confidence_score": 1.0
+      "target": "transition"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/my/ModalBad.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_my_modalbad_svelte",
-      "target": "transition",
-      "confidence_score": 1.0
+      "target": "transition"
     },
     {
       "relation": "contains",
@@ -14261,9 +14317,9 @@
       "source_file": "src/lib/my/BuyButton.svelte",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_my_buybutton_svelte",
-      "target": "my_buybutton_loadscript",
-      "confidence_score": 1.0
+      "target": "my_buybutton_loadscript"
     },
     {
       "relation": "contains",
@@ -14271,17 +14327,17 @@
       "source_file": "src/lib/my/BuyButton.svelte",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_my_buybutton_svelte",
-      "target": "my_buybutton_shopifybuyinit",
-      "confidence_score": 1.0
+      "target": "my_buybutton_shopifybuyinit"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/my/Form.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_my_form_svelte",
-      "target": "forms",
-      "confidence_score": 1.0
+      "target": "forms"
     },
     {
       "relation": "contains",
@@ -14289,9 +14345,9 @@
       "source_file": "src/lib/my/Form.svelte",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_my_form_svelte",
-      "target": "my_form_prefillsample",
-      "confidence_score": 1.0
+      "target": "my_form_prefillsample"
     },
     {
       "relation": "contains",
@@ -14299,9 +14355,9 @@
       "source_file": "src/lib/my/Form.svelte",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_my_form_svelte",
-      "target": "my_form_setcheckboxbyvalue",
-      "confidence_score": 1.0
+      "target": "my_form_setcheckboxbyvalue"
     },
     {
       "relation": "contains",
@@ -14309,9 +14365,9 @@
       "source_file": "src/lib/my/Form.svelte",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_my_form_svelte",
-      "target": "my_form_setradiobyvalue",
-      "confidence_score": 1.0
+      "target": "my_form_setradiobyvalue"
     },
     {
       "relation": "contains",
@@ -14319,9 +14375,9 @@
       "source_file": "src/lib/my/Form.svelte",
       "source_location": "L82",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_my_form_svelte",
-      "target": "my_form_submit",
-      "confidence_score": 1.0
+      "target": "my_form_submit"
     },
     {
       "relation": "imports_from",
@@ -14330,9 +14386,9 @@
       "source_file": "src/lib/my/Form.svelte",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_my_form_svelte",
-      "target": "store",
-      "confidence_score": 1.0
+      "target": "store"
     },
     {
       "relation": "calls",
@@ -14341,9 +14397,9 @@
       "source_file": "src/lib/my/Form.svelte",
       "source_location": "L64",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "my_form_prefillsample",
-      "target": "my_form_setcheckboxbyvalue",
-      "confidence_score": 1.0
+      "target": "my_form_setcheckboxbyvalue"
     },
     {
       "relation": "calls",
@@ -14352,9 +14408,9 @@
       "source_file": "src/lib/my/Form.svelte",
       "source_location": "L63",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "my_form_prefillsample",
-      "target": "my_form_setradiobyvalue",
-      "confidence_score": 1.0
+      "target": "my_form_setradiobyvalue"
     },
     {
       "relation": "imports_from",
@@ -14363,33 +14419,33 @@
       "source_file": "src/routes/+layout.server.js",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_routes_layout_server_js",
-      "target": "store",
-      "confidence_score": 1.0
+      "target": "store"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/my/ModalBad.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_my_modalbad_svelte",
-      "target": "portal_svelte",
-      "confidence_score": 1.0
+      "target": "portal_svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/my/ACmail.svelte",
+      "confidence_score": 1.0,
       "source": "src_lib_my_acmail_svelte",
-      "target": "app_postcss",
-      "confidence_score": 1.0
+      "target": "app_postcss"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/routes/+layout.svelte",
+      "confidence_score": 1.0,
       "source": "src_routes_layout_svelte",
-      "target": "app_postcss",
-      "confidence_score": 1.0
+      "target": "app_postcss"
     },
     {
       "relation": "contains",
@@ -14397,33 +14453,33 @@
       "source_file": "src/routes/+layout.server.js",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_routes_layout_server_js",
-      "target": "routes_layout_server_load",
-      "confidence_score": 1.0
+      "target": "routes_layout_server_load"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/routes/+layout.svelte",
+      "confidence_score": 1.0,
       "source": "src_routes_layout_svelte",
-      "target": "cookies_svelte",
-      "confidence_score": 1.0
+      "target": "cookies_svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/routes/+layout.svelte",
+      "confidence_score": 1.0,
       "source": "src_routes_layout_svelte",
-      "target": "footer_svelte",
-      "confidence_score": 1.0
+      "target": "footer_svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/routes/+layout.svelte",
+      "confidence_score": 1.0,
       "source": "src_routes_layout_svelte",
-      "target": "nav_svelte",
-      "confidence_score": 1.0
+      "target": "nav_svelte"
     },
     {
       "relation": "contains",
@@ -14431,97 +14487,97 @@
       "source_file": "src/routes/+layout.svelte",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_routes_layout_svelte",
-      "target": "routes_layout_striptrailingslash",
-      "confidence_score": 1.0
+      "target": "routes_layout_striptrailingslash"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/routes/[...path]/+page.svelte",
+      "confidence_score": 1.0,
       "source": "src_routes_path_page_svelte",
-      "target": "components_svelte",
-      "confidence_score": 1.0
+      "target": "components_svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/routes/[...path]/contact/+page.svelte",
+      "confidence_score": 1.0,
       "source": "src_routes_path_contact_page_svelte",
-      "target": "components_svelte",
-      "confidence_score": 1.0
+      "target": "components_svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/routes/[...path]/+layout.svelte",
+      "confidence_score": 1.0,
       "source": "src_routes_path_layout_svelte",
-      "target": "components_svelte",
-      "confidence_score": 1.0
+      "target": "components_svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/routes/[...path]/sample/+page.svelte",
+      "confidence_score": 1.0,
       "source": "src_routes_path_sample_page_svelte",
-      "target": "components_svelte",
-      "confidence_score": 1.0
+      "target": "components_svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/routes/[...path]/thankyou/+page.svelte",
+      "confidence_score": 1.0,
       "source": "src_routes_path_thankyou_page_svelte",
-      "target": "components_svelte",
-      "confidence_score": 1.0
+      "target": "components_svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/routes/[...path]/+layout.svelte",
+      "confidence_score": 1.0,
       "source": "src_routes_path_layout_svelte",
-      "target": "subpage_svelte",
-      "confidence_score": 1.0
+      "target": "subpage_svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/routes/[...path]/hirlevel/+page.svelte",
+      "confidence_score": 1.0,
       "source": "src_routes_path_hirlevel_page_svelte",
-      "target": "helpers_js",
-      "confidence_score": 1.0
+      "target": "helpers_js"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/routes/[...path]/hirlevel/+page.svelte",
+      "confidence_score": 1.0,
       "source": "src_routes_path_hirlevel_page_svelte",
-      "target": "sanityclient_js",
-      "confidence_score": 1.0
+      "target": "sanityclient_js"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/routes/[...path]/hirlevel/+page.svelte",
+      "confidence_score": 1.0,
       "source": "src_routes_path_hirlevel_page_svelte",
-      "target": "subscribeactivecamp_svelte",
-      "confidence_score": 1.0
+      "target": "subscribeactivecamp_svelte"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/routes/[...path]/hirlevel/+page.svelte",
+      "confidence_score": 1.0,
       "source": "src_routes_path_hirlevel_page_svelte",
-      "target": "users_vhollo_public_google_webdev_urosystem_kit1_src_routes_path_hirlevel_hirlev_postcss",
-      "confidence_score": 1.0
+      "target": "users_vhollo_public_google_webdev_urosystem_kit1_src_routes_path_hirlevel_hirlev_postcss"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/routes/[...path]/events/+page.svelte",
+      "confidence_score": 1.0,
       "source": "src_routes_path_events_page_svelte",
-      "target": "helpers_js",
-      "confidence_score": 1.0
+      "target": "helpers_js"
     },
     {
       "relation": "imports_from",
@@ -14530,17 +14586,17 @@
       "source_file": "src/routes/[...path]/events/rss.xml/+server.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_routes_path_events_rss_xml_server_js",
-      "target": "helpers_js",
-      "confidence_score": 1.0
+      "target": "helpers_js"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/routes/[...path]/events/+page.svelte",
+      "confidence_score": 1.0,
       "source": "src_routes_path_events_page_svelte",
-      "target": "subscribeactivecamp_svelte",
-      "confidence_score": 1.0
+      "target": "subscribeactivecamp_svelte"
     },
     {
       "relation": "imports_from",
@@ -14549,9 +14605,9 @@
       "source_file": "src/routes/[...path]/events/+layout.server.js",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_routes_path_events_layout_server_js",
-      "target": "sanityclient_js",
-      "confidence_score": 1.0
+      "target": "sanityclient_js"
     },
     {
       "relation": "imports_from",
@@ -14560,9 +14616,9 @@
       "source_file": "src/routes/[...path]/events/rss.xml/+server.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_routes_path_events_rss_xml_server_js",
-      "target": "sanityclient_js",
-      "confidence_score": 1.0
+      "target": "sanityclient_js"
     },
     {
       "relation": "imports_from",
@@ -14571,9 +14627,9 @@
       "source_file": "src/routes/[...path]/hirlevel/+layout.js",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_routes_path_hirlevel_layout_js",
-      "target": "sanityclient_js",
-      "confidence_score": 1.0
+      "target": "sanityclient_js"
     },
     {
       "relation": "contains",
@@ -14581,9 +14637,9 @@
       "source_file": "src/routes/[...path]/hirlevel/+layout.js",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_routes_path_hirlevel_layout_js",
-      "target": "hirlevel_layout_load",
-      "confidence_score": 1.0
+      "target": "hirlevel_layout_load"
     },
     {
       "relation": "contains",
@@ -14591,9 +14647,9 @@
       "source_file": "src/routes/[...path]/thankyou/+page.server.js",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_routes_path_thankyou_page_server_js",
-      "target": "thankyou_page_server_actions",
-      "confidence_score": 1.0
+      "target": "thankyou_page_server_actions"
     },
     {
       "relation": "contains",
@@ -14601,9 +14657,9 @@
       "source_file": "src/routes/[...path]/events/+page.svelte",
       "source_location": "L53",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_routes_path_events_page_svelte",
-      "target": "events_page_carleft",
-      "confidence_score": 1.0
+      "target": "events_page_carleft"
     },
     {
       "relation": "contains",
@@ -14611,9 +14667,9 @@
       "source_file": "src/routes/[...path]/events/+page.svelte",
       "source_location": "L52",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_routes_path_events_page_svelte",
-      "target": "events_page_carous",
-      "confidence_score": 1.0
+      "target": "events_page_carous"
     },
     {
       "relation": "contains",
@@ -14621,9 +14677,9 @@
       "source_file": "src/routes/[...path]/events/+page.svelte",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_routes_path_events_page_svelte",
-      "target": "events_page_d",
-      "confidence_score": 1.0
+      "target": "events_page_d"
     },
     {
       "relation": "contains",
@@ -14631,9 +14687,9 @@
       "source_file": "src/routes/[...path]/events/+page.svelte",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_routes_path_events_page_svelte",
-      "target": "events_page_futureevents",
-      "confidence_score": 1.0
+      "target": "events_page_futureevents"
     },
     {
       "relation": "contains",
@@ -14641,17 +14697,17 @@
       "source_file": "src/routes/[...path]/events/+page.svelte",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_routes_path_events_page_svelte",
-      "target": "events_page_pastevents",
-      "confidence_score": 1.0
+      "target": "events_page_pastevents"
     },
     {
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "src/routes/[...path]/events/+page.svelte",
+      "confidence_score": 1.0,
       "source": "src_routes_path_events_page_svelte",
-      "target": "users_vhollo_public_google_webdev_urosystem_kit1_src_routes_path_events_events_postcss",
-      "confidence_score": 1.0
+      "target": "users_vhollo_public_google_webdev_urosystem_kit1_src_routes_path_events_events_postcss"
     },
     {
       "relation": "contains",
@@ -14659,9 +14715,9 @@
       "source_file": "src/routes/[...path]/events/+layout.server.js",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_routes_path_events_layout_server_js",
-      "target": "events_layout_server_load",
-      "confidence_score": 1.0
+      "target": "events_layout_server_load"
     },
     {
       "relation": "contains",
@@ -14669,9 +14725,9 @@
       "source_file": "src/routes/[...path]/events/rss.xml/+server.js",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_routes_path_events_rss_xml_server_js",
-      "target": "rss_xml_server_get",
-      "confidence_score": 1.0
+      "target": "rss_xml_server_get"
     },
     {
       "relation": "calls",
@@ -14690,9 +14746,9 @@
       "source_file": "src/routes/api/pipedrive/+server.js",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_routes_api_pipedrive_server_js",
-      "target": "pipedrive_server_buildnote",
-      "confidence_score": 1.0
+      "target": "pipedrive_server_buildnote"
     },
     {
       "relation": "contains",
@@ -14700,9 +14756,9 @@
       "source_file": "src/routes/api/pipedrive/+server.js",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_routes_api_pipedrive_server_js",
-      "target": "pipedrive_server_pipedrivepost",
-      "confidence_score": 1.0
+      "target": "pipedrive_server_pipedrivepost"
     },
     {
       "relation": "contains",
@@ -14710,9 +14766,9 @@
       "source_file": "src/routes/api/pipedrive/+server.js",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_routes_api_pipedrive_server_js",
-      "target": "pipedrive_server_pipedrivetoken",
-      "confidence_score": 1.0
+      "target": "pipedrive_server_pipedrivetoken"
     },
     {
       "relation": "contains",
@@ -14720,9 +14776,9 @@
       "source_file": "src/routes/api/pipedrive/+server.js",
       "source_location": "L60",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_routes_api_pipedrive_server_js",
-      "target": "pipedrive_server_post",
-      "confidence_score": 1.0
+      "target": "pipedrive_server_post"
     },
     {
       "relation": "calls",
@@ -14731,9 +14787,9 @@
       "source_file": "src/routes/api/pipedrive/+server.js",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pipedrive_server_pipedrivepost",
-      "target": "pipedrive_server_pipedrivetoken",
-      "confidence_score": 1.0
+      "target": "pipedrive_server_pipedrivetoken"
     },
     {
       "relation": "calls",
@@ -14742,9 +14798,9 @@
       "source_file": "src/routes/api/pipedrive/+server.js",
       "source_location": "L61",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pipedrive_server_post",
-      "target": "pipedrive_server_pipedrivetoken",
-      "confidence_score": 1.0
+      "target": "pipedrive_server_pipedrivetoken"
     },
     {
       "relation": "calls",
@@ -14753,9 +14809,9 @@
       "source_file": "src/routes/api/pipedrive/+server.js",
       "source_location": "L85",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pipedrive_server_post",
-      "target": "pipedrive_server_pipedrivepost",
-      "confidence_score": 1.0
+      "target": "pipedrive_server_pipedrivepost"
     },
     {
       "relation": "calls",
@@ -14764,9 +14820,9 @@
       "source_file": "src/routes/api/pipedrive/+server.js",
       "source_location": "L123",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pipedrive_server_post",
-      "target": "pipedrive_server_buildnote",
-      "confidence_score": 1.0
+      "target": "pipedrive_server_buildnote"
     },
     {
       "relation": "contains",
@@ -14774,9 +14830,9 @@
       "source_file": "src/routes/api/shopify/+server.js",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_routes_api_shopify_server_js",
-      "target": "shopify_server_post",
-      "confidence_score": 1.0
+      "target": "shopify_server_post"
     },
     {
       "relation": "contains",
@@ -14784,9 +14840,9 @@
       "source_file": "src/routes/api/shopify/+server.js",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_routes_api_shopify_server_js",
-      "target": "shopify_server_shopifywebhooksecret",
-      "confidence_score": 1.0
+      "target": "shopify_server_shopifywebhooksecret"
     },
     {
       "relation": "contains",
@@ -14794,9 +14850,9 @@
       "source_file": "src/routes/api/shopify/+server.js",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_routes_api_shopify_server_js",
-      "target": "shopify_server_verifyhmac",
-      "confidence_score": 1.0
+      "target": "shopify_server_verifyhmac"
     },
     {
       "relation": "calls",
@@ -14805,9 +14861,9 @@
       "source_file": "src/routes/api/shopify/+server.js",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "shopify_server_post",
-      "target": "shopify_server_shopifywebhooksecret",
-      "confidence_score": 1.0
+      "target": "shopify_server_shopifywebhooksecret"
     },
     {
       "relation": "calls",
@@ -14816,9 +14872,9 @@
       "source_file": "src/routes/api/shopify/+server.js",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "shopify_server_verifyhmac",
-      "target": "shopify_server_shopifywebhooksecret",
-      "confidence_score": 1.0
+      "target": "shopify_server_shopifywebhooksecret"
     },
     {
       "relation": "calls",
@@ -14827,9 +14883,9 @@
       "source_file": "src/routes/api/shopify/+server.js",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "shopify_server_post",
-      "target": "shopify_server_verifyhmac",
-      "confidence_score": 1.0
+      "target": "shopify_server_verifyhmac"
     },
     {
       "relation": "contains",
@@ -14837,9 +14893,9 @@
       "source_file": "README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_md",
-      "target": "urosystem_kit1_readme_create_svelte",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_readme_create_svelte"
     },
     {
       "relation": "contains",
@@ -14847,9 +14903,9 @@
       "source_file": "README.md",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_readme_create_svelte",
-      "target": "urosystem_kit1_readme_building",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_readme_building"
     },
     {
       "relation": "contains",
@@ -14857,9 +14913,9 @@
       "source_file": "README.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_readme_create_svelte",
-      "target": "urosystem_kit1_readme_creating_a_new_project",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_readme_creating_a_new_project"
     },
     {
       "relation": "contains",
@@ -14867,9 +14923,9 @@
       "source_file": "README.md",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_readme_create_svelte",
-      "target": "urosystem_kit1_readme_developing",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_readme_developing"
     },
     {
       "relation": "contains",
@@ -14877,9 +14933,9 @@
       "source_file": "AGENTS.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agents_md",
-      "target": "urosystem_kit1_agents_agents_md",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_agents_agents_md"
     },
     {
       "relation": "contains",
@@ -14887,9 +14943,9 @@
       "source_file": "AGENTS.md",
       "source_location": "L76",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_agents_agents_md",
-      "target": "urosystem_kit1_agents_agent_editing_rules",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_agents_agent_editing_rules"
     },
     {
       "relation": "contains",
@@ -14897,9 +14953,9 @@
       "source_file": "AGENTS.md",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_agents_agents_md",
-      "target": "urosystem_kit1_agents_architecture_overview",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_agents_architecture_overview"
     },
     {
       "relation": "contains",
@@ -14907,9 +14963,9 @@
       "source_file": "AGENTS.md",
       "source_location": "L55",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_agents_agents_md",
-      "target": "urosystem_kit1_agents_cms_and_routing_conventions",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_agents_cms_and_routing_conventions"
     },
     {
       "relation": "contains",
@@ -14917,9 +14973,9 @@
       "source_file": "AGENTS.md",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_agents_agents_md",
-      "target": "urosystem_kit1_agents_current_operating_constraints",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_agents_current_operating_constraints"
     },
     {
       "relation": "contains",
@@ -14927,9 +14983,9 @@
       "source_file": "AGENTS.md",
       "source_location": "L62",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_agents_agents_md",
-      "target": "urosystem_kit1_agents_environment_variables",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_agents_environment_variables"
     },
     {
       "relation": "contains",
@@ -14937,9 +14993,9 @@
       "source_file": "AGENTS.md",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_agents_agents_md",
-      "target": "urosystem_kit1_agents_quick_start",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_agents_quick_start"
     },
     {
       "relation": "contains",
@@ -14947,9 +15003,9 @@
       "source_file": "AGENTS.md",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_agents_agents_md",
-      "target": "urosystem_kit1_agents_repository_map",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_agents_repository_map"
     },
     {
       "relation": "contains",
@@ -14957,9 +15013,9 @@
       "source_file": "AGENTS.md",
       "source_location": "L85",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "urosystem_kit1_agents_agents_md",
-      "target": "urosystem_kit1_agents_verification_checklist_for_agent_changes",
-      "confidence_score": 1.0
+      "target": "urosystem_kit1_agents_verification_checklist_for_agent_changes"
     },
     {
       "relation": "contains",
@@ -14967,9 +15023,9 @@
       "source_file": "cms/blocks/edu/urodapter-lovasz.en.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cms_blocks_edu_urodapter_lovasz_en_md",
-      "target": "edu_urodapter_lovasz_en_published_professionalsgateway",
-      "confidence_score": 1.0
+      "target": "edu_urodapter_lovasz_en_published_professionalsgateway"
     },
     {
       "relation": "contains",
@@ -14977,9 +15033,9 @@
       "source_file": "cms/blocks/urodapter/downloads-pro.en.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cms_blocks_urodapter_downloads_pro_en_md",
-      "target": "urodapter_downloads_pro_en_published_professionalsgateway",
-      "confidence_score": 1.0
+      "target": "urodapter_downloads_pro_en_published_professionalsgateway"
     },
     {
       "relation": "contains",
@@ -14987,11 +15043,11 @@
       "source_file": "cms/pages/clinics/sample.en.md",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cms_pages_clinics_sample_en_md",
-      "target": "clinics_sample_en_herotitle_clinician_sample_request",
-      "confidence_score": 1.0
+      "target": "clinics_sample_en_herotitle_clinician_sample_request"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "36ee40ee74c25a81af6625e0b328e8c23cb3d5c4"
+  "built_at_commit": "13810ed2d6420da176606e0dd941ab237cf4f470"
 }

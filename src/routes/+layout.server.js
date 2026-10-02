@@ -5,8 +5,6 @@ export const prerender = true
 import { redirect } from '@sveltejs/kit'
 import { _getPost, _getConf } from '$lib/utils'
 import { normalizePathname } from '$lib/paths'
-import { get as store} from 'svelte/store'
-import { sitelang } from '$lib/stores'
 
 /** @type {import('./$types').LayoutServerLoad} */
 export const load = async ({ params, url }) => {
@@ -21,7 +19,9 @@ export const load = async ({ params, url }) => {
 	conf = await _getConf(lang)
   // console.log('conf.thislang',conf.thislang)
   if (!conf.thislang) {
-		conf = await _getConf(store(sitelang) || 'en')
+    // no language prefix in the URL (e.g. /contact) means English; must not depend on the
+    // module-level sitelang store, which is shared by all requests on the server
+		conf = await _getConf('en')
     if (!conf.thislang) return false
     sub = path
     path = lang
