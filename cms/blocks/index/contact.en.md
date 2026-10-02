@@ -7,7 +7,7 @@ background:
     posy: 50
     src: /uploads/medical-physician-doctor-man_web.jpg
   - type: gradient
-    name: radial-light
+    name: radial-dark
 components:
   - type: form
     title: Contact us
@@ -36,11 +36,11 @@ components:
       </fieldset>
 
       <fieldset>
-        <label>Message <textarea name="message" rows="4" placeholder="For the 50% first-time buyer discount, enter your shipping address here." required></textarea></label>
+        <label>Message <small>For the 50% first-time buyer discount, enter your shipping address here.</small>
+        <textarea name="message" rows="4" required></textarea></label>
       </fieldset>
 
       <div class="fieldset">
-        <!--label><input type="checkbox" name="newsletter" /> I want to subscribe to the newsletter</label><br><br-->
         <label><input type="checkbox" class="checkbox checkbox-primary" name="privacy" required /> I've read and accept the <a href="/privacy-policy" target="_blank">privacy policy.</a></label>
       </div>
 

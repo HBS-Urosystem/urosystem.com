@@ -8,7 +8,7 @@ background:
     posy: 50
     src: /uploads/medical-physician-doctor-man_web.jpg
   - type: gradient
-    name: radial-light
+    name: radial-dark
 components:
   - type: form
     title: Kapcsolat
@@ -37,12 +37,12 @@ components:
       </fieldset>
 
       <fieldset>
-        <label>Üzenet <textarea name="message" rows="4" placeholder="Első vásárló 50%-os kedvezményéhez írja ide a szállítási címét." required></textarea></label>
+        <label>Üzenet <small>Első vásárló 50%-os kedvezményéhez írja ide a szállítási címét.</small>
+        <textarea name="message" rows="4" required></textarea></label>
       </fieldset>
 
-      <div>
-        <!--label><input type="checkbox" name="newsletter" /> Feliratkozom a hírlevelükre</label><br><br-->
-        <label><input type="checkbox" name="privacy" required /> Elolvastam és elfogadom az <a href="/privacy-policy" target="_blank">adatkezelési tájékoztatót</a>.</label><br><br>
+      <div class="fieldset">
+        <label><input type="checkbox" class="checkbox checkbox-primary" name="privacy" required /> Elolvastam és elfogadom az <a href="/privacy-policy" target="_blank">adatkezelési tájékoztatót.</a></label>
       </div>
 
       <section>

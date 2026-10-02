@@ -1,36 +1,52 @@
 <script>
-  import { snapto, sitelang } from '$lib/stores'
-  import { siteHref } from '$lib/paths'
+  import { snapto, sitelang } from "$lib/stores";
+  import { siteHref } from "$lib/paths";
   //console.log({sitelang})
-  export let comp//, lang
-  let rel = '', target = '', link, scrollto = false
+  export let comp; //, lang
+  let rel = "",
+    target = "",
+    link,
+    scrollto = false;
   //console.log(comp.lang, $sitelang)
   $: {
     //console.log('1',/*scrollto,*/ comp.link)
     //if (comp.link && comp.link.startsWith('/')) comp.link = comp.link.substring(1)
-    if (comp.link && comp.link.startsWith('http')) {
-      rel = 'noopener'
-      target = '_blank'
-      link = comp.link
-    } else if (comp.link && comp.link.startsWith('#')) {
-      link = scrollto = comp.link
+    if (comp.link && comp.link.startsWith("http")) {
+      rel = "noopener";
+      target = "_blank";
+      link = comp.link;
+    } else if (comp.link && comp.link.startsWith("#")) {
+      link = scrollto = comp.link;
     } else if (comp.link) {
-      const raw = comp.link === '/index' ? '' : comp.link.replace(/^\//, '')
-      link = siteHref($sitelang, raw)
+      const raw = comp.link === "/index" ? "" : comp.link.replace(/^\//, "");
+      link = siteHref($sitelang, raw);
     }
-    //console.log('2',/*scrollto,*/ link) 
+    //console.log('2',/*scrollto,*/ link)
   }
 </script>
 
-<aside id="{comp.anchor}" style="{comp.background ? comp.background : ``}">
+<aside id={comp.anchor} style={comp.background ? comp.background : ``}>
   {#if comp.title}<h2>{comp.title}</h2>{/if}
   {#if comp.text}<div>{@html comp.text}</div>{/if}
   {#if comp.button}
-  <div>
-    <a on:click|stopPropagation={() => $snapto = `${scrollto}`} on:keypress={() => $snapto = `${scrollto}`} href={link} rel={rel} target={target}><button tabindex="-1">{#if comp.icon}<img src="{comp.icon}" aria-hidden="true" alt=""/>{/if}{comp.button}</button></a>
-    <!--<a on:click|stopPropagation href={link} rel={rel} target={target}><button tabindex="-1">{#if comp.icon}<img src="{comp.icon}" aria-hidden="true" alt=""/>{/if}{comp.button}</button></a>-->
-    {#if comp.below}<p>{comp.below}</p>{/if}
-  </div>
+    <div>
+      <a
+        on:click|stopPropagation={() => ($snapto = `${scrollto}`)}
+        on:keypress={() => ($snapto = `${scrollto}`)}
+        href={link}
+        {rel}
+        {target}
+        ><button tabindex="-1"
+          >{#if comp.icon}<img
+              src={comp.icon}
+              aria-hidden="true"
+              alt=""
+            />{/if}{comp.button}</button
+        ></a
+      >
+      <!--<a on:click|stopPropagation href={link} rel={rel} target={target}><button tabindex="-1">{#if comp.icon}<img src="{comp.icon}" aria-hidden="true" alt=""/>{/if}{comp.button}</button></a>-->
+      {#if comp.below}<p>{comp.below}</p>{/if}
+    </div>
   {/if}
 </aside>
 
@@ -47,11 +63,10 @@
     text-decoration: none;
     margin-top: 1.5rem;
     margin-bottom: 2.5rem;
-    display: block;
+    /* display: block; */
   }
   p {
     text-align: center;
     margin-top: -1.5rem;
   }
-  
 </style>

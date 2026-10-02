@@ -150,11 +150,6 @@ async function _submit(e) {
   form :global(textarea) {
     background-color: hsla(0, 0%, 100%, 0.25) !important;
   }
-  /* the Contact form sits on a light background, where the global #ddd placeholder (app.postcss) is unreadable; #4e4e4e is >= 4.5:1 on the field */
-  form[name='Contact'] :global(input::placeholder),
-  form[name='Contact'] :global(textarea::placeholder) {
-    color: #4e4e4e;
-  }
   form :global(fieldset.option-group label), form :global(label small), form :global(input), form :global(select), form :global(textarea) {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
     box-shadow: none;
