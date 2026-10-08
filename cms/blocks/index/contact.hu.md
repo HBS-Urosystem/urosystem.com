@@ -37,7 +37,7 @@ components:
       </fieldset>
 
       <fieldset>
-        <label>Üzenet <small>Első vásárló 50%-os kedvezményéhez írja ide a szállítási címét.</small>
+        <label>Üzenet <small>Első vásárlóként 50% kedvezményt kap az első 10 darabos csomagra. Ehhez adja meg szállítási címét.</small>
         <textarea name="message" rows="4" required></textarea></label>
       </fieldset>
 

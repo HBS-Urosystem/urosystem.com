@@ -6,7 +6,7 @@ components:
   - type: article
     title: Különleges ajánlatunk azon betegeknek és orvosoknak, akik még nem használták!
     anchor: contact
-    text: Ismerve az új orvostechnológiákról szerzett közvetlen tapasztalat fontosságát, exkluzív lehetőséget kínálunk a UroDapter®-t első alkalommal kipróbáló páciensek és egészségügyi szakemberek számára. Vegye fel velünk a <a href="/hu/contact">kapcsolatot</a>, hogy 50%-os kedvezménnyel vásárolhasson forradalmi UroDapter® készülékünkből. Ez az egyedi ajánlat biztosítja, hogy megismerhesse az UroDapter® előnyeit olyan áron, amely a mai piaci árakhoz képest is megfizethető.
+    text: Ismerve az új orvostechnológiákról szerzett közvetlen tapasztalat fontosságát, exkluzív lehetőséget kínálunk a UroDapter®-t első alkalommal kipróbáló páciensek és egészségügyi szakemberek számára. Vegye fel velünk a <a href="/hu/contact">kapcsolatot</a>, hogy megrendelhesse az első 10 darabos csomagot 50%-os kedvezménnyel. Ezzel az ajánlattal a szokásos ár feléért próbálhatja ki az UroDapter® eszközt.
   - type: cta
     button: Lépjen velünk kapcsolatba!
     link: /contact

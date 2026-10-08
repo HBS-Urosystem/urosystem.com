@@ -15,9 +15,7 @@ components:
     title: Our Offer for First-Time Patients, and Doctors
     anchor: contact
     text: >-
-      <a href="/contact">Contact us</a> to obtain samples of UroDapter® at a 50% discount. This exclusive offer is designed to ensure
-      that you can experience the benefits of the UroDapter® at a cost
-      that remains as accessible as today’s market rates.
+      <a href="/contact">Contact us</a> to get your first pack of 10 UroDapter® at a 50% discount. This exclusive offer lets you try UroDapter® at half the regular price.
   - type: cta
     button: Contact us
     link: /contact

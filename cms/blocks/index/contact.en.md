@@ -36,7 +36,7 @@ components:
       </fieldset>
 
       <fieldset>
-        <label>Message <small>For the 50% first-time buyer discount, enter your shipping address here.</small>
+        <label>Message <small>To get 50% off your first pack of 10, please enter your shipping address.</small>
         <textarea name="message" rows="4" required></textarea></label>
       </fieldset>
 
