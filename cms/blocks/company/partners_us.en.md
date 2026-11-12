@@ -23,19 +23,19 @@ components:
     components:
       - type: article
         subhead: ""
-        anchor: dawa
+        anchor: apex
         text: >-
           <div style="margin-inline:auto;width:fit-content;">
           <p>In the United States:</p>
           <img loading="lazy"
-          src="/uploads/Dawa-Logo-w-border.webp"
-          alt="Dawa Medical LLC"
-          style="max-height:6ch;display:block;margin:0 auto;" />
+          src="/uploads/Apex-Logo.webp"
+          alt="Apex Medical Products"
+          style="max-height:6ch;display:block;margin:0 auto;mix-blend-mode:screen;" />
           <dl>
-          <dt>Dawa Medical LLC</dt>
-          <dd>Contact Person: Matthew Frizzell</dd>
-          <dd>Email: <a href="mailto:marketing@dawamedical.com">marketing@dawamedical.com</a></dd>
-          <dd>Phone: <a href="tel:+13055999373">(305) 599-9373</a></dd>
+          <dt>Apex Medical Products</dt>
+          <dd>Contact Person: Bryan Eckard</dd>
+          <dd>Email: <a href="mailto:info@apexmedicalproducts.com">info@apexmedicalproducts.com</a></dd>
+          <dd>Phone: <a href="tel:+18885855650">888-585-5650</a></dd>
           </dl>
           </div>
       - type: article

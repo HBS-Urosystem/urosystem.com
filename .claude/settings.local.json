@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "mcp__Claude_in_Chrome__browser_batch",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5173/resources --max-time 4)",
+      "mcp__Claude_in_Chrome__computer",
+      "mcp__Claude_in_Chrome__get_page_text",
+      "Bash(xargs -n1 basename)",
+      "mcp__Claude_in_Chrome__navigate",
+      "mcp__Claude_in_Chrome__resize_window",
+      "Bash(echo \"exit: $?\")",
+      "mcp__svelte__svelte-autofixer",
+      "Bash(git checkout *)",
+      "Bash(git stash *)",
+      "Bash(git rm *)",
+      "Bash(git add *)",
+      "Read(//Users/vhollo/Library/Application Support/Claude/local-agent-mode-sessions/skills-plugin/b11599b8-b2a1-46b4-acb9-3c29af3fc2e5/1042959a-0402-4c89-800f-a8843f7259de/skills/docx/**)",
+      "Bash(extract-text \"/Users/vhollo/Downloads/1. buyer personas and journeys.docx\")",
+      "Bash(pandoc \"/Users/vhollo/Downloads/1. buyer personas and journeys.docx\" -t markdown)",
+      "Bash(pandoc \"/Users/vhollo/Downloads/2. website architecture.docx\" -t markdown)",
+      "Bash(python3 -c ' *)",
+      "Bash(python3)",
+      "Bash(pip3 install *)",
+      "mcp__visualize__read_me",
+      "Bash(npm ls *)",
+      "Bash(npm install *)",
+      "Bash(npm root *)",
+      "Bash(export NODE_PATH=\"/Users/vhollo/.nvm/versions/node/v24.14.0/lib/node_modules\")",
+      "Bash(node gen.js \"/Users/vhollo/Downloads/UroDapter Content Gap Analysis.docx\")",
+      "Bash(python3 scripts/office/validate.py \"/Users/vhollo/Downloads/UroDapter Content Gap Analysis.docx\")",
+      "Bash(extract-text \"/Users/vhollo/Downloads/3. page_content.docx\")",
+      "Bash(pandoc \"/Users/vhollo/Downloads/3. page_content.docx\" -o /tmp/page_content.md)",
+      "Read(//tmp/**)"
+    ]
+  }
+}
